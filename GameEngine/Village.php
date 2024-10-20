@@ -328,7 +328,8 @@ $building = new Building;
 if ( !file_exists( AUTOMATION_LOCK_FILE_NAME ) ) {
 	define( 'AUTOMATION_MANUAL_RUN', true );
 	// this file is auto-removed by the Automation.php script
-	file_put_contents( AUTOMATION_LOCK_FILE_NAME, '' );
+	$filePath = __DIR__ . '/' . AUTOMATION_LOCK_FILE_NAME;
+	file_put_contents($filePath, '');
 	include_once("Automation.php");
 }
 ?>
