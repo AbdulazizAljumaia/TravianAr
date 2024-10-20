@@ -16,28 +16,29 @@
 ##                                                                             ##
 #################################################################################
 
-$lang['notification']['awaits_you'] = "awaits YOU!";
-$lang['notification']['join_now'] = "Join NOW and show everyone just how good you are!";
-$lang['notification']['new_challenges'] = "New challenges, stunning graphics and many brand new features are awaiting you. Be one of the first players to begin the battle for dominance against millions of other players as you fight for villages, gather Gold and increase your population.";
-$lang['notification']['notify_me'] = "Please notify me when TRAVIAN 4 begins";
-$lang['notification']['email'] = "Email address";
-$lang['notification']['send'] = "Send";
-$lang['notification']['error'] = "Sorry, but this don't work now.";
-$lang['notification']['i_agree'] = "I agree that TRAVIAN can inform me about interesting news and game related information.";
+$lang['notification']['awaits_you'] = "في انتظارك!";
+$lang['notification']['join_now'] = "انضم الآن وأظهر للجميع مدى براعتك!";
+$lang['notification']['new_challenges'] = "تحديات جديدة، رسومات مذهلة والعديد من الميزات الجديدة في انتظارك. كن من بين أول اللاعبين الذين يبدأون المعركة للهيمنة ضد الملايين من اللاعبين الآخرين أثناء قتالك من أجل القرى، وجمع الذهب وزيادة عدد سكانك.";
+$lang['notification']['notify_me'] = "يرجى إخطاري عندما يبدأ TRAVIAN 4";
+$lang['notification']['email'] = "عنوان البريد الإلكتروني";
+$lang['notification']['send'] = "إرسال";
+$lang['notification']['error'] = "عذرًا، لكن هذا لا يعمل الآن.";
+$lang['notification']['i_agree'] = "أوافق على أن TRAVIAN يمكنه إخباري بأخبار مثيرة ومعلومات متعلقة باللعبة.";
 $lang['notification']['facebook_page'] = "http%3A%2F%2Fwww.facebook.com%2Ftravianx";
-$lang['notification']['see_features'] = "See the new features of TRAVIAN 4";
-$lang['notification']['screenshots'] = "Screenshots";
-$lang['notification']['new_design'] = "A completely new design";
-$lang['notification']['new_graphics'] = "TRAVIAN 4 comes with new and detailed graphics which not only reflect the exciting progress of the game, but also relay valuable information to the player.";
-$lang['notification']['more'] = "More detailed information may be found on the development blog.";
-$lang['notification']['title1'] = "A completely new design";
-$lang['notification']['desc1'] = "TRAVIAN 4 comes with new and detailed graphics which not only reflect the exciting progress of the game, but also relay valuable information to the player.";
-$lang['notification']['title2'] = "Improved hero system";
-$lang['notification']['desc2'] = "An advanced hero system with hundreds of individual challenges and adventures awaits you.";
-$lang['notification']['title3'] = "Map with zoom";
-$lang['notification']['desc3'] = "The brand new map contains several highly useful features which will provide players with more information than ever. Never before has it been so easy to calculate and plan your next steps.";
-$lang['notification']['title4'] = "A new tribe";
-$lang['notification']['desc4'] = "The new independent villages controlled by the Natarian tribe will defend their region with vicious force. But, once defeated, these villages may be used to increase your income.";
-$lang['notification']['titel5'] = "Many improvements";
-$lang['notification']['desc5'] = "A number of improvements in TRAVIAN 4 have been made based on suggestions from our players. Examples include: enhanced navigation, direct access to alliance page and forum, and so on.";
+$lang['notification']['see_features'] = "شاهد الميزات الجديدة لـ TRAVIAN 4";
+$lang['notification']['screenshots'] = "لقطات شاشة";
+$lang['notification']['new_design'] = "تصميم جديد تمامًا";
+$lang['notification']['new_graphics'] = "يأتي TRAVIAN 4 برسومات جديدة ومفصلة تعكس تقدم اللعبة المثير، كما تنقل معلومات قيمة إلى اللاعب.";
+$lang['notification']['more'] = "يمكن العثور على مزيد من المعلومات التفصيلية في مدونة التطوير.";
+$lang['notification']['title1'] = "تصميم جديد تمامًا";
+$lang['notification']['desc1'] = "يأتي TRAVIAN 4 برسومات جديدة ومفصلة تعكس تقدم اللعبة المثير، كما تنقل معلومات قيمة إلى اللاعب.";
+$lang['notification']['title2'] = "نظام أبطال محسّن";
+$lang['notification']['desc2'] = "نظام أبطال متقدم مع مئات من التحديات الفردية والمغامرات في انتظارك.";
+$lang['notification']['title3'] = "خريطة مع تكبير";
+$lang['notification']['desc3'] = "تحتوي الخريطة الجديدة تمامًا على العديد من الميزات المفيدة للغاية التي ستوفر للاعبين معلومات أكثر من أي وقت مضى. لم يكن من السهل أبدًا حساب خطواتك التالية والتخطيط لها.";
+$lang['notification']['title4'] = "قبيلة جديدة";
+$lang['notification']['desc4'] = "ستدافع القرى المستقلة الجديدة التي تتحكم بها قبيلة الناتاريان عن منطقتها بقوة شرسة. ولكن، بمجرد هزيمتها، يمكن استخدام هذه القرى لزيادة دخلك.";
+$lang['notification']['titel5'] = "العديد من التحسينات";
+$lang['notification']['desc5'] = "تم إجراء عدد من التحسينات في TRAVIAN 4 بناءً على اقتراحات لاعبينا. تشمل الأمثلة: تحسين التنقل، الوصول المباشر إلى صفحة التحالف والمنتدى، وما إلى ذلك.";
+
 ?>
