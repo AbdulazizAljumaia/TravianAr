@@ -618,7 +618,7 @@ class MYSQLi_DB implements IDbConnection {
     References: Result
      ***************************/
     function mysqli_fetch_all($result) {
-        list($result) = $this->escape_input($result);
+        //list($result) = $this->escape_input($result);
 
         $all = [];
         if($result) {
