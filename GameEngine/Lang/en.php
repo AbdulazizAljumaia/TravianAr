@@ -15,1499 +15,1494 @@
 									//     Adding: Armando     //
 									/////////////////////////////
 
-//MAIN MENU
-define("TRIBE1","Romans");
-define("TRIBE2","Teutons");
-define("TRIBE3","Gauls");
-define("TRIBE4","Nature");
-define("TRIBE5","Natars");
-define("TRIBE6","Monsters");
+//القائمة الرئيسية
+define("TRIBE1","الرومان");
+define("TRIBE2","التيوتونيون");
+define("TRIBE3","الغاليون");
+define("TRIBE4","الطبيعة");
+define("TRIBE5","الناتار");
+define("TRIBE6","الوحوش");
 
-define("HOME","Homepage");
-define("INSTRUCT","Instructions");
-define("ADMIN_PANEL","Admin Panel");
-define("MASS_MESSAGE","Mass Message");
-define("LOGOUT","Logout");
-define("PROFILE","Profile");
-define("SUPPORT","Support");
-define("UPDATE_T_10","Update Top 10");
-define("SYSTEM_MESSAGE","System message");
-define("TRAVIAN_PLUS","Travian <b><span class=\"plus_g\">P</span><span class=\"plus_o\">l</span><span class=\"plus_g\">u</span><span class=\"plus_o\">s</span></span></span></b>");
-define("CONTACT","Contact us!");
-define("GAME_RULES","Game Rules");
+define("HOME","الصفحة الرئيسية");
+define("INSTRUCT","تعليمات");
+define("ADMIN_PANEL","لوحة الإدارة");
+define("MASS_MESSAGE","رسالة جماعية");
+define("LOGOUT","تسجيل الخروج");
+define("PROFILE","الملف الشخصي");
+define("SUPPORT","الدعم");
+define("UPDATE_T_10","تحديث أعلى 10");
+define("SYSTEM_MESSAGE","رسالة النظام");
+define("TRAVIAN_PLUS","ترافين <b><span class=\"plus_g\">P</span><span class=\"plus_o\">ل</span><span class=\"plus_g\">و</span><span class=\"plus_o\">س</span></span></span></b>");
+define("CONTACT","اتصل بنا!");
+define("GAME_RULES","قواعد اللعبة");
 
-//MENU
-define("REG","Register");
-define("FORUM","Forum");
-define("CHAT","Chat");
-define("IMPRINT","Imprint");
-define("MORE_LINKS","More Links");
-define("TOUR","Game Tour");
+//القائمة
+define("REG","تسجيل");
+define("FORUM","المنتدى");
+define("CHAT","الدردشة");
+define("IMPRINT","انطباع");
+define("MORE_LINKS","روابط إضافية");
+define("TOUR","جولة اللعبة");
 
+//الأخطاء
+define("USRNM_EMPTY","(اسم المستخدم فارغ)");
+define("USRNM_TAKEN","(الاسم قيد الاستخدام بالفعل.)");
+define("USRNM_SHORT","(الحد الأدنى. ".USRNM_MIN_LENGTH." أرقام)");
+define("USRNM_CHAR","(أحرف غير صالحة)");
+define("PW_EMPTY","(كلمة المرور فارغة)");
+define("PW_SHORT","(الحد الأدنى. ".PW_MIN_LENGTH." أرقام)");
+define("PW_INSECURE","(كلمة المرور غير آمنة. يرجى اختيار واحدة أكثر أمانًا.)");
+define("EMAIL_EMPTY","(البريد الإلكتروني فارغ)");
+define("EMAIL_INVALID","(عنوان البريد الإلكتروني غير صالح)");
+define("EMAIL_TAKEN","(البريد الإلكتروني قيد الاستخدام بالفعل)");
+define("TRIBE_EMPTY","<li>يرجى اختيار قبيلة.</li>");
+define("AGREE_ERROR","<li>يجب عليك الموافقة على قواعد اللعبة والشروط والأحكام العامة من أجل التسجيل.</li>");
+define("LOGIN_USR_EMPTY","أدخل الاسم.");
+define("LOGIN_PASS_EMPTY","أدخل كلمة المرور.");
+define("EMAIL_ERROR","البريد الإلكتروني لا يتطابق مع الموجود");
+define("PASS_MISMATCH","كلمات المرور لا تتطابق");
+define("ALLI_OWNER","يرجى تعيين مالك للتحالف قبل الحذف");
+define("SIT_ERROR","المراقب محدد بالفعل أو اللاعب غير موجود");
+define("USR_NT_FOUND","الاسم غير موجود.");
+define("LOGIN_PW_ERROR","كلمة المرور غير صحيحة.");
+define("WEL_TOPIC","نصائح ومعلومات مفيدة ");
+define("ATAG_EMPTY","الوسم فارغ");
+define("ANAME_EMPTY","الاسم فارغ");
+define("ATAG_EXIST","الوسم مستخدم");
+define("ANAME_EXIST","الاسم مستخدم");
+define("ALREADY_ALLY_MEMBER","أنت بالفعل في تحالف");
+define("ALLY_TOO_LOW", "يجب أن يكون لديك سفارة مستوى 3 أو أعلى");
+define("USER_NOT_IN_YOUR_ALLY","هذا المستخدم ليس في تحالفك!");
+define("CANT_EDIT_YOUR_PERMISSIONS","لا يمكنك تعديل أذوناتك الخاصة!");
+define("CANT_EDIT_LEADER_PERMISSIONS","لا يمكن تعديل أذونات زعيم التحالف!");
+define("NO_PERMISSION", "ليس لديك أذونات كافية!");
+define("NAME_OR_DIPL_EMPTY", "الاسم أو الدبلوماسية فارغ");
+define("ALLY_DOESNT_EXISTS","التحالف غير موجود");
+define("CANNOT_INVITE_SAME_ALLY","لا يمكنك دعوة تحالفك الخاص");
+define("WRONG_DIPLOMACY","تم اتخاذ خيار خاطئ");
+define("INVITE_ALREADY_SENT","إما أنك قد أرسلت بالفعل اتفاقًا إلى هذا التحالف، أو أنهم أرسلوا إليك، أو لديك بالفعل اتفاق معهم");
+define("INVITE_SENT","تم إرسال الدعوة");
+define("DECLARED_WAR_ON","أعلنت الحرب على");
+define("OFFERED_NON_AGGRESION_PACT_TO","عرضت معاهدة عدم الاعتداء على");
+define("OFFERED_CONFED_TO","عرضت اتحادًا على");
+define("ALLY_TOO_MUCH_PACTS","إما أنك لا تستطيع تقديم المزيد من الاتفاقات من هذا النوع أو أن هذا التحالف قد وصل إلى الحد الأقصى من هذا النوع من الاتفاقات");
+define("ALLY_PERMISSIONS_UPDATED","تم تحديث الأذونات");
+define("ALLY_FORUM_LINK_UPDATED", "تم تحديث رابط المنتدى");
+define("NO_FORUMS_YET","لا توجد منتديات حتى الآن.");
+define("ALLY_USER_KICKED"," تم طرده من التحالف");
+define("NOT_OPENED_YET","الخادم لم يبدأ بعد.");
+define("REGISTER_CLOSED","التسجيل مغلق. لا يمكنك التسجيل في هذا الخادم.");
+define("NAME_EMPTY","يرجى إدخال الاسم");
+define("NAME_NO_EXIST","لا يوجد مستخدم بالاسم ");
+define("ID_NO_EXIST","لا يوجد مستخدم بالمعرف ");
+define("SAME_NAME","لا يمكنك دعوة نفسك");
+define("ALREADY_INVITED"," قد تم دعوتك بالفعل");
+define("ALREADY_IN_ALLY"," هو بالفعل في هذا التحالف");
+define("ALREADY_IN_AN_ALLY"," هو بالفعل في تحالف");
+define("NAME_OR_TAG_CHANGED","تم تغيير الاسم أو الوسم");
+define("VAC_MODE_WRONG_DAYS","لقد أدخلت عددًا خاطئًا من الأيام");
 
-//ERRORS
-define("USRNM_EMPTY","(Username empty)");
-define("USRNM_TAKEN","(Name is already in use.)");
-define("USRNM_SHORT","(min. ".USRNM_MIN_LENGTH." figures)");
-define("USRNM_CHAR","(Invalid Characters)");
-define("PW_EMPTY","(Password empty)");
-define("PW_SHORT","(min. ".PW_MIN_LENGTH." figures)");
-define("PW_INSECURE","(Password insecure. Please choose a more secure one.)");
-define("EMAIL_EMPTY","(Email Empty)");
-define("EMAIL_INVALID","(Invalid email address)");
-define("EMAIL_TAKEN","(Email is already in use)");
-define("TRIBE_EMPTY","<li>Please choose a tribe.</li>");
-define("AGREE_ERROR","<li>You have to agree to the game rules and the general terms & conditions in order to register.</li>");
-define("LOGIN_USR_EMPTY","Enter name.");
-define("LOGIN_PASS_EMPTY","Enter password.");
-define("EMAIL_ERROR","Email does not match existing");
-define("PASS_MISMATCH","Passwords do not match");
-define("ALLI_OWNER","Please appoint an alliance owner before deleting");
-define("SIT_ERROR","Sitter already set or player not found");
-define("USR_NT_FOUND","Name does not exist.");
-define("LOGIN_PW_ERROR","The password is wrong.");
-define("WEL_TOPIC","Useful tips & information ");
-define("ATAG_EMPTY","Tag empty");
-define("ANAME_EMPTY","Name empty");
-define("ATAG_EXIST","Tag taken");
-define("ANAME_EXIST","Name taken");
-define("ALREADY_ALLY_MEMBER","You&#39;re already in an alliance");
-define("ALLY_TOO_LOW", "You must have a level 3 or greater embassy");
-define("USER_NOT_IN_YOUR_ALLY","This user is not in your alliance!");
-define("CANT_EDIT_YOUR_PERMISSIONS","You can&#39;t edit your own permissions!");
-define("CANT_EDIT_LEADER_PERMISSIONS","Alliance leader&#39;s permissions can&#39;t be edited!");
-define("NO_PERMISSION", "You don&#39;t have enough permissions!");
-define("NAME_OR_DIPL_EMPTY", "Name or diplomacy empty");
-define("ALLY_DOESNT_EXISTS","Alliance does not exist");
-define("CANNOT_INVITE_SAME_ALLY","You cannot invite your own alliance");
-define("WRONG_DIPLOMACY","Wrong choice made");
-define("INVITE_ALREADY_SENT","Either you have already sent a pact to this alliance, they sent it to yours or you already have a pact with them");
-define("INVITE_SENT","Invite sent");
-define("DECLARED_WAR_ON","declared war to");
-define("OFFERED_NON_AGGRESION_PACT_TO","offered non-aggression pact to");
-define("OFFERED_CONFED_TO","offered a confederation to");
-define("ALLY_TOO_MUCH_PACTS","Either You cannot offer more pacts of this kind or this alliance has reached the limit for this kind of patcs");
-define("ALLY_PERMISSIONS_UPDATED","Permissions updated");
-define("ALLY_FORUM_LINK_UPDATED", "Forum link updated");
-define("NO_FORUMS_YET","There are no forums yet.");
-define("ALLY_USER_KICKED"," has been kicked from the alliance");
-define("NOT_OPENED_YET","Server not started yet.");
-define("REGISTER_CLOSED","The register is closed. You can&#39;t register to this server.");
-define("NAME_EMPTY","Please insert name");
-define("NAME_NO_EXIST","There is no user with the name ");
-define("ID_NO_EXIST","There is no user with the id ");
-define("SAME_NAME","You can&#39;t invite yourself");
-define("ALREADY_INVITED"," already invited");
-define("ALREADY_IN_ALLY"," is already in this alliance");
-define("ALREADY_IN_AN_ALLY"," is already in an alliance");
-define("NAME_OR_TAG_CHANGED","Name or Tag changed");
-define("VAC_MODE_WRONG_DAYS","You&#39;ve inserted a wrong number of days");
-
-//COPYRIGHT
-define("TRAVIAN_COPYRIGHT","TravianZ 100% Open Source Travian Clone.");
+//حقوق الطبع والنشر
+define("TRAVIAN_COPYRIGHT","TravianZ 100% استنساخ مفتوح المصدر لترافين.");
 
 //BUILD.TPL
-define("CUR_PROD","Current production");
-define("NEXT_PROD","Production at level ");
-define("CONSTRUCT_BUILD","Construct Building");
+define("CUR_PROD","الإنتاج الحالي");
+define("NEXT_PROD","الإنتاج على المستوى ");
+define("CONSTRUCT_BUILD","إنشاء مبنى");
 
-//BUILDINGS
-define("B1","Woodcutter");
-define("B1_DESC","The Woodcutter cuts down trees in order to produce lumber. The further you extend the woodcutter the more lumber is produced by him.");
-define("B2","Clay Pit");
-define("B2_DESC","Clay is produced here. By increasing its level you increase its clay production.");
-define("B3","Iron Mine");
-define("B3_DESC","Here miners produce the precious resource iron. By increasing the mine`s level you increase its iron production.");
-define("B4","Cropland");
-define("B4_DESC","Your population`s food is produced here. By increasing the farm`s level you increase its crop production.");
+//المباني
+define("B1","منشار الخشب");
+define("B1_DESC","يقطع منشار الخشب الأشجار من أجل إنتاج الخشب. كلما زادت مساحة المنشار، زاد إنتاج الخشب.");
+define("B2","محجر الطين");
+define("B2_DESC","يتم إنتاج الطين هنا. بزيادة مستواه، تزيد من إنتاجه.");
+define("B3","منجم الحديد");
+define("B3_DESC","هنا ينتج عمال المناجم المورد الثمين الحديد. بزيادة مستوى المنجم، تزيد من إنتاجه.");
+define("B4","الأرض الزراعية");
+define("B4_DESC","يتم إنتاج غذاء سكانك هنا. بزيادة مستوى المزرعة، تزيد من إنتاج المحاصيل.");
 
 //DORF1
-define("LUMBER","Lumber");
-define("CLAY","Clay");
-define("IRON","Iron");
-define("CROP","Crop");
-define("LEVEL","Level");
-define("CROP_COM",CROP." consumption");
-define("PER_HR","per hour");
-define("PROD_HEADER","Production");
-define("CAPITAL_LABEL","Capital");
-define("MULTI_V_HEADER","Villages");
-define("ANNOUNCEMENT","Announcement");
-define("GO2MY_VILLAGE","Go to my village");
-define("VILLAGE_CENTER","Village centre");
-define("FINISH_GOLD","Finish all construction and research orders in this village immediately for 2 Gold?");
-define("WAITING_LOOP","(waiting loop)");
-define("CROP_NEGATIVE","Your crop production is negative, you&#39;ll neaver reach the amount of requested resources.");
-define("HRS","(hrs.)");
-define("DONE_AT","done at");
-define("CANCEL","cancel");
-define("LOYALTY","Loyalty");
-define("CALCULATED_IN","Calculated in");
-define("SERVER_TIME","Server time:");
-define("HI","HI");
-define("P_IN","in");
+define("LUMBER","الخشب");
+define("CLAY","الطين");
+define("IRON","الحديد");
+define("CROP","المحاصيل");
+define("LEVEL","المستوى");
+define("CROP_COM",CROP." الاستهلاك");
+define("PER_HR","في الساعة");
+define("PROD_HEADER","الإنتاج");
+define("CAPITAL_LABEL","العاصمة");
+define("MULTI_V_HEADER","القرى");
+define("ANNOUNCEMENT","إعلان");
+define("GO2MY_VILLAGE","اذهب إلى قريتي");
+define("VILLAGE_CENTER","مركز القرية");
+define("FINISH_GOLD","هل ترغب في إنهاء جميع أوامر البناء والبحث في هذه القرية فورًا مقابل 2 ذهب؟");
+define("WAITING_LOOP","(حلقة الانتظار)");
+define("CROP_NEGATIVE","إنتاج محاصيلك سلبي، لن تصل أبدًا إلى الكمية المطلوبة من الموارد.");
+define("HRS","(ساعات)");
+define("DONE_AT","تم في");
+define("CANCEL","إلغاء");
+define("LOYALTY","الولاء");
+define("CALCULATED_IN","محسوب في");
+define("SERVER_TIME","وقت الخادم:");
+define("HI","مرحبا");
+define("P_IN","في");
 
-//QUEST
-define("Q_CONTINUE","Continue with the next task.");
-define("Q_REWARD","Your reward:");
-define("Q_BUTN","complete task");
-define("Q0","Welcome to ");
-define("Q0_DESC","As I see you have been made chieftain of this little village. I will be your counselor for the first few days and never leave your (right hand) side.");
-define("Q0_OPT1","To the first task.");
-define("Q0_OPT2","Look around on your own.");
-define("Q0_OPT3","Play no tasks.");
+//المهام
+define("Q_CONTINUE","تابع مع المهمة التالية.");
+define("Q_REWARD","مكافأتك:");
+define("Q_BUTN","أكمل المهمة");
+define("Q0","مرحبًا بك في ");
+define("Q0_DESC","كما أرى أنك قد تم تعيينك كشيخ في هذه القرية الصغيرة. سأكون مستشارك لبضعة أيام ولن أترك جانبك.");
+define("Q0_OPT1","إلى المهمة الأولى.");
+define("Q0_OPT2","تجول حولك بنفسك.");
+define("Q0_OPT3","لا تلعب أي مهام.");
 
-define("Q1","Task 1: Woodcutter");
-define("Q1_DESC","There are four green forests around your village. Construct a woodcutter on one of them. Lumber is an important resource for our new settlement.");
-define("Q1_ORDER","Order:<\/p>Construct a woodcutter.");
-define("Q1_RESP","Yes, that way you gain more lumber.I helped a bit and completed the order instantly.");
-define("Q1_REWARD","Woodcutter instantly completed.");
+define("Q1","المهمة 1: منشار الخشب");
+define("Q1_DESC","يوجد أربعة غابات خضراء حول قريتك. أنشئ منشارًا على أحدها. الخشب مورد مهم لمستوطنتنا الجديدة.");
+define("Q1_ORDER","الأمر:<\/p>إنشاء منشار خشب.");
+define("Q1_RESP","نعم، بهذه الطريقة ستحصل على المزيد من الخشب. لقد ساعدت قليلاً وأكملت الطلب على الفور.");
+define("Q1_REWARD","تم إكمال منشار الخشب على الفور.");
 
-define("Q2","Task 2: Crop");
-define("Q2_DESC","Now your subjects are hungry from working all day. Extend a cropland to improve your subjects&#39; supply. Come back here once the building is complete.");
-define("Q2_ORDER","Order:<\/p>Extend one cropland.");
-define("Q2_RESP","Very good. Now your subjects have enough to eat again...");
-define("Q2_REWARD","Your reward:<\/p>1 day Travian");
+define("Q2","المهمة 2: المحاصيل");
+define("Q2_DESC","الآن رعاياك جائعون من العمل طوال اليوم. قم بزيادة الأراضي الزراعية لتحسين إمدادات رعاياك. عد هنا عندما تكتمل البناء.");
+define("Q2_ORDER","الأمر:<\/p>زيادة أرض زراعية واحدة.");
+define("Q2_RESP","جيد جدًا. الآن لدى رعاياك ما يكفي من الطعام مرة أخرى...");
+define("Q2_REWARD","مكافأتك:<\/p>يوم واحد من ترافين");
 
-define("Q3","Task 3: Your Village&#39;s Name");
-define("Q3_DESC","Creative as you are you can grant your village the ultimate name.<br \/><br \/>Click on &#39;profile&#39; in the left hand menu and then select &#39;change profile&#39;...");
-define("Q3_ORDER","Order:<\/p>Change your village&#39;s name to something nice.");
-define("Q3_RESP","Wow, a great name for their village. It could have been the name of my village!...");
+define("Q3","المهمة 3: اسم قريتك");
+define("Q3_DESC","بإبداعك يمكنك منح قريتك الاسم النهائي.<br \/><br \/>انقر على 'الملف الشخصي' في القائمة اليسرى ثم اختر 'تغيير الملف الشخصي'...");
+define("Q3_ORDER","الأمر:<\/p>قم بتغيير اسم قريتك إلى شيء جميل.");
+define("Q3_RESP","واو، اسم رائع لقريتهم. كان يمكن أن يكون اسم قريتي!...");
 
-define("Q4","Task 4: Other Players");
-define("Q4_DESC","In ". SERVER_NAME ." you play along with billions of other players. Click &#39;statistics&#39; in the top menu to look up your rank and enter it here.");
-define("Q4_ORDER","Order:<\/p>Look for your rank in the statistics and enter it here.");
-define("Q4_BUTN","complete task");
-define("Q4_RESP","Exactly! That&#39;s your rank.");
+define("Q4","المهمة 4: اللاعبون الآخرون");
+define("Q4_DESC","في ". SERVER_NAME ." تلعب مع مليارات من اللاعبين الآخرين. انقر على 'الإحصائيات' في القائمة العلوية للبحث عن رتبتك وأدخلها هنا.");
+define("Q4_ORDER","الأمر:<\/p>ابحث عن رتبتك في الإحصائيات وأدخلها هنا.");
+define("Q4_BUTN","أكمل المهمة");
+define("Q4_RESP","بالضبط! هذه هي رتبتك.");
 
-define("Q5","Task 5: Two Building Orders");
-define("Q5_DESC","Build an iron mine and a clay pit. Of iron and clay one can never have enough.");
-define("Q5_ORDER","Order:<\/p><ul><li>Extend one iron mine.<\/li><li>Extend one clay pit.<\/li><\/ul>");
-define("Q5_RESP","As you noticed, building orders take rather long. The world of ". SERVER_NAME ." will continue to spin even if you are offline. Even in a few months there will be many new things for you to discover.<br \/><br \/>The best thing to do is occasionally checking your village and giving you subjects new tasks to do.");
+define("Q5","المهمة 5: أمرين بناء");
+define("Q5_DESC","قم ببناء منجم حديد ومحجر طين. من الحديد والطين لا يمكن أن يكون هناك أبدًا ما يكفي.");
+define("Q5_ORDER","الأمر:<\/p><ul><li>زيادة منجم حديد واحد.<\/li><li>زيادة محجر طين واحد.<\/li><\/ul>");
+define("Q5_RESP","كما لاحظت، أوامر البناء تستغرق وقتًا طويلاً. العالم في ". SERVER_NAME ." سيستمر في الدوران حتى لو كنت غير متصل. حتى بعد بضعة أشهر، سيكون هناك الكثير من الأشياء الجديدة لاكتشافها.<br \/><br \/>أفضل شيء هو التحقق من قريتك من حين لآخر وإعطاء رعاياك مهام جديدة للقيام بها.");
 
-define("Q6","Task 6: Messages");
-define("Q6_DESC","You can talk to other players using the messaging system. I sent a message to you. Read it and come back here.<br \/><br \/>P.S. Don&#39;t forget: on the left the reports, on the right the messages.");
-define("Q6_ORDER","Order:<\/p>Read your new message.");
-define("Q6_RESP","You received it? Very good.<br \/><br \/>Here is some Gold. With Gold you can do several things, e.g. extend your   in the left hand menu.");
-define("Q6_RESP1","-Account or increase your resource production.To do so click ");
-define("Q6_RESP2","in the left hand menu.");
-define("Q6_SUBJECT","Message From The Taskmaster");
-define("Q6_MESSAGE","You are to be informed that a nice reward is waiting for you at the taskmaster.<br /><br />Hint: The message has been generated automatically. An answer is not necessary.");
+define("Q6","المهمة 6: الرسائل");
+define("Q6_DESC","يمكنك التحدث إلى لاعبين آخرين باستخدام نظام الرسائل. لقد أرسلت لك رسالة. اقرأها وارجع هنا.<br \/><br \/>ملاحظة: لا تنس: على اليسار التقارير، على اليمين الرسائل.");
+define("Q6_ORDER","الأمر:<\/p>اقرأ رسالتك الجديدة.");
+define("Q6_RESP","هل تلقيتها؟ جيد جدًا.<br \/><br \/>إليك بعض الذهب. مع الذهب يمكنك القيام بعدة أشياء، مثل زيادة إنتاج مواردك. للقيام بذلك، انقر على ");
+define("Q6_RESP1","في القائمة اليسرى.");
+define("Q6_SUBJECT","رسالة من مدير المهام");
+define("Q6_MESSAGE","يجب أن تُعلم أنك تنتظر مكافأة جميلة عند مدير المهام.<br /><br />تلميح: تم إنشاء الرسالة تلقائيًا. ليست هناك حاجة للإجابة.");
 
-define("Q7","Task 7: One Each!");
-define("Q7_DESC","Now we should increase your resource production a bit. Build an additional woodcutter, clay pit, iron mine and cropland to level 1.");
-define("Q7_ORDER","Order:<\/p>Extend one more of each resource tile to level 1.");
-define("Q7_RESP","Very good, great develop of resources production.");
+define("Q7","المهمة 7: واحد لكل!");
+define("Q7_DESC","الآن يجب علينا زيادة إنتاج مواردك قليلاً. قم ببناء منشار خشب إضافي، ومحجر طين، ومنجم حديد، وأرض زراعية لمستوى 1.");
+define("Q7_ORDER","الأمر:<\/p>زيادة واحدة أخرى من كل نوع من مواردك إلى المستوى 1.");
+define("Q7_RESP","جيد جدًا، تطوير عظيم لإنتاج الموارد.");
 
-define("Q8","Task 8: Huge Army!");
-define("Q8_DESC","Now I&#39;ve got a very special quest for you. I am hungry. Give me 200 crop!<br \/><br \/>In return I will try to organize a huge army to protect your village.");
-define("Q8_ORDER","Order:<\/p>Send 200 crop to the taskmaster.");
-define("Q8_BUTN","Send crop");
-define("Q8_NOCROP","No Enough Crop!");
+define("Q8","المهمة 8: جيش ضخم!");
+define("Q8_DESC","الآن لدي مهمة خاصة جدًا لك. أنا جائع. أعطني 200 محصول!<br \/><br \/>في المقابل، سأحاول تنظيم جيش ضخم لحماية قريتك.");
+define("Q8_ORDER","الأمر:<\/p>أرسل 200 محصول إلى مدير المهام.");
+define("Q8_BUTN","أرسل المحصول");
+define("Q8_NOCROP","لا يوجد ما يكفي من المحصول!");
 
-define("Q9","Task 9: Everything to 1.");
-define("Q9_DESC","In Travian there is always something to do! While you are waiting for incoming the huge army, Now we should increase your resource production a bit. Extend all your resource tiles to level 1.");
-define("Q9_ORDER","Order:<\/p>Extend all resource tiles to level 1.");
-define("Q9_RESP","Very good, your resource production just thrives.<br \/><br \/>Soon we can start with constructing buildings in the village.");
+define("Q9","المهمة 9: كل شيء إلى 1.");
+define("Q9_DESC","في ترافين، هناك دائمًا شيء للقيام به! بينما تنتظر وصول الجيش الضخم، يجب علينا زيادة إنتاج مواردك قليلاً. قم بزيادة جميع أراضي مواردك إلى المستوى 1.");
+define("Q9_ORDER","الأمر:<\/p>زيادة جميع أراضي الموارد إلى المستوى 1.");
+define("Q9_RESP","جيد جدًا، إنتاج مواردك ينمو بشكل كبير.<br \/><br \/>سنبدأ قريبًا في بناء مباني في القرية.");
 
-define("Q10","Task 10: Dove of Peace");
-define("Q10_DESC","The first days after signing up you are protected against attacks by your fellow players. You can see how long this protection lasts by adding the code <b>[#0]<\/b> to your profile.");
-define("Q10_ORDER","Order:<\/p>Write the code <b>[#0]<\/b> into your profile by adding it to one of the two description fields.");
-define("Q10_RESP","Well done! Now everyone can see what a great warrior the world is approached by.");
-define("Q10_REWARD","Your reward:<\/p>2 day Travian");
+define("Q10","المهمة 10: حمامة السلام");
+define("Q10_DESC","الأيام الأولى بعد التسجيل، أنت محمي من الهجمات من قبل زملائك اللاعبين. يمكنك رؤية مدى استمرار هذه الحماية بإضافة الرمز <b>[#0]<\/b> إلى ملفك الشخصي.");
+define("Q10_ORDER","الأمر:<\/p>اكتب الرمز <b>[#0]<\/b> في ملفك الشخصي عن طريق إضافته إلى أحد حقلي الوصف.");
+define("Q10_RESP","أحسنت! الآن يمكن للجميع رؤية ما مدى روعة المحارب الذي يقترب منه العالم.");
+define("Q10_REWARD","مكافأتك:<\/p>يومين من ترافين");
 
-define("Q11","Task 11: Neighbours!");
-define("Q11_DESC","Around you, there are many different villages. One of them is named. ");
-define("Q11_DESC1"," Click on &#39;map&#39; in the header menu and look for that village. The name of your neighbours&#39; villages can be seen when hovering your mouse over any of them.");
-define("Q11_ORDER","Order:</p>Look for the coordinates of ");
-define("Q11_ORDER1","and enter them here.");
-define("Q11_RESP","Exactly, there ");
-define("Q11_RESP1"," Village! As many resources as you reach this village. Well, almost as much ...");
-define("Q11_BUTN","complete task");
+define("Q11","المهمة 11: الجيران!");
+define("Q11_DESC","حولك، هناك العديد من القرى المختلفة. إحداها تحمل اسم.");
+define("Q11_DESC1"," انقر على 'الخريطة' في قائمة العنوان وابحث عن تلك القرية. يمكن رؤية أسماء القرى المجاورة عند تمرير مؤشر الماوس فوق أي منها.");
+define("Q11_ORDER","الأمر:</p>ابحث عن إحداثيات ");
+define("Q11_ORDER1","وأدخلها هنا.");
+define("Q11_RESP","بالضبط، هناك ");
+define("Q11_RESP1"," قرية! كل الموارد التي يمكنك الوصول إليها لهذه القرية. حسنًا، تقريبًا بنفس المقدار ...");
+define("Q11_BUTN","أكمل المهمة");
 
-define("Q12","Task 12: Cranny");
-define("Q12_DESC","It&#39;s getting time to erect a cranny. The world of <?php echo SERVER_NAME; ?> is dangerous.<br \/><br \/>Many players live by stealing other players&#39; resources. Build a cranny to hide some of your resources from enemies.");
-define("Q12_ORDER","Order:<\/p>Construct a Cranny.");
-define("Q12_RESP","Well done, now it&#39;s way harder for your mean fellow players to plunder your village.<br \/><br \/>If under attack, your villagers will hide the resources in the Cranny all on their own.");
+define("Q12","المهمة 12: الكراني");
+define("Q12_DESC","لقد حان الوقت لإنشاء كراني. عالم <?php echo SERVER_NAME; ?> خطير.<br \/><br \/>يعيش العديد من اللاعبين من خلال سرقة موارد اللاعبين الآخرين. قم ببناء كراني لإخفاء بعض مواردك عن الأعداء.");
+define("Q12_ORDER","الأمر:<\/p>إنشاء كراني.");
+define("Q12_RESP","أحسنت، الآن أصبح من الصعب على زملائك اللاعبين اللئيمين نهب قريتك.<br \/><br \/>إذا تعرضت للهجوم، سيخفي سكان قريتك الموارد في الكراني بأنفسهم.");
 
-define("Q13","Task 13: To Two.");
-define("Q13_DESC","In <?php echo SERVER_NAME; ?> there is always something to do! Extend one woodcutter, one clay pit, one iron mine and one cropland to level 2 each.");
-define("Q13_ORDER","Order:<\/p>Extend one of each resource tile to level 2.");
-define("Q13_RESP","Very good, your village grows and thrives!");
+define("Q13","المهمة 13: إلى اثنين.");
+define("Q13_DESC","في <?php echo SERVER_NAME; ?> هناك دائمًا شيء للقيام به! قم بزيادة منشار خشب واحد، ومحجر طين واحد، ومنجم حديد واحد، وأرض زراعية واحدة إلى المستوى 2.");
+define("Q13_ORDER","الأمر:<\/p>زيادة واحدة من كل نوع من مواردك إلى المستوى 2.");
+define("Q13_RESP","جيد جدًا، قريتك تنمو وتزدهر!");
 
-define("Q14","Task 14: Instructions");
-define("Q14_DESC","In the ingame instructions you can find short information texts about different buildings and types of units.<br \/><br \/>Click on &#39;instructions&#39; at the left to find out how much lumber is required for the barracks.");
-define("Q14_ORDER","Order:<\/p>Enter how much lumber barracks cost");
-define("Q14_BUTN","complete task");
-define("Q14_RESP","Exactly! Barracks cost 210 lumber.");
+define("Q14","المهمة 14: التعليمات");
+define("Q14_DESC","في التعليمات داخل اللعبة يمكنك العثور على نصوص معلومات قصيرة حول المباني المختلفة وأنواع الوحدات.<br \/><br \/>انقر على 'التعليمات' في اليسار لمعرفة مقدار الخشب المطلوب لبناء الثكنات.");
+define("Q14_ORDER","الأمر:<\/p>أدخل مقدار الخشب الذي تكلفه الثكنات");
+define("Q14_BUTN","أكمل المهمة");
+define("Q14_RESP","بالضبط! الثكنات تكلف 210 خشب.");
 
-define("Q15","Task 15: Main Building");
-define("Q15_DESC","Your master builders need a main building level 3 to erect important buildings such as the marketplace or barracks.");
-define("Q15_ORDER","Order:<\/p>Extend your main building to level 3.");
-define("Q15_RESP","Well done. The main building level 3 has been completed.<br><br>With this upgrade your master builders cannot only construct more types of buildings but also do so faster.");
+define("Q15","المهمة 15: المبنى الرئيسي");
+define("Q15_DESC","يحتاج بناة الخبراء لديك إلى مبنى رئيسي بمستوى 3 لبناء مبانٍ مهمة مثل السوق أو الثكنات.");
+define("Q15_ORDER","الأمر:<\/p>زيادة مبناك الرئيسي إلى المستوى 3.");
+define("Q15_RESP","أحسنت. تم إكمال المبنى الرئيسي بمستوى 3.<br><br>مع هذه الترقية، يمكن لبنائك الخبراء بناء المزيد من أنواع المباني وأيضًا القيام بذلك بشكل أسرع.");
 
-define("Q16","Task 16: Advanced!");
-define("Q16_DESC","Look up your rank in the player statistics again and enjoy your progress.");
-define("Q16_ORDER","Order:<\/p>Look for your rank in the statistics and enter it here.");
-define("Q16_RESP","Well done! That&#39;s your current rank.");
+define("Q16","المهمة 16: متقدم!");
+define("Q16_DESC","ابحث عن رتبتك في إحصائيات اللاعبين مرة أخرى واستمتع بتقدمك.");
+define("Q16_ORDER","الأمر:<\/p>ابحث عن رتبتك في الإحصائيات وأدخلها هنا.");
+define("Q16_RESP","أحسنت! هذه هي رتبتك الحالية.");
 
-define("Q17","Task 17: Weapons or Dough");
-define("Q17_DESC","Now you have to make a decision: Either trade peacefully or become a dreaded warrior.<br \/><br \/>For the marketplace you need a granary, for the barracks you need a rally point.");
-define("Q17_BUTN","Economy");
-define("Q17_BUTN1","Military");
+define("Q17","المهمة 17: أسلحة أم عتاد");
+define("Q17_DESC","الآن عليك اتخاذ قرار: إما التجارة بسلام أو أن تصبح محاربًا مروعًا.<br \/><br \/>للسوق تحتاج إلى مخزن حبوب، وللثكنات تحتاج إلى نقطة تجمع.");
+define("Q17_BUTN","الاقتصاد");
+define("Q17_BUTN1","العسكرية");
 
-define("Q18","Task 18: Military");
-define("Q18_DESC","A brave decision. To be able to send troops you need a rally point.<br \/><br \/>The rally point must be built on a specific building site. The ");
-define("Q18_DESC1"," building site.");
-define("Q18_DESC2"," is located on the right side of the main building, slightly below it. The building site itself is curved.");
-define("Q18_ORDER","Order:<\/p>Construct a rally point.");
-define("Q18_RESP","Your rally point has been erected! A good move towards world domination!");
+define("Q18","المهمة 18: عسكرية");
+define("Q18_DESC","قرار شجاع. لكي تتمكن من إرسال القوات، تحتاج إلى نقطة تجمع.<br \/><br \/>يجب بناء نقطة التجمع في موقع بناء محدد. ");
+define("Q18_DESC1"," موقع البناء.");
+define("Q18_DESC2"," يقع على الجانب الأيمن من المبنى الرئيسي، أسفل قليلاً. الموقع نفسه منحني.");
+define("Q18_ORDER","الأمر:<\/p>إنشاء نقطة تجمع.");
+define("Q18_RESP","لقد تم إنشاء نقطة تجمعك! خطوة جيدة نحو السيطرة على العالم!");
 
-define("Q19","Task 19: Barracks");
-define("Q19_DESC","Now you have a main building level 3 and a rally point. That means that all prerequisites for building barracks have been fulfilled.<br><br>You can use the barracks to train troops for fighting.");
-define("Q19_ORDER","Order:<\/p>Construct barracks.");
-define("Q19_RESP","Well done... The best instructors from the whole country have gathered to train your men\u2019s fighting skills to top form.");
+define("Q19","المهمة 19: الثكنات");
+define("Q19_DESC","الآن لديك مبنى رئيسي بمستوى 3 ونقطة تجمع. هذا يعني أنه قد تم الوفاء بجميع متطلبات بناء الثكنات.<br><br>يمكنك استخدام الثكنات لتدريب القوات للقتال.");
+define("Q19_ORDER","الأمر:<\/p>إنشاء الثكنات.");
+define("Q19_RESP","أحسنت... اجتمع أفضل المدربين من جميع أنحاء البلاد لتدريب مهارات قتال رجالكم إلى أعلى مستوى.");
 
-define("Q20","Task 20: Train.");
-define("Q20_DESC","Now that you have barracks you can start training troops. Train two ");
-define("Q20_ORDER","Please train 2 ");
-define("Q20_RESP","The foundation for your glorious army has been laid.<br \/><br \/>Before sending your army off to plunder you should check with the.");
-define("Q20_RESP1","Combat Simulator");
-define("Q20_RESP2","to see how many troops you need to successfully fight one rat without losses.");
+define("Q20","المهمة 20: تدريب.");
+define("Q20_DESC","الآن بعد أن لديك ثكنات، يمكنك البدء في تدريب القوات. قم بتدريب اثنين ");
+define("Q20_ORDER","يرجى تدريب 2 ");
+define("Q20_RESP","تم وضع الأساس لجيشك المجيد.<br \/><br \/>قبل إرسال جيشك للنهب، يجب عليك التحقق مع ");
+define("Q20_RESP1","محاكي القتال");
+define("Q20_RESP2","لمعرفة عدد القوات التي تحتاجها لمحاربة فأر واحد بنجاح دون خسائر.");
 
-define("Q21","Task 18: Economy");
-define("Q21_DESC","Trade & Economy was your choice. Golden times await you for sure!");
-define("Q21_ORDER","Order:<\/p>Construct a Granary.");
-define("Q21_RESP","Well done! With the Granary you can store more wheat.");
+define("Q21","المهمة 18: الاقتصاد");
+define("Q21_DESC","كان خيارك التجارة والاقتصاد. بالتأكيد أوقات ذهبية في انتظارك!");
+define("Q21_ORDER","الأمر:<\/p>إنشاء مخزن حبوب.");
+define("Q21_RESP","أحسنت! مع مخزن الحبوب يمكنك تخزين المزيد من القمح.");
 
-define("Q22","Task 19: Warehouse");
-define("Q22_DESC","Not only Crop has to be saved. Other resources can go to waste as well if they are not stored correctly. Construct a Warehouse!");
-define("Q22_ORDER","Order:<\/p>Construct Warehouse.");
-define("Q22_RESP",";Well done, your Warehouse is complete...&rdquo;<\/i><br \/>Now you have fulfilled all prerequisites required to construct a Marketplace.");
+define("Q22","المهمة 19: المستودع");
+define("Q22_DESC","ليس فقط المحصول الذي يجب حفظه. يمكن أن تضيع الموارد الأخرى أيضًا إذا لم يتم تخزينها بشكل صحيح. قم بإنشاء مستودع!");
+define("Q22_ORDER","الأمر:<\/p>إنشاء مستودع.");
+define("Q22_RESP","أحسنت، المستودع اكتمل...&rdquo;<\/i><br \/>الآن قد وفرت جميع المتطلبات اللازمة لإنشاء سوق.");
 
-define("Q23","Task 20: Marketplace.");
-define("Q23_DESC",";Construct a Marketplace so you can trade with your fellow players.");
-define("Q23_ORDER","Order:<\/p>Please build a Marketplace.");
-define("Q23_RESP",";The Marketplace has been completed. Now you can make offers of your own and accept foreign offers! When creating your own offers, you should think about offering what other players need most to get more profit.");
+define("Q23","المهمة 20: السوق.");
+define("Q23_DESC","قم بإنشاء سوق حتى تتمكن من التجارة مع زملائك اللاعبين.");
+define("Q23_ORDER","الأمر:<\/p>يرجى بناء سوق.");
+define("Q23_RESP","اكتمل السوق. الآن يمكنك تقديم عروض خاصة بك وقبول العروض الخارجية! عند إنشاء عروضك الخاصة، يجب أن تفكر في تقديم ما يحتاجه اللاعبون الآخرون أكثر للحصول على المزيد من الأرباح.");
 
-define("Q24","Task 21: Everything to 2.");
-define("Q24_DESC","Now we should increase your resource production a bit. Build an additional woodcutter, clay pit, iron mine and cropland to level 1.");
-define("Q24_ORDER","Order:<\/p>Extend all resource tiles to level 2.");
-define("Q24_RESP","Congratulations! Your village grows and thrives...");
+define("Q24","المهمة 21: كل شيء إلى 2.");
+define("Q24_DESC","الآن يجب علينا زيادة إنتاج مواردك قليلاً. قم ببناء منشار خشب إضافي، ومحجر طين، ومنجم حديد، وأرض زراعية لمستوى 1.");
+define("Q24_ORDER","الأمر:<\/p>زيادة جميع أراضي الموارد إلى المستوى 2.");
+define("Q24_RESP","تهانينا! قريتك تنمو وتزدهر...");
 
-define("Q28","Task 22: Alliance.");
-define("Q28_DESC","Teamwork is important in Travian. Players who work together organise themselves in alliances. Get an invitation from an alliance in your region and join this alliance. Alternatively, you can found your own alliance. To do this, you need a level 3 embassy.");
-define("Q28_ORDER","Order:<\/p>Join an alliance or found one on your own.");
-define("Q28_RESP","Is good! Now you&#39;re in a union called");
-define("Q28_RESP1",", and you&#39;re a member of their alliance with the faster you&#39;ll progress...");
+define("Q28","المهمة 22: التحالف.");
+define("Q28_DESC","العمل الجماعي مهم في ترافين. يقوم اللاعبون الذين يعملون معًا بتنظيم أنفسهم في تحالفات. احصل على دعوة من تحالف في منطقتك وانضم إليه. بدلاً من ذلك، يمكنك تأسيس تحالف خاص بك. للقيام بذلك، تحتاج إلى سفارة بمستوى 3.");
+define("Q28_ORDER","الأمر:<\/p>انضم إلى تحالف أو أسس واحد بنفسك.");
+define("Q28_RESP","هذا جيد! الآن أنت في اتحاد يسمى");
+define("Q28_RESP1",", وأنت عضو في تحالفهم مع تقدم أسرع...");
 
-define("Q29","Task 23: Main Building to Level 5");
-define("Q29_DESC","To be able to build a palace or residence, you will need a main building at level 5.");
-define("Q29_ORDER","Order:<\/p>Upgrade your main building to level 5.");
-define("Q29_RESP","The main building is level 5 now and you can build palace or residence...");
+define("Q29","المهمة 23: رفع المبنى الرئيسي إلى المستوى 5");
+define("Q29_DESC","لكي تتمكن من بناء قصر أو إقامة، ستحتاج إلى مبنى رئيسي بمستوى 5.");
+define("Q29_ORDER","الأمر:<\/p>رفع مبناك الرئيسي إلى المستوى 5.");
+define("Q29_RESP","المبنى الرئيسي الآن بمستوى 5 ويمكنك بناء قصر أو إقامة...");
 
-define("Q30","Task 24: Granary to Level 3.");
-define("Q30_DESC","That you do not lose crop, you should upgrade your granary.");
-define("Q30_ORDER","Order:<\/p>Upgrade your granary to level 3.");
-define("Q30_RESP","Granary is level 3 now...");
+define("Q30","المهمة 24: رفع مخزن الحبوب إلى المستوى 3.");
+define("Q30_DESC","لكي لا تفقد المحصول، يجب عليك رفع مخزن الحبوب.");
+define("Q30_ORDER","الأمر:<\/p>رفع مخزن الحبوب إلى المستوى 3.");
+define("Q30_RESP","مخزن الحبوب الآن بمستوى 3...");
 
-define("Q31","Task 25: Warehouse to Level 7");
-define("Q31_DESC"," To make sure your resources won&#39;t overflow, you should upgrade your warehouse.");
-define("Q31_ORDER","Order:<\/p>Upgrade your warehouse to level 7.");
-define("Q31_RESP","Warehouse has upgraded to level 7...");
+define("Q31","المهمة 25: رفع المستودع إلى المستوى 7");
+define("Q31_DESC","للتأكد من عدم امتلاء مواردك، يجب عليك رفع المستودع.");
+define("Q31_ORDER","الأمر:<\/p>رفع المستودع إلى المستوى 7.");
+define("Q31_RESP","تم رفع المستودع إلى المستوى 7...");
 
-define("Q32","Task 26: All to five!");
-define("Q32_DESC","You will always need more resources. Resource tiles are quite expensive but will always pay out in the long term.");
-define("Q32_ORDER","Order:<\/p>Upgrade all resources tiles to level 5.");
-define("Q32_RESP","All resources are at level 5, very good, your village grows and thrives!");
+define("Q32","المهمة 26: الجميع إلى خمسة!");
+define("Q32_DESC","ستحتاج دائمًا إلى المزيد من الموارد. أراضي الموارد باهظة الثمن ولكن ستظل تعود بفائدة على المدى الطويل.");
+define("Q32_ORDER","الأمر:<\/p>رفع جميع أراضي الموارد إلى المستوى 5.");
+define("Q32_RESP","جميع الموارد الآن بمستوى 5، جيد جدًا، قريتك تنمو وتزدهر!");
 
-define("Q33","Task 27: Palace or Residence?");
-define("Q33_DESC","To found a new village, you will need settlers. Those you can train in either a palace or a residence.");
-define("Q33_ORDER","Order:<\/p>Build a palace or residence to level 10.");
-define("Q33_RESP","had reached to level 10, you can now train settlers and found your second village. Notice the cultural points...");
+define("Q33","المهمة 27: قصر أم إقامة؟");
+define("Q33_DESC","لكي تؤسس قرية جديدة، ستحتاج إلى مستوطنين. يمكنك تدريبهم إما في قصر أو إقامة.");
+define("Q33_ORDER","الأمر:<\/p>بناء قصر أو إقامة إلى المستوى 10.");
+define("Q33_RESP","وصلت إلى المستوى 10، يمكنك الآن تدريب المستوطنين وتأسيس قريتك الثانية. لاحظ النقاط الثقافية...");
 
-define("Q34","Task 28: 3 settlers.");
-define("Q34_DESC","To found a new village, you will need settlers. They can be trained  in either a palace or a residence.");
-define("Q34_ORDER","Order:<\/p>Train 3 settlers.");
-define("Q34_RESP","3 settlers were trained. To found new village you need at least");
-define("Q34_RESP1","culture points...");
+define("Q34","المهمة 28: 3 مستوطنين.");
+define("Q34_DESC","لكي تؤسس قرية جديدة، ستحتاج إلى مستوطنين. يمكن تدريبهم في إما قصر أو إقامة.");
+define("Q34_ORDER","الأمر:<\/p>تدريب 3 مستوطنين.");
+define("Q34_RESP","تم تدريب 3 مستوطنين. لتأسيس قرية جديدة، تحتاج إلى على الأقل");
+define("Q34_RESP1","نقاط ثقافية...");
 
-define("Q35","Task 29: New Village.");
-define("Q35_DESC","There are a lot of empty tiles on the map. Find one that suits you and found a new village");
-define("Q35_ORDER","Order:<\/p>Found a new village.");
-define("Q35_RESP","I am proud of you! Now you have two villages and have all the possibilities to build a mighty empire. I wish you luck with this.");
+define("Q35","المهمة 29: قرية جديدة.");
+define("Q35_DESC","هناك الكثير من الأراضي الفارغة على الخريطة. ابحث عن واحدة تناسبك وأسس قرية جديدة");
+define("Q35_ORDER","الأمر:<\/p>تأسيس قرية جديدة.");
+define("Q35_RESP","أنا فخور بك! الآن لديك قريتين ولديك جميع الإمكانيات لبناء إمبراطورية قوية. أتمنى لك التوفيق في ذلك.");
 
-define("Q36"," Task 30: Build a ");
-define("Q36_DESC","Now that you have trained some soldiers, you should build a ");
-define("Q36_DESC1"," too. It increases the base defence and your soldiers will receive a defensive bonus.");
-define("Q36_ORDER","Order:<\/p>Build a ");
-define("Q36_RESP","That&#39;s what I&#39;m talking about. A ");
-define("Q36_RESP1"," Very useful. It increases the defence of the troops in the village.");
+define("Q36"," المهمة 30: بناء ");
+define("Q36_DESC","الآن بعد أن قمت بتدريب بعض الجنود، يجب عليك بناء ");
+define("Q36_DESC1"," أيضًا. إنه يزيد من الدفاع الأساسي وسيتلقى جنودك مكافأة دفاعية.");
+define("Q36_ORDER","الأمر:<\/p>بناء ");
+define("Q36_RESP","هذا ما أتحدث عنه. إن ");
+define("Q36_RESP1"," مفيد جدًا. إنه يزيد من دفاع القوات في القرية.");
 
-define("Q37","Tasks");
-define("Q37_DESC","All tasks achieved!");
+define("Q37","المهام");
+define("Q37_DESC","تم تحقيق جميع المهام!");
 
-define("OPT3","Resource overview");
-define("T","Your resource deliveries");
-define("T1","Delivery");
-define("T2","Delivery time");
-define("T3","Status");
-define("T4","fetch");
-define("T5","fetched");
-define("T6","on hold");
-define("T7","1 day Travian ");
-define("T8","2 days Travian ");
+define("OPT3","نظرة عامة على الموارد");
+define("T","تسليم مواردك");
+define("T1","تسليم");
+define("T2","وقت التسليم");
+define("T3","الحالة");
+define("T4","جلب");
+define("T5","تم جلبه");
+define("T6","معلق");
+define("T7","يوم واحد من ترافين ");
+define("T8","يومين من ترافين ");
 
 //Quest 25
-define("Q25_7","Task 7: Neighbours!");
-define("Q25_7_DESC","Around you, there are many different villages. One of them is named. ");
-define("Q25_7_DESC1","Click &#39;Map&#39; in the head menu and look for that village. The name of your neighbours&#39; villages can be seen once you hover your mouse over any of them.");
-define("Q25_7_ORDER","<\/p><b>Order:</b><br>Look for the coordinates of ");
-define("Q25_7_ORDER1","and enter them here.");
-define("Q25_7_RESP","Exactly, there ");
-define("Q25_7_RESP1"," Village! As many resources as you reach this village. Well, almost as much ...");
+define("Q25_7","المهمة 7: الجيران!");
+define("Q25_7_DESC","حولك، هناك العديد من القرى المختلفة. إحداها تحمل اسم.");
+define("Q25_7_DESC1","انقر على 'الخريطة' في قائمة الرأس وابحث عن تلك القرية. يمكن رؤية أسماء قرى جيرانك عندما تمرر مؤشر الماوس فوق أي منها.");
+define("Q25_7_ORDER","<\/p><b>الأمر:</b><br>ابحث عن إحداثيات ");
+define("Q25_7_ORDER1","وأدخلها هنا.");
+define("Q25_7_RESP","بالضبط، هناك ");
+define("Q25_7_RESP1"," قرية! كل الموارد التي يمكنك الوصول إليها لهذه القرية. حسنًا، تقريبًا بنفس المقدار ...");
 
-define("Q25_8","Task 8: Huge Army!");
-define("Q25_8_DESC","Now I&#39;ve got a very special Quest for you. I am hungry. Give me 200 crop!<br \/><br \/>In return I will try to organize a huge army to protect your village.");
-define("Q25_8_ORDER","Order:<\/p>Send 200 crop to the taskmaster.");
-define("Q25_8_BUTN","Send crop");
-define("Q25_8_NOCROP","No Enough Crop!");
+define("Q25_8","المهمة 8: جيش ضخم!");
+define("Q25_8_DESC","الآن لدي مهمة خاصة جدًا لك. أنا جائع. أعطني 200 محصول!<br \/><br \/>في المقابل، سأحاول تنظيم جيش ضخم لحماية قريتك.");
+define("Q25_8_ORDER","الأمر:<\/p>أرسل 200 محصول إلى مدير المهام.");
+define("Q25_8_BUTN","أرسل المحصول");
+define("Q25_8_NOCROP","لا يوجد ما يكفي من المحصول!");
 
-define("Q25_9","Task 9: One each!");
-define("Q25_9_DESC","In " . SERVER_NAME . " there is always something to do! While you are waiting for your new army,<br \/><br \/>extend one additional woodcutter, clay pit, iron mine and cropland to level 1");
-define("Q25_9_ORDER","Order:<\/p>Extend one more of each resource tile to level 1.");
-define("Q25_9_RESP","Very good, great development of resource production.");
+define("Q25_9","المهمة 9: واحد لكل!");
+define("Q25_9_DESC","في " . SERVER_NAME . " هناك دائمًا شيء للقيام به! بينما تنتظر جيشك الجديد,<br \/><br \/>قم بزيادة منشار خشب إضافي، ومحجر طين، ومنجم حديد، وأرض زراعية إلى المستوى 1");
+define("Q25_9_ORDER","الأمر:<\/p>زيادة واحدة أخرى من كل نوع من مواردك إلى المستوى 1.");
+define("Q25_9_RESP","جيد جدًا، تطوير رائع لإنتاج الموارد.");
 
-define("Q25_10","Task 10: Comming Soon!");
-define("Q25_10_DESC","Now there is time for a small break until the gigantic army I sent you arrives.<br \/><br \/>Until then you can explore the map or extend a few resource tiles.");
-define("Q25_10_ORDER","Order:<\/p>Wait for the taskmaster&#39;s army to arrive");
-define("Q25_10_RESP","Now a huge army from taskmaster has arrive to protect your village");
-define("Q25_10_REWARD","Your reward:<\/p>2 days more of Travian");
+define("Q25_10","المهمة 10: قادم قريبًا!");
+define("Q25_10_DESC","الآن هناك وقت لاستراحة صغيرة حتى يصل الجيش الضخم الذي أرسلته إليك.<br \/><br \/>حتى ذلك الحين، يمكنك استكشاف الخريطة أو زيادة بعض أراضي الموارد.");
+define("Q25_10_ORDER","الأمر:<\/p>انتظر وصول جيش مدير المهام");
+define("Q25_10_RESP","الآن جيش ضخم من مدير المهام قد وصل لحماية قريتك");
+define("Q25_10_REWARD","مكافأتك:<\/p>يومين إضافيين من ترافين");
 
-define("Q25_11","Task 11: Reports");
-define("Q25_11_DESC","Every time something important happens to your account you will receive a report.<br \/><br \/>You can see these by clicking on the left half of the 5th button (from left to right). Read the report and come back here.");
-define("Q25_11_ORDER","Order:<\/p>Read your latest report.");
-define("Q25_11_RESP","You received it? Very good. Here is your reward.");
+define("Q25_11","المهمة 11: التقارير");
+define("Q25_11_DESC","كلما حدث شيء مهم لحسابك، ستتلقى تقريرًا.<br \/><br \/>يمكنك رؤية هذه التقارير بالنقر على النصف الأيسر من الزر الخامس (من اليسار إلى اليمين). اقرأ التقرير وعد هنا.");
+define("Q25_11_ORDER","الأمر:<\/p>اقرأ أحدث تقرير لديك.");
+define("Q25_11_RESP","هل تلقيته؟ جيد جدًا. إليك مكافأتك.");
 
-define("Q25_12","Task 12: Everything to 1.");
-define("Q25_12_DESC","Now we should increase your resource production a bit.");
-define("Q25_12_ORDER","Order:<\/p>Extend all resource tiles to level 1.");
-define("Q25_12_RESP","Very good, your resource production just thrives.<br \/><br \/>Soon we can start with constructing buildings in the village.");
+define("Q25_12","المهمة 12: كل شيء إلى 1.");
+define("Q25_12_DESC","الآن يجب علينا زيادة إنتاج مواردك قليلاً.");
+define("Q25_12_ORDER","الأمر:<\/p>زيادة جميع أراضي الموارد إلى المستوى 1.");
+define("Q25_12_RESP","جيد جدًا، إنتاج مواردك ينمو بشكل كبير.<br \/><br \/>سنبدأ قريبًا في بناء مبانٍ في القرية.");
 
-define("Q25_13","Task 13: Dove of Peace");
-define("Q25_13_DESC","The first days after signing up you are protected against attacks by your fellow players. You can see how long this protection lasts by adding the code <b>[#0]<\/b> to your profile.");
-define("Q25_13_ORDER","Order:<\/p>Write the code <b>[#0]<\/b> into your profile by adding it to one of the two description fields.");
-define("Q25_13_RESP","Well done! Now everyone can see what a great warrior the world is approached by.");
+define("Q25_13","المهمة 13: حمامة السلام");
+define("Q25_13_DESC","الأيام الأولى بعد التسجيل، أنت محمي من الهجمات من قبل زملائك اللاعبين. يمكنك رؤية مدى استمرار هذه الحماية بإضافة الرمز <b>[#0]<\/b> إلى ملفك الشخصي.");
+define("Q25_13_ORDER","الأمر:<\/p>اكتب الرمز <b>[#0]<\/b> في ملفك الشخصي عن طريق إضافته إلى أحد حقلي الوصف.");
+define("Q25_13_RESP","أحسنت! الآن يمكن للجميع رؤية ما مدى روعة المحارب الذي يقترب منه العالم.");
 
-define("Q25_14","Task 14: Cranny");
-define("Q25_14_DESC","It&#39;s getting time to erect a cranny. The world of <b>" . SERVER_NAME. "</b> is dangerous.<br \/><br \/>Many players live by stealing other players&#39; resources. Build a cranny to hide some of your resources from enemies.");
-define("Q25_14_ORDER","Order:<\/p>Construct a Cranny.");
-define("Q25_14_RESP","Well done, now it&#39;s way harder for your mean fellow players to plunder your village.<br \/><br \/>If under attack, your villagers will hide the resources in the Cranny all on their own.");
+define("Q25_14","المهمة 14: الكراني");
+define("Q25_14_DESC","لقد حان الوقت لإنشاء كراني. عالم <b>" . SERVER_NAME. "</b> خطير.<br \/><br \/>يعيش العديد من اللاعبين من خلال سرقة موارد اللاعبين الآخرين. قم ببناء كراني لإخفاء بعض مواردك عن الأعداء.");
+define("Q25_14_ORDER","الأمر:<\/p>إنشاء كراني.");
+define("Q25_14_RESP","أحسنت، الآن أصبح من الصعب على زملائك اللاعبين اللئيمين نهب قريتك.<br \/><br \/>إذا تعرضت للهجوم، سيخفي سكان قريتك الموارد في الكراني بأنفسهم.");
 
-define("Q25_15","Task 15: To Two.");
-define("Q25_15_DESC","In <b>" . SERVER_NAME. "</b> there is always something to do! Extend one woodcutter, one clay pit, one iron mine and one cropland to level 2 each.");
-define("Q25_15_ORDER","Order:<\/p>Extend one of each resource tile to level 2.");
-define("Q25_15_RESP","Very good, your village grows and thrives!");
+define("Q25_15","المهمة 15: إلى اثنين.");
+define("Q25_15_DESC","في <b>" . SERVER_NAME. "</b> هناك دائمًا شيء للقيام به! قم بزيادة منشار خشب واحد، ومحجر طين واحد، ومنجم حديد واحد، وأرض زراعية واحدة إلى المستوى 2.");
+define("Q25_15_ORDER","الأمر:<\/p>زيادة واحدة من كل نوع من مواردك إلى المستوى 2.");
+define("Q25_15_RESP","جيد جدًا، قريتك تنمو وتزدهر!");
 
-define("Q25_16","Task 16: Instructions");
-define("Q25_16_DESC","In the ingame instructions you can find short information texts about different buildings and types of units.<br \/><br \/>Click on &#39;instructions&#39; at the left to find out how much lumber is required for the barracks.");
-define("Q25_16_ORDER","Order:<\/p>Enter how much lumber barracks cost");
-define("Q25_16_BUTN","complete task");
-define("Q25_16_RESP","Exactly! Barracks cost 210 lumber.");
+define("Q25_16","المهمة 16: التعليمات");
+define("Q25_16_DESC","في التعليمات داخل اللعبة يمكنك العثور على نصوص معلومات قصيرة حول المباني المختلفة وأنواع الوحدات.<br \/><br \/>انقر على 'التعليمات' في اليسار لمعرفة مقدار الخشب المطلوب لبناء الثكنات.");
+define("Q25_16_ORDER","الأمر:<\/p>أدخل مقدار الخشب الذي تكلفه الثكنات");
+define("Q25_16_BUTN","أكمل المهمة");
+define("Q25_16_RESP","بالضبط! الثكنات تكلف 210 خشب.");
 
-define("Q25_17","Task 17: Main Building");
-define("Q25_17_DESC","Your master builders need a main building level 3 to erect important buildings such as the marketplace or barracks.");
-define("Q25_17_ORDER","Order:<\/p>Extend your main building to level 3.");
-define("Q25_17_RESP","Well done. The main building level 3 has been completed.<br><br>With this upgrade your master builders can construct more types of buildings and also do so faster.");
+define("Q25_17","المهمة 17: المبنى الرئيسي");
+define("Q25_17_DESC","يحتاج بناة الخبراء لديك إلى مبنى رئيسي بمستوى 3 لبناء مبانٍ مهمة مثل السوق أو الثكنات.");
+define("Q25_17_ORDER","الأمر:<\/p>زيادة مبناك الرئيسي إلى المستوى 3.");
+define("Q25_17_RESP","أحسنت. تم إكمال المبنى الرئيسي بمستوى 3.<br><br>مع هذه الترقية، يمكن لبنائك الخبراء بناء المزيد من أنواع المباني وأيضًا القيام بذلك بشكل أسرع.");
 
-define("Q25_18","Task 18: Advanced!");
-define("Q25_18_DESC","Look up your rank in the player statistics again and enjoy your progress.");
-define("Q25_18_ORDER","Order:<\/p>Look for your rank in the statistics and enter it here.");
-define("Q25_18_RESP","Well done! That&#39;s your current rank.");
+define("Q25_18","المهمة 18: متقدم!");
+define("Q25_18_DESC","ابحث عن رتبتك في إحصائيات اللاعبين مرة أخرى واستمتع بتقدمك.");
+define("Q25_18_ORDER","الأمر:<\/p>ابحث عن رتبتك في الإحصائيات وأدخلها هنا.");
+define("Q25_18_RESP","أحسنت! هذه هي رتبتك الحالية.");
 
-define("Q25_19","Task 19: Weapons or Dough");
-define("Q25_19_DESC","Now you have to make a decision: Either trade peacefully or become a dreaded warrior.<br \/><br \/>For the marketplace you need a granary, for the barracks you need a rally point.");
-define("Q25_19_BUTN","Economy");
-define("Q25_19_BUTN1","Military");
+define("Q25_19","المهمة 19: أسلحة أم عتاد");
+define("Q25_19_DESC","الآن عليك اتخاذ قرار: إما التجارة بسلام أو أن تصبح محاربًا مروعًا.<br \/><br \/>للسوق تحتاج إلى مخزن حبوب، وللثكنات تحتاج إلى نقطة تجمع.");
+define("Q25_19_BUTN","الاقتصاد");
+define("Q25_19_BUTN1","العسكرية");
 
-define("Q25_20","Task 19: Economy");
-define("Q25_20_DESC","Trade & Economy was your choice. Golden times await you for sure!");
-define("Q25_20_ORDER","Order:<\/p>Construct a Granary.");
-define("Q25_20_RESP","Well done! With the Granary you can store more wheat.");
+define("Q25_20","المهمة 19: الاقتصاد");
+define("Q25_20_DESC","كان خيارك التجارة والاقتصاد. بالتأكيد أوقات ذهبية في انتظارك!");
+define("Q25_20_ORDER","الأمر:<\/p>إنشاء مخزن حبوب.");
+define("Q25_20_RESP","أحسنت! مع مخزن الحبوب يمكنك تخزين المزيد من القمح.");
 
-define("Q25_21","Task 20: Warehouse");
-define("Q25_21_DESC","Not only Crop has to be saved. Other resources can go to waste as well if they are not stored correctly. Construct a Warehouse!");
-define("Q25_21_ORDER","Order:<\/p>Construct Warehouse.");
-define("Q25_21_RESP",";Well done, your Warehouse is complete...&rdquo;<\/i><br \/>Now you have fulfilled all prerequisites required to construct a Marketplace.");
+define("Q25_21","المهمة 20: المستودع");
+define("Q25_21_DESC","ليس فقط المحصول الذي يجب حفظه. يمكن أن تضيع الموارد الأخرى أيضًا إذا لم يتم تخزينها بشكل صحيح. قم بإنشاء مستودع!");
+define("Q25_21_ORDER","الأمر:<\/p>إنشاء مستودع.");
+define("Q25_21_RESP","أحسنت، المستودع اكتمل...<\/i><br \/>الآن قد وفرت جميع المتطلبات اللازمة لإنشاء سوق.");
 
-define("Q25_22","Task 21: Marketplace.");
-define("Q25_22_DESC",";Construct a Marketplace so you can trade with your fellow players.");
-define("Q25_22_ORDER","Order:<\/p>Please build a Marketplace.");
-define("Q25_22_RESP","The Marketplace has been completed. Now you can make offers of your own and accept foreign offers! When creating your own offers, you should think about offering what other players need most to get more profit.");
+define("Q25_22","المهمة 21: السوق.");
+define("Q25_22_DESC","قم بإنشاء سوق حتى تتمكن من التجارة مع زملائك اللاعبين.");
+define("Q25_22_ORDER","الأمر:<\/p>يرجى بناء سوق.");
+define("Q25_22_RESP","اكتمل السوق. الآن يمكنك تقديم عروض خاصة بك وقبول العروض الخارجية! عند إنشاء عروضك الخاصة، يجب أن تفكر في تقديم ما يحتاجه اللاعبون الآخرون أكثر للحصول على المزيد من الأرباح.");
 
-define("Q25_23","Task 19: Military");
-define("Q25_23_DESC","A brave decision. To be able to send troops you need a rally point.<br \/><br \/>The rally point must be built on a specific building site. The ");
-define("Q25_23_DESC1"," building site.");
-define("Q25_23_DESC2"," is located on the right side of the main building, slightly below it. The building site itself is curved.");
-define("Q25_23_ORDER","Order:<\/p>Construct a rally point.");
-define("Q25_23_RESP","Your rally point has been erected! A good move towards world domination!");
+define("Q25_23","المهمة 19: العسكرية");
+define("Q25_23_DESC","قرار شجاع. لكي تتمكن من إرسال القوات، تحتاج إلى نقطة تجمع.<br \/><br \/>يجب بناء نقطة التجمع في موقع بناء محدد. ");
+define("Q25_23_DESC1"," موقع البناء.");
+define("Q25_23_DESC2"," يقع على الجانب الأيمن من المبنى الرئيسي، أسفل قليلاً. الموقع نفسه منحني.");
+define("Q25_23_ORDER","الأمر:<\/p>إنشاء نقطة تجمع.");
+define("Q25_23_RESP","لقد تم إنشاء نقطة تجمعك! خطوة جيدة نحو السيطرة على العالم!");
 
-define("Q25_24","Task 20: Barracks");
-define("Q25_24_DESC","Now you have a main building level 3 and a rally point. That means that all prerequisites for building barracks have been fulfilled.<br><br>You can use the barracks to train troops for fighting.");
-define("Q25_24_ORDER","Order:<\/p>Construct barracks.");
-define("Q25_24_RESP","Well done... The best instructors from the whole country have gathered to train your men\u2019s fighting skills to top form.");
+define("Q25_24","المهمة 20: الثكنات");
+define("Q25_24_DESC","الآن لديك مبنى رئيسي بمستوى 3 ونقطة تجمع. هذا يعني أنه قد تم الوفاء بجميع متطلبات بناء الثكنات.<br><br>يمكنك استخدام الثكنات لتدريب القوات للقتال.");
+define("Q25_24_ORDER","الأمر:<\/p>إنشاء الثكنات.");
+define("Q25_24_RESP","أحسنت... اجتمع أفضل المدربين من جميع أنحاء البلاد لتدريب مهارات قتال رجالكم إلى أعلى مستوى.");
 
-define("Q25_25","Task 21: Train.");
-define("Q25_25_DESC","Now that you have barracks you can start training troops. Train two ");
-define("Q25_25_ORDER","Please train 2 ");
-define("Q25_25_RESP","The foundation for your glorious army has been laid.<br \/><br \/>Before sending your army off to plunder you should check with the");
-define("Q25_25_RESP1","Combat Simulator");
-define("Q25_25_RESP2","to see how many troops you need to successfully fight one rat without losses.");
+define("Q25_25","المهمة 21: التدريب.");
+define("Q25_25_DESC","الآن بعد أن لديك ثكنات، يمكنك البدء في تدريب القوات. قم بتدريب اثنين ");
+define("Q25_25_ORDER","يرجى تدريب 2 ");
+define("Q25_25_RESP","تم وضع الأساس لجيشك المجيد.<br \/><br \/>قبل إرسال جيشك للنهب، يجب عليك التحقق مع ");
+define("Q25_25_RESP1","محاكي القتال");
+define("Q25_25_RESP2","لمعرفة عدد القوات التي تحتاجها لمحاربة فأر واحد بنجاح دون خسائر.");
 
-define("Q25_26","Task 22: Everything to 2.");
-define("Q25_26_DESC","Now it&#39;s time again to extend the cornerstones of might and wealth! This time level 1 is not enough... it will take a while but in the end it will be worth it. Extend all your resource tiles to level 2!");
-define("Q25_26_ORDER","Order:<\/p>Extend all resource tiles to level 2.");
-define("Q25_26_RESP","Congratulations! Your village grows and thrives...");
+define("Q25_26","المهمة 22: كل شيء إلى 2.");
+define("Q25_26_DESC","الآن حان الوقت مرة أخرى لزيادة ركائز القوة والثروة! هذه المرة المستوى 1 ليس كافيًا... سيستغرق الأمر بعض الوقت ولكن في النهاية سيكون الأمر يستحق ذلك. قم بزيادة جميع أراضي الموارد إلى المستوى 2!");
+define("Q25_26_ORDER","الأمر:<\/p>زيادة جميع أراضي الموارد إلى المستوى 2.");
+define("Q25_26_RESP","تهانينا! قريتك تنمو وتزدهر...");
 
-define("Q25_27","Task 23: Friends.");
-define("Q25_27_DESC","As single player it is hard to compete with attackers. It is to your advantage if your neighbours like you.<br \/><br \/>It is even better if you play together with friends. Did you know that you can earn <img src='img/x.gif' class='gold' alt='Gold' title='Gold'> by inviting friends?");
-define("Q25_27_ORDER","Order:<\/p>How much <img src='img/x.gif' class='gold' alt='Gold' title='Gold'> do you earn for inviting a friend?");
-define("Q25_27_RESP","Correct! You get 50 <img src='img/x.gif' class='gold' alt='Gold' title='Gold'> if your invited friend have 2 village.");
+define("Q25_27","المهمة 23: الأصدقاء.");
+define("Q25_27_DESC","بصفتك لاعبًا منفردًا، من الصعب المنافسة مع المهاجمين. من مصلحتك أن يحبك جيرانك.<br \/><br \/>من الأفضل إذا كنت تلعب مع الأصدقاء. هل تعلم أنه يمكنك كسب <img src='img/x.gif' class='gold' alt='ذهب' title='ذهب'> من خلال دعوة الأصدقاء؟");
+define("Q25_27_ORDER","الأمر:<\/p>كم من <img src='img/x.gif' class='gold' alt='ذهب' title='ذهب'> تكسب من دعوة صديق؟");
+define("Q25_27_RESP","صحيح! تحصل على 50 <img src='img/x.gif' class='gold' alt='ذهب' title='ذهب'> إذا كان صديقك المدعو لديه قريتين.");
 
-define("Q25_28","Task 24: Construct Embassy.");
-define("Q25_28_DESC","The world of Travian is dangerous. You already built a cranny to protect you against attackers.<br \/><br \/>A good alliance will give you even better protection.");
-define("Q25_28_ORDER","Order:<\/p>To accept invitations from alliances, build an embassy.");
-define("Q25_28_RESP","Yes! You can wait invitation from an alliance or create you own if embassy has level 3");
+define("Q25_28","المهمة 24: إنشاء السفارة.");
+define("Q25_28_DESC","عالم ترافين خطر. لقد أنشأت كراني بالفعل لحمايتك من المهاجمين.<br \/><br \/>ستمنحك تحالف جيد حماية أفضل.");
+define("Q25_28_ORDER","الأمر:<\/p>لقبول الدعوات من التحالفات، قم ببناء سفارة.");
+define("Q25_28_RESP","نعم! يمكنك الانتظار لدعوة من تحالف أو إنشاء تحالف خاص بك إذا كانت السفارة بمستوى 3.");
 
-define("Q25_29","Task 25: Alliance.");
-define("Q25_29_DESC","Teamwork is important in Travian. Players who work together organise themselves in alliances. Get an invitation from an alliance in your region and join this alliance. Alternatively, you can found your own alliance. To do this, you need a level 3 embassy.");
-define("Q25_29_ORDER","Order:<\/p>Join an alliance or found your own alliance.");
-define("Q25_29_RESP","Well done! Now you&#39;re in a union called");
-define("Q25_29_RESP1",", and you&#39;re a member of their alliance.<br>Working together you will all progress faster...");
+define("Q25_29","المهمة 25: التحالف.");
+define("Q25_29_DESC","العمل الجماعي مهم في ترافين. يقوم اللاعبون الذين يعملون معًا بتنظيم أنفسهم في تحالفات. احصل على دعوة من تحالف في منطقتك وانضم إليه. بدلاً من ذلك، يمكنك تأسيس تحالف خاص بك. للقيام بذلك، تحتاج إلى سفارة بمستوى 3.");
+define("Q25_29_ORDER","الأمر:<\/p>انضم إلى تحالف أو أسس تحالفًا خاصًا بك.");
+define("Q25_29_RESP","أحسنت! الآن أنت في اتحاد يسمى");
+define("Q25_29_RESP1",", وأنت عضو في تحالفهم.<br>من خلال العمل معًا، ستتقدمون جميعًا بشكل أسرع...");
 
-define("Q25_30","Tasks");
-define("Q25_30_DESC","All tasks achieved!");
+define("Q25_30","المهام");
+define("Q25_30_DESC","تم تحقيق جميع المهام!");
 
 
 //======================================================//
-//================ UNITS - DO NOT EDIT! ================//
+//================ الوحدات - لا تقم بالتعديل! ================//
 //======================================================//
-define("U0","Hero");
+define("U0","البطل");
 
-//ROMAN UNITS
-define("U1","Legionnaire");
-define("U2","Praetorian");
-define("U3","Imperian");
-define("U4","Equites Legati");
-define("U5","Equites Imperatoris");
-define("U6","Equites Caesaris");
-define("U7","Battering Ram");
-define("U8","Fire Catapult");
-define("U9","Senator");
-define("U10","Settler");
+//وحدات الرومان
+define("U1","المحارب الروماني");
+define("U2","البريتان");
+define("U3","الإمبريال");
+define("U4","فارس القوات");
+define("U5","فارس الإمبراطور");
+define("U6","فارس قيصر");
+define("U7","مدفع الخراطة");
+define("U8","المنجنيق الناري");
+define("U9","السيناتور");
+define("U10","المستوطن");
 
-//TEUTON UNITS
-define("U11","Clubswinger");
-define("U12","Spearman");
-define("U13","Axeman");
-define("U14","Scout");
-define("U15","Paladin");
-define("U16","Teutonic Knight");
-define("U17","Ram");
-define("U18","Catapult");
-define("U19","Chief");
-define("U20","Settler");
+//وحدات التيوتونيون
+define("U11","مستخدم النوادي");
+define("U12","رجل رمح");
+define("U13","رجل الفأس");
+define("U14","الكشاف");
+define("U15","الفارس المقدس");
+define("U16","فارس تيوتوني");
+define("U17","مدفع الخراطة");
+define("U18","المنجنيق");
+define("U19","الزعيم");
+define("U20","المستوطن");
 
-//GAUL UNITS
-define("U21","Phalanx");
-define("U22","Swordsman");
-define("U23","Pathfinder");
-define("U24","Theutates Thunder");
-define("U25","Druidrider");
-define("U26","Haeduan");
-define("U27","Ram");
-define("U28","Trebuchet");
-define("U29","Chieftain");
-define("U30","Settler");
-define("U99","Trap");
+//وحدات الغاليون
+define("U21","الفالنكس");
+define("U22","المحارب بالسيف");
+define("U23","مكتشف");
+define("U24","صاعقة تيوتات");
+define("U25","راكب الكاهن");
+define("U26","هادوان");
+define("U27","مدفع الخراطة");
+define("U28","المنجنيق");
+define("U29","الزعيم");
+define("U30","المستوطن");
+define("U99","الفخ");
 
-//NATURE UNITS
-define("U31","Rat");
-define("U32","Spider");
-define("U33","Snake");
-define("U34","Bat");
-define("U35","Wild Boar");
-define("U36","Wolf");
-define("U37","Bear");
-define("U38","Crocodile");
-define("U39","Tiger");
-define("U40","Elephant");
+//وحدات الطبيعة
+define("U31","الفأر");
+define("U32","العنكبوت");
+define("U33","الثعبان");
+define("U34","الخفاش");
+define("U35","الخنزير البري");
+define("U36","الذئب");
+define("U37","الدب");
+define("U38","التمساح");
+define("U39","النمر");
+define("U40","الفيل");
 
-//NATARS UNITS
-define("U41","Pikeman");
-define("U42","Thorned Warrior");
-define("U43","Guardsman");
-define("U44","Birds Of Prey");
-define("U45","Axerider");
-define("U46","Natarian Knight");
-define("U47","War Elephant");
-define("U48","Ballista");
-define("U49","Natarian Emperor");
-define("U50","Natarian Settler");
+//وحدات الناتار
+define("U41","رجل الرمح");
+define("U42","المحارب ذو الأشواك");
+define("U43","الحارس");
+define("U44","طيور الجوارح");
+define("U45","راكب الفأس");
+define("U46","فارس ناتاري");
+define("U47","الفيل الحربي");
+define("U48","المنجنيق");
+define("U49","الإمبراطور الناتاري");
+define("U50","المستوطن الناتاري");
 
-//MONSTER UNITS
-define("U51","Monster Peon");
-define("U52","Monster Hunter");
-define("U53","Monster Warrior");
-define("U54","Ghost");
-define("U55","Monster Steed");
-define("U56","Monster War Steed");
-define("U57","Monster Ram");
-define("U58","Monster Catapult");
-define("U59","Monster Chief");
-define("U60","Monster Settler");
+//وحدات الوحوش
+define("U51","بيون الوحش");
+define("U52","صائد الوحوش");
+define("U53","محارب الوحش");
+define("U54","شبح");
+define("U55","فرس الوحش");
+define("U56","فرس الحرب الوحشي");
+define("U57","مدفع الوحش");
+define("U58","منجنيق الوحش");
+define("U59","زعيم الوحش");
+define("U60","المستوطن الوحشي");
 
-// RESOURCES
-define("R1","Lumber");
-define("R2","Clay");
-define("R3","Iron");
-define("R4","Crop");
+// الموارد
+define("R1","الخشب");
+define("R2","الطين");
+define("R3","الحديد");
+define("R4","المحاصيل");
 
 //INDEX.php
-define("LOGIN","Login");
-define("PLAYERS","Players");
-define("MODERATOR","Moderator");
-define("ACTIVE","Active");
-define("ONLINE","Online");
-define("TUTORIAL","Tutorial");
-define("PLAYER_STATISTICS","Player statistics");
-define("TOTAL_PLAYERS","".PLAYERS." in total");
-define("ACTIVE_PLAYERS","Active players");
-define("ONLINE_PLAYERS","".PLAYERS." online");
-define("MP_STRATEGY_GAME","".SERVER_NAME." - the multiplayer strategy game");
-define("WHAT_IS","".SERVER_NAME." is one of the most popular browser games in the world. As a player in ".SERVER_NAME.", you will build your own empire, recruit a mighty army, and fight with your allies for game world hegemony.");
-define("REGISTER_FOR_FREE","Register here for free!");
-define("LATEST_GAME_WORLD","Latest game world");
-define("LATEST_GAME_WORLD2","Register on the latest<br/>game world and enjoy<br/>the advantages of<br/>being one of the<br/>first players.");
-define("PLAY_NOW","Play ".SERVER_NAME." now");
-define("LEARN_MORE","Learn more <br/>about ".SERVER_NAME."!");
-define("LEARN_MORE2","Now with a revolutionised<br>server system, completely new<br>graphics <br>This clone is The Shiz!");
-define("COMUNITY","Community");
-define("BECOME_COMUNITY","Become part of our community now!");
-define("BECOME_COMUNITY2","Become a part of one of<br>the biggest gaming<br>communities in the<br>world.");
-define("NEWS","News");
-define("SCREENSHOTS","Screenshots");
-define("FAQ","FAQ");
-define("SPIELREGELN","Rules");
-define("AGB","Terms and Conditions");
-define("LEARN1","Upgrade your fields and mines to increase your resource production. You will need resources to construct buildings and train soldiers.");
-define("LEARN2","Construct and expand the buildings in your village. Buildings improve your overall infrastructure, increase your resource production and allow you to research, train and upgrade your troops.");
-define("LEARN3","View and interact with your surroundings. You can make new friends or new enemies, make use of the nearby oases and observe as your empire grows and becomes stronger.");
-define("LEARN4","Follow your improvement and success and compare yourself to other players. Look at the Top 10 rankings and fight to win a weekly medal.");
-define("LEARN5","Receive detailed reports about your adventures, trades and battles. Don&#39;t forget to check the brand new reports about the happenings taking place in your surroundings.");
-define("LEARN6","Exchange information and conduct diplomacy with other players. Always remember that communication is the key to winning new friends and solving old conflicts.");
-define("LOGIN_TO","Log in to ". SERVER_NAME);
-define("REGIN_TO","Register in ". SERVER_NAME);
-define("P_ONLINE","Players online: ");
-define("P_TOTAL","Players in total: ");
-define("CHOOSE","Please choose a server.");
-define("STARTED"," The server started ". round((time()-COMMENCE)/86400) ." days ago.");
+define("LOGIN","تسجيل الدخول");
+define("PLAYERS","اللاعبون");
+define("MODERATOR","مشرف");
+define("ACTIVE","نشط");
+define("ONLINE","عبر الإنترنت");
+define("TUTORIAL","الدليل");
+define("PLAYER_STATISTICS","إحصائيات اللاعبين");
+define("TOTAL_PLAYERS","".PLAYERS." إجمالًا");
+define("ACTIVE_PLAYERS","اللاعبون النشطون");
+define("ONLINE_PLAYERS","".PLAYERS." عبر الإنترنت");
+define("MP_STRATEGY_GAME","".SERVER_NAME." - لعبة استراتيجية متعددة اللاعبين");
+define("WHAT_IS","".SERVER_NAME." هي واحدة من أكثر ألعاب المتصفح شعبية في العالم. كلاعب في ".SERVER_NAME."، ستقوم ببناء إمبراطوريتك الخاصة، وتجنيد جيش قوي، والقتال مع حلفائك من أجل هيمنة عالم اللعبة.");
+define("REGISTER_FOR_FREE","سجل هنا مجانًا!");
+define("LATEST_GAME_WORLD","أحدث عالم اللعبة");
+define("LATEST_GAME_WORLD2","سجل في أحدث<br/>عالم اللعبة واستمتع<br/>بمزايا<br/>كونك أحد<br/>اللاعبين الأوائل.");
+define("PLAY_NOW","العب ".SERVER_NAME." الآن");
+define("LEARN_MORE","اكتشف المزيد <br/>عن ".SERVER_NAME."!");
+define("LEARN_MORE2","الآن مع نظام خادم ثوري<br>ورسم جديد تمامًا <br>هذا النسخة هي الأفضل!");
+define("COMUNITY","المجتمع");
+define("BECOME_COMUNITY","كن جزءًا من مجتمعنا الآن!");
+define("BECOME_COMUNITY2","كن جزءًا من واحدة من<br>أكبر مجتمعات الألعاب<br>في العالم.");
+define("NEWS","الأخبار");
+define("SCREENSHOTS","لقطات الشاشة");
+define("FAQ","الأسئلة الشائعة");
+define("SPIELREGELN","القواعد");
+define("AGB","الشروط والأحكام");
+define("LEARN1","قم بترقية حقولك ومناجمك لزيادة إنتاج مواردك. ستحتاج إلى الموارد لبناء المباني وتدريب الجنود.");
+define("LEARN2","قم بإنشاء وتوسيع المباني في قريتك. تعمل المباني على تحسين البنية التحتية العامة، وزيادة إنتاج الموارد، والسماح لك بإجراء الأبحاث، وتدريب وترقية القوات.");
+define("LEARN3","عرض والتفاعل مع بيئتك. يمكنك تكوين صداقات جديدة أو أعداء جدد، واستخدام الواحات القريبة ومراقبة إمبراطوريتك وهي تنمو وتصبح أقوى.");
+define("LEARN4","تابع تحسينك ونجاحك وقارن نفسك مع اللاعبين الآخرين. انظر إلى ترتيب أفضل 10 واحصل على ميدالية أسبوعية.");
+define("LEARN5","تلقى تقارير مفصلة حول مغامراتك، وتبادلاتك، ومعاركك. لا تنسَ التحقق من التقارير الجديدة حول الأحداث التي تحدث في محيطك.");
+define("LEARN6","تبادل المعلومات وإجراء الدبلوماسية مع اللاعبين الآخرين. تذكر دائمًا أن التواصل هو مفتاح كسب أصدقاء جدد وحل النزاعات القديمة.");
+define("LOGIN_TO","تسجيل الدخول إلى ". SERVER_NAME);
+define("REGIN_TO","التسجيل في ". SERVER_NAME);
+define("P_ONLINE","اللاعبون المتصلون: ");
+define("P_TOTAL","إجمالي اللاعبين: ");
+define("CHOOSE","يرجى اختيار خادم.");
+define("STARTED"," بدأ الخادم ". round((time()-COMMENCE)/86400) ." يومًا مضت.");
 
 //ANMELDEN.php
-define("NICKNAME","Nickname");
-define("EMAIL","Email");
-define("PASSWORD","Password");
-define("ROMANS","Romans");
-define("TEUTONS","Teutons");
-define("GAULS","Gauls");
-define("NW","North West");
-define("NE","North East");
-define("SW","South West");
-define("SE","South East");
-define("RANDOM","random");
-define("ACCEPT_RULES"," I accept the game rules and general terms and conditions.");
-define("ONE_PER_SERVER","Each player may only own ONE account per server.");
-define("BEFORE_REGISTER","Before you register an account you should read the <a href='../anleitung.php' target='_blank'>instructions</a> of Travian ro1 to see the specific advantages and disadvantages of the three tribes.");
-define("BUILDING_UPGRADING","Building:");
-define("HOURS","hours");
+define("NICKNAME","الاسم المستعار");
+define("EMAIL","البريد الإلكتروني");
+define("PASSWORD","كلمة المرور");
+define("ROMANS","الرومان");
+define("TEUTONS","التيوتونيون");
+define("GAULS","الغاليون");
+define("NW","شمال غرب");
+define("NE","شمال شرق");
+define("SW","جنوب غرب");
+define("SE","جنوب شرق");
+define("RANDOM","عشوائي");
+define("ACCEPT_RULES"," أقبل قواعد اللعبة والشروط والأحكام العامة.");
+define("ONE_PER_SERVER","يمكن لكل لاعب أن يمتلك حسابًا واحدًا فقط لكل خادم.");
+define("BEFORE_REGISTER","قبل أن تسجل حسابًا، يجب أن تقرأ <a href='../anleitung.php' target='_blank'>التعليمات</a> الخاصة بترافيان ro1 لمعرفة المزايا والعيوب المحددة للقبائل الثلاث.");
+define("BUILDING_UPGRADING","البناء:");
+define("HOURS","ساعات");
 
-
-//ATTACKS ETC.
-define("TROOP_MOVEMENTS","Troop Movements:");
-define("ARRIVING_REINF_TROOPS","Arriving reinforcing troops");
-define("ARRIVING_ATTACKING_TROOPS","Arriving attacker troops");
-define("ARRIVING_REINF_TROOPS_SHORT","Reinf.");
-define("OWN_ATTACKING_TROOPS","Own attacking troops");
-define("ATTACK","Attack");
-define("OWN_REINFORCING_TROOPS","Own reinforcing troops");
-define("TROOPS_DORF","Troops:");
-define("NEWVILLAGE","New vill.");
-define("FOUNDNEWVILLAGE","Founding New village");
-define("UNDERATTACK","The village is under attack");
-define("OASISATTACK","The Oasis is under attack");
-define("OASISATTACKS","Oasis Att.");
-define("RETURNFROM","Return from");
-define("REINFORCEMENTFOR","Reinforcement to");
-define("ATTACK_ON","Attack to");
-define("RAID_ON","Raid to");
-define("SCOUTING","Scouting");
-define("PRISONERS","Prisoners");
-define("PRISONERSIN","Prisoners in");
-define("PRISONERSFROM","Prisoners from");
-define("TROOPS","Troops");
-define("TROOPSFROM","Troops");
-define("BOUNTY","Bounty");
-define("ARRIVAL","Arrival");
-define("CATAPULT_TARGET","Catapult target(s)");
-define("INCOMING_TROOPS","Incoming Troops");
-define("TROOPS_ON_THEIR_WAY","Troops on their way");
-define("OWN_TROOPS","Own troops");
-define("ON","on");
-define("AT","at");
-define("UPKEEP","Upkeep");
-define("SEND_BACK","Send back");
-define("TROOPS_IN_THE_VILLAGE","Troops in the village");
-define("TROOPS_IN_OTHER_VILLAGE","Troops in other village");
-define("TROOPS_IN_OASIS","Troops in oasis");
-define("KILL","Kill");
-define("FROM","From");
-define("SEND_TROOPS","Send troops");
-define("TASKMASTER","Taskmaster");
-define("VILLAGE_OF_THE_ELDERS_TROOPS","village of the elders troops");
+//الهجمات وغيرها
+define("TROOP_MOVEMENTS","حركات القوات:");
+define("ARRIVING_REINF_TROOPS","وصول القوات التعزيزية");
+define("ARRIVING_ATTACKING_TROOPS","وصول القوات المهاجمة");
+define("ARRIVING_REINF_TROOPS_SHORT","تعزيز.");
+define("OWN_ATTACKING_TROOPS","القوات المهاجمة الخاصة");
+define("ATTACK","هجوم");
+define("OWN_REINFORCING_TROOPS","القوات التعزيزية الخاصة");
+define("TROOPS_DORF","القوات:");
+define("NEWVILLAGE","قرية جديدة.");
+define("FOUNDNEWVILLAGE","تأسيس قرية جديدة");
+define("UNDERATTACK","القرية تحت الهجوم");
+define("OASISATTACK","الواحة تحت الهجوم");
+define("OASISATTACKS","هجمات الواحة.");
+define("RETURNFROM","العودة من");
+define("REINFORCEMENTFOR","تعزيز إلى");
+define("ATTACK_ON","الهجوم على");
+define("RAID_ON","الغارة على");
+define("SCOUTING","الكشف");
+define("PRISONERS","الأسرى");
+define("PRISONERSIN","الأسرى في");
+define("PRISONERSFROM","الأسرى من");
+define("TROOPS","القوات");
+define("TROOPSFROM","القوات");
+define("BOUNTY","المكافأة");
+define("ARRIVAL","الوصول");
+define("CATAPULT_TARGET","هدف المنجنيق");
+define("INCOMING_TROOPS","القوات الواردة");
+define("TROOPS_ON_THEIR_WAY","القوات في طريقها");
+define("OWN_TROOPS","القوات الخاصة");
+define("ON","في");
+define("AT","في");
+define("UPKEEP","الصيانة");
+define("SEND_BACK","إعادة");
+define("TROOPS_IN_THE_VILLAGE","القوات في القرية");
+define("TROOPS_IN_OTHER_VILLAGE","القوات في قرية أخرى");
+define("TROOPS_IN_OASIS","القوات في الواحة");
+define("KILL","قتل");
+define("FROM","من");
+define("SEND_TROOPS","إرسال القوات");
+define("TASKMASTER","مدير المهام");
+define("VILLAGE_OF_THE_ELDERS_TROOPS","قرية قوات الشيوخ");
 
 //SEND TROOP
-define("REINFORCE","Reinforcement");
-define("NORMALATTACK","Normal Attack");
-define("RAID","Raid");
-define("OR","or");
-define("SENDTROOP","Send troops");
-define("TROOP","Troops");
-define("NOTROOP","no troops");
+define("REINFORCE","تعزيز");
+define("NORMALATTACK","هجوم عادي");
+define("RAID","غارة");
+define("OR","أو");
+define("SENDTROOP","إرسال القوات");
+define("TROOP","قوات");
+define("NOTROOP","لا توجد قوات");
 
-//map
-define("DETAIL","Details");
-define("ABANDVALLEY","Abandoned valley");
-define("OCCUPIED","Occupied");
-define("UNOCCUPIED","Unoccupied");
-define("UNOCCUOASIS","Unoccupied oasis");
-define("OCCUOASIS","Occupied oasis");
-define("THERENOINFO","There is no<br>information available.");
-define("LANDDIST","Land distribution");
-define("TRIBE","Tribe");
-define("ALLIANCE","Alliance");
-define("POP","Population");
-define("REPORT","Report");
-define("OPTION","Options");
-define("CENTREMAP","Centre map");
-define("FNEWVILLAGE","Found new village");
-define("CULTUREPOINT","culture points");
-define("BUILDRALLY","build a rally point");
-define("SETTLERSAVAIL","settlers available");
-define("BEGINPRO","beginners protection");
-define("SENDMERC","Send merchant(s)");
-define("BAN","Player is banned");
-define("BUILDMARKET","Build marketplace");
-define("PERHOUR","per hour");
-define("BONUS","Bonus");
-define("MAP","Map");
-define("CROPFINDER","Crop Finder");
-define("NORTH","North");
-define("EAST","East");
-define("SOUTH","South");
-define("WEST","West");
+//الخريطة
+define("DETAIL","تفاصيل");
+define("ABANDVALLEY","وادي مهجور");
+define("OCCUPIED","محتل");
+define("UNOCCUPIED","غير مشغول");
+define("UNOCCUOASIS","واحة غير مشغولة");
+define("OCCUOASIS","واحة مشغولة");
+define("THERENOINFO","لا توجد<br>معلومات متاحة.");
+define("LANDDIST","توزيع الأراضي");
+define("TRIBE","قبيلة");
+define("ALLIANCE","تحالف");
+define("POP","عدد السكان");
+define("REPORT","تقرير");
+define("OPTION","خيارات");
+define("CENTREMAP","مركز الخريطة");
+define("FNEWVILLAGE","تأسيس قرية جديدة");
+define("CULTUREPOINT","نقاط الثقافة");
+define("BUILDRALLY","بناء نقطة تجمع");
+define("SETTLERSAVAIL","مستوطنون متاحون");
+define("BEGINPRO","حماية المبتدئين");
+define("SENDMERC","إرسال تاجر(ين)");
+define("BAN","اللاعب محظور");
+define("BUILDMARKET","بناء سوق");
+define("PERHOUR","لكل ساعة");
+define("BONUS","مكافأة");
+define("MAP","الخريطة");
+define("CROPFINDER","باحث عن المحاصيل");
+define("NORTH","شمال");
+define("EAST","شرق");
+define("SOUTH","جنوب");
+define("WEST","غرب");
 
-//other
-define("VILLAGE","Village");
-define("OASIS","Oasis");
-define("NO_OASIS", "You do not own any oases.");
-define("NO_VILLAGES", "There are no villages.");
-define("PLAYER","Player");
+//أخرى
+define("VILLAGE","قرية");
+define("OASIS","واحة");
+define("NO_OASIS", "لا تمتلك أي واحات.");
+define("NO_VILLAGES", "لا توجد قرى.");
+define("PLAYER","لاعب");
 
 //LOGIN.php
-define("COOKIES","You must have cookies enabled to be able to log in. If you share this computer with other people you should log out after each session for your own safety.");
-define("NAME","Name");
-define("PW_FORGOTTEN","Password forgotten?");
-define("PW_REQUEST","Then you can request a new one which will be sent to your email address.");
-define("PW_GENERATE","Generate new password.");
-define("EMAIL_NOT_VERIFIED","Email not verified!");
-define("EMAIL_FOLLOW","Follow this link to activate your account.");
-define("VERIFY_EMAIL","Verify Email.");
-define("SERVER_STARTS_IN","Server will start in: ");
-define("START_NOW","START NOW");
-
+define("COOKIES","يجب أن يكون لديك ملفات تعريف الارتباط مفعلة لتتمكن من تسجيل الدخول. إذا كنت تشارك هذا الكمبيوتر مع أشخاص آخرين، يجب عليك تسجيل الخروج بعد كل جلسة لسلامتك.");
+define("NAME","الاسم");
+define("PW_FORGOTTEN","نسيت كلمة المرور؟");
+define("PW_REQUEST","ثم يمكنك طلب واحدة جديدة سيتم إرسالها إلى عنوان بريدك الإلكتروني.");
+define("PW_GENERATE","إنشاء كلمة مرور جديدة.");
+define("EMAIL_NOT_VERIFIED","البريد الإلكتروني غير موثق!");
+define("EMAIL_FOLLOW","اتبع هذا الرابط لتفعيل حسابك.");
+define("VERIFY_EMAIL","تحقق من البريد الإلكتروني.");
+define("SERVER_STARTS_IN","سيبدأ الخادم في: ");
+define("START_NOW","ابدأ الآن");
 
 //404.php
-define("NOTHING_HERE","Nothing here!");
-define("WE_LOOKED","We looked 404 times already but can&#39;t find anything");
+define("NOTHING_HERE","لا شيء هنا!");
+define("WE_LOOKED","بحثنا 404 مرة بالفعل لكننا لا نجد أي شيء");
 
 //MASSMESSAGE.php
-define("MASS","Message Content");
-define("MASS_SUBJECT","Subject:");
-define("MASS_COLOR","Message color:");
-define("MASS_REQUIRED","All fields required");
-define("MASS_UNITS","Images (units):");
-define("MASS_SHOWHIDE","Show/Hide");
-define("MASS_READ","Read this: after adding smilie, you have to add left or right after number otherwise image will won&#39;t work");
-define("MASS_CONFIRM","Confirmation");
-define("MASS_REALLY","Do you really want to send MassIGM?");
-define("MASS_ABORT","Aborting right now");
-define("MASS_SENT","Mass IGM was sent");
+define("MASS","محتوى الرسالة");
+define("MASS_SUBJECT","الموضوع:");
+define("MASS_COLOR","لون الرسالة:");
+define("MASS_REQUIRED","جميع الحقول مطلوبة");
+define("MASS_UNITS","صور (الوحدات):");
+define("MASS_SHOWHIDE","عرض/إخفاء");
+define("MASS_READ","اقرأ هذا: بعد إضافة ابتسامة، يجب عليك إضافة يسار أو يمين بعد الرقم وإلا فلن تعمل الصورة");
+define("MASS_CONFIRM","تأكيد");
+define("MASS_REALLY","هل تريد حقًا إرسال MassIGM؟");
+define("MASS_ABORT","إلغاء العملية الآن");
+define("MASS_SENT","تم إرسال Mass IGM");
 
-//BUILDINGS
-define("WOODCUTTER","Woodcutter");
-define("CLAYPIT","Clay Pit");
-define("IRONMINE","Iron Mine");
-define("CROPLAND","Cropland");
+//المباني
+define("WOODCUTTER","منشار خشب");
+define("CLAYPIT","محجر طين");
+define("IRONMINE","منجم حديد");
+define("CROPLAND","أرض زراعية");
 
-define("SAWMILL","Sawmill");
-define("SAWMILL_DESC","Here wood delivered by your Woodcutters is processed. Based on its level your sawmill can increase your wood production by up to 25 percent.");
-define("CURRENT_WOOD_BONUS","Current wood bonus:");
-define("WOOD_BONUS_LEVEL","Wood bonus at level");
-define("MAX_LEVEL","Building already at max level");
-define("PERCENT","Percent");
+define("SAWMILL","مطحنة خشب");
+define("SAWMILL_DESC","هنا يتم معالجة الخشب الذي يتم تسليمه من قبل المناشر الخاصة بك. استنادًا إلى مستواه، يمكن لمطحنة الخشب زيادة إنتاجك من الخشب بنسبة تصل إلى 25 بالمئة.");
+define("CURRENT_WOOD_BONUS","مكافأة الخشب الحالية:");
+define("WOOD_BONUS_LEVEL","مكافأة الخشب عند المستوى");
+define("MAX_LEVEL","المبنى بالفعل في المستوى الأقصى");
+define("PERCENT","نسبة");
 
-define("BRICKYARD","Brickyard");
-define("CURRENT_CLAY_BONUS","Current clay bonus:");
-define("CLAY_BONUS_LEVEL","Clay bonus at level");
-define("BRICKYARD_DESC","Here clay is processed into bricks. Based on its level your Brickyard can increase your clay production by up to 25 percent.");
+define("BRICKYARD","معمل الطوب");
+define("CURRENT_CLAY_BONUS","مكافأة الطين الحالية:");
+define("CLAY_BONUS_LEVEL","مكافأة الطين عند المستوى");
+define("BRICKYARD_DESC","هنا يتم معالجة الطين إلى طوب. استنادًا إلى مستواه، يمكن لمعمل الطوب زيادة إنتاجك من الطين بنسبة تصل إلى 25 بالمئة.");
 
-define("IRONFOUNDRY","Iron Foundry");
-define("CURRENT_IRON_BONUS","Current iron bonus:");
-define("IRON_BONUS_LEVEL","Iron bonus at level");
-define("IRONFOUNDRY_DESC","Iron is smelted here. Based on its level your Iron Foundry can increase your iron production by up to 25 percent.");
+define("IRONFOUNDRY","مصهر الحديد");
+define("CURRENT_IRON_BONUS","مكافأة الحديد الحالية:");
+define("IRON_BONUS_LEVEL","مكافأة الحديد عند المستوى");
+define("IRONFOUNDRY_DESC","يتم صهر الحديد هنا. استنادًا إلى مستواه، يمكن لمصهر الحديد زيادة إنتاجك من الحديد بنسبة تصل إلى 25 بالمئة.");
 
-define("GRAINMILL","Grain Mill");
-define("CURRENT_CROP_BONUS","Current crop bonus:");
-define("CROP_BONUS_LEVEL","Crop bonus at level");
-define("GRAINMILL_DESC","Here your grain is milled in order to produce flour. Based on its level your grain mill can increase your crop production by up to 25 percent.");
+define("GRAINMILL","مطحنة الحبوب");
+define("CURRENT_CROP_BONUS","مكافأة المحاصيل الحالية:");
+define("CROP_BONUS_LEVEL","مكافأة المحاصيل عند المستوى");
+define("GRAINMILL_DESC","هنا يتم طحن حبوبك لإنتاج الدقيق. استنادًا إلى مستواه، يمكن لمطحنة الحبوب زيادة إنتاجك من المحاصيل بنسبة تصل إلى 25 بالمئة.");
 
-define("BAKERY","Bakery");
-define("BAKERY_DESC","Here the flour produced in your mill is used to bake bread. In addition with the Grain Mill the increase in crop production can go up to 50 percent.");
+define("BAKERY","المخبز");
+define("BAKERY_DESC","هنا يتم استخدام الدقيق المنتج في مطحنة الحبوب لخبز الخبز. بالإضافة إلى مطحنة الحبوب، يمكن أن تزيد إنتاج المحاصيل بنسبة تصل إلى 50 بالمئة.");
 
-define("WAREHOUSE","Warehouse");
-define("CURRENT_CAPACITY","Current capacity:");
-define("CAPACITY_LEVEL","Capacity at level");
-define("RESOURCE_UNITS","Resource units");
-define("WAREHOUSE_DESC","The resources wood, clay and iron are stored in your Warehouse. By increasing its level you increase your Warehouse&#39;s capacity.");
+define("WAREHOUSE","المستودع");
+define("CURRENT_CAPACITY","السعة الحالية:");
+define("CAPACITY_LEVEL","السعة عند المستوى");
+define("RESOURCE_UNITS","وحدات الموارد");
+define("WAREHOUSE_DESC","يتم تخزين الموارد مثل الخشب والطين والحديد في مستودعك. من خلال زيادة مستواه، يمكنك زيادة سعة المستودع.");
 
-define("GRANARY","Granary");
-define("CROP_UNITS","Crop units");
-define("GRANARY_DESC","Crop produced by your farms is stored in the Granary. By increasing its level you increase the Granary&#39;s capacity.");
+define("GRANARY","مخزن الحبوب");
+define("CROP_UNITS","وحدات المحاصيل");
+define("GRANARY_DESC","يتم تخزين المحاصيل التي تنتجها مزارعك في مخزن الحبوب. من خلال زيادة مستواه، يمكنك زيادة سعة مخزن الحبوب.");
 
-define("BLACKSMITH","Blacksmith");
-define("ACTION","Action");
-define("UPGRADE","Upgrade");
-define("UPGRADE_IN_PROGRESS","Upgrade in<br>progress");
-define("UPGRADE_BLACKSMITH","Upgrade<br>blacksmith");
-define("UPGRADES_COMMENCE_BLACKSMITH","Upgrades can commence when blacksmith is completed.");
-define("MAXIMUM_LEVEL","Maximum<br>level");
-define("EXPAND_WAREHOUSE","Expand<br>warehouse");
-define("EXPAND_GRANARY","Expand<br>granary");
-define("ENOUGH_RESOURCES","Enough resources");
-define("CROP_NEGATIVE ","Crop production is negative so you will never reach the required resources");
-define("TOO_FEW_RESOURCES","Too few<br>resources");
-define("UPGRADING","Upgrading");
-define("DURATION","Duration");
-define("COMPLETE","Complete");
-define("BLACKSMITH_DESC","In the blacksmith&#39;s melting furnaces your warriors&#39; weapons are enhanced. By increasing its level you can order the fabrication of even better weapons.");
+define("BLACKSMITH","الحداد");
+define("ACTION","إجراء");
+define("UPGRADE","ترقية");
+define("UPGRADE_IN_PROGRESS","الترقية في<br>التقدم");
+define("UPGRADE_BLACKSMITH","ترقية<br>الحداد");
+define("UPGRADES_COMMENCE_BLACKSMITH","يمكن أن تبدأ الترقيات عند الانتهاء من الحداد.");
+define("MAXIMUM_LEVEL","أقصى<br>مستوى");
+define("EXPAND_WAREHOUSE","توسيع<br>المستودع");
+define("EXPAND_GRANARY","توسيع<br>مخزن الحبوب");
+define("ENOUGH_RESOURCES","موارد كافية");
+define("CROP_NEGATIVE ","إنتاج المحاصيل سالب لذلك لن تصل أبدًا إلى الموارد المطلوبة");
+define("TOO_FEW_RESOURCES","موارد قليلة جدًا<br>");
+define("UPGRADING","ترقية");
+define("DURATION","مدة");
+define("COMPLETE","اكتمال");
+define("BLACKSMITH_DESC","في أفران صهر الحدادة، يتم تعزيز أسلحة محاربيك. من خلال زيادة مستواه، يمكنك طلب تصنيع أسلحة أفضل.");
 
-define("ARMOURY","Armoury");
-define("UPGRADE_ARMOURY","Upgrade<br>Armoury");
-define("UPGRADES_COMMENCE_ARMOURY","Upgrades can commence when armoury is completed.");
-define("ARMOURY_DESC","In the armoury&#39;s melting furnaces your warriors&#39; armour is enhanced. By increasing its level you can order the fabrication of even better armour.");
+define("ARMOURY","الدروع");
+define("UPGRADE_ARMOURY","ترقية<br>الدروع");
+define("UPGRADES_COMMENCE_ARMOURY","يمكن أن تبدأ الترقيات عند الانتهاء من الدروع.");
+define("ARMOURY_DESC","في أفران صهر الدروع، يتم تعزيز دروع محاربيك. من خلال زيادة مستواه، يمكنك طلب تصنيع دروع أفضل.");
 
-define("TOURNAMENTSQUARE","Tournament Square");
-define("CURRENT_SPEED","Current speed bonus:");
-define("SPEED_LEVEL","Speed bonus at level");
-define("TOURNAMENTSQUARE_DESC","At the Tournament Square your troops can train their stamina. The further the building is upgraded the faster your troops are beyond a minimum distance of ".TS_THRESHOLD."  squares.");
+define("TOURNAMENTSQUARE","ساحة البطولة");
+define("CURRENT_SPEED","مكافأة السرعة الحالية:");
+define("SPEED_LEVEL","مكافأة السرعة عند المستوى");
+define("TOURNAMENTSQUARE_DESC","في ساحة البطولة، يمكن لقواتك تدريب قدرتها على التحمل. كلما تم ترقية المبنى، زادت سرعة قواتك بعد مسافة حدها الأدنى من ".TS_THRESHOLD." مربعات.");
 
-define("MAINBUILDING","Main Building");
-define("CURRENT_CONSTRUCTION_TIME","Current construction time:");
-define("CONSTRUCTION_TIME_LEVEL","Construction time at level");
-define("DEMOLITION_BUILDING","Demolition of the building:</h2><p>If you no longer need a building, you can order the demolition of the building.</p>");
-define("DEMOLISH","Demolish");
-define("DEMOLITION_OF","Demolition of ");
-define("MAINBUILDING_DESC","In the main building the village&#39;s master builders live. The higher its level the faster your master builders complete the construction of new buildings.");
+define("MAINBUILDING","المبنى الرئيسي");
+define("CURRENT_CONSTRUCTION_TIME","مدة البناء الحالية:");
+define("CONSTRUCTION_TIME_LEVEL","مدة البناء عند المستوى");
+define("DEMOLITION_BUILDING","إزالة المبنى:</h2><p>إذا كنت لا تحتاج إلى مبنى بعد الآن، يمكنك طلب إزالة المبنى.</p>");
+define("DEMOLISH","إزالة");
+define("DEMOLITION_OF","إزالة ");
+define("MAINBUILDING_DESC","يعيش بناة القرية الرئيسيون في المبنى الرئيسي. كلما زاد مستواه، زادت سرعة إكمال بناة القرى للبناءات الجديدة.");
 
-define("RALLYPOINT","Rally Point");
-define("RALLYPOINT_COMMENCE","Troops movement will be displayed when the ".RALLYPOINT." is completed");
-define("OVERVIEW","Overview");
-define("REINFORCEMENT","Reinforcement");
-define("EVASION_SETTINGS","evasion settings");
-define("SEND_TROOPS_AWAY_MAX","Send troops away a maximum of");
-define("TIMES","times");
-define("PER_EVASION","per evasion");
-define("RALLYPOINT_DESC","Your village&#39;s troops meet here. From here you can send them out to conquer, raid or reinforce other villages.");
+define("RALLYPOINT","نقطة تجمع");
+define("RALLYPOINT_COMMENCE","ستظهر حركة القوات عندما تكتمل ".RALLYPOINT."");
+define("OVERVIEW","نظرة عامة");
+define("REINFORCEMENT","تعزيز");
+define("EVASION_SETTINGS","إعدادات التهرب");
+define("SEND_TROOPS_AWAY_MAX","إرسال القوات بعيدًا بحد أقصى");
+define("TIMES","مرات");
+define("PER_EVASION","لكل تهرب");
+define("RALLYPOINT_DESC","تلتقي قوات قريتك هنا. من هنا يمكنك إرسالهم لفتح، غارة أو تعزيز قرى أخرى.");
 
-define("MARKETPLACE","Marketplace");
-define("MERCHANT","Merchants");
-define("OR_","or");
-define("GO","go");
-define("UNITS_OF_RESOURCE","units of resource");
-define("MERCHANT_CARRY","Each merchant can carry");
-define("MERCHANT_COMING","Merchants coming");
-define("TRANSPORT_FROM","Transport from");
-define("ARRIVAL_IN","Arrival in");
-define("NO_COORDINATES_SELECTED","No Coordinates selected");
-define("CANNOT_SEND_RESOURCES","You cannot send resources to the same village");
-define("BANNED_CANNOT_SEND_RESOURCES","Player is Banned. You cannot send resources to him");
-define("RESOURCES_NO_SELECTED","Resources not selected");
-define("ENTER_COORDINATES","Enter coordinates or village name");
-define("TOO_FEW_MERCHANTS","Too few merchants");
-define("OWN_MERCHANTS_ONWAY","Own merchants on the way");
-define("MERCHANTS_RETURNING","Merchants returning");
-define("TRANSPORT_TO","Transport to");
-define("I_AN_SEARCHING","I&#39;m searching");
-define("I_AN_OFFERING","I&#39;m offering");
-define("OFFERS_MARKETPLACE","Offers at the marketplace");
-define("NO_AVAILABLE_OFFERS","No offers at the marketplace");
-define("OFFERED_TO_ME","Offered<br>to me");
-define("WANTED_TO_ME","Wanted<br>from me");
-define("NOT_ENOUGH_MERCHANTS","Not Enough Merchant");
-define("ACCEP_OFFER","Accept offer");
-define("NO_AVALIBLE_OFFERS","There are no avaliable offers on the market");
-define("SEARCHING","Searching");
-define("OFFERING","Offering");
-define("MAX_TIME_TRANSPORT","max. time of transport");
-define("OWN_ALLIANCE_ONLY","own alliance only");
-define("INVALID_OFFER","Invalid offer");
-define("INVALID_MERCHANTS_REPETITION","Invalid merchants repetition rate");
-define("USER_ON_VACATION","User is on vacation mode");
-define("NOT_ENOUGH_RESOURCES","Not enough resources");
-define("OFFER","Offer");
-define("SEARCH","Search");
-define("OWN_OFFERS","Own offers");
-define("ALL","All");
-define("NPC_TRADE","NPC Trade");
-define("SUM","Sum");
-define("REST","Rest");
-define("TRADE_RESOURCES","Trade resources at (step 2 of 2");
-define("DISTRIBUTE_RESOURCES","Distribute resources at (step 1 of 2)");
-define("OF","of");
-define("NPC_COMPLETED","NPC completed");
-define("BACK_BUILDING","Back to building");
-define("YOU_CAN_NAT_NPC_WW","You can&#39;t use NPC trade in WW village.");
-define("NPC_TRADING","NPC trading");
-define("SEND_RESOURCES","Send Resources");
-define("BUY","Buy");
-define("TRADE_ROUTES","Trade routes");
-define("DESCRIPTION","Description");
-define("TIME_LEFT","Time left");
-define("START","Start");
-define("NO_TRADE_ROUTES","No active trade routes");
-define("TRADE_ROUTE_TO","Trade route to");
-define("CHECKED","checked");
-define("DAYS","Days");
-define("EXTEND","Extend");
-define("EDIT","Edit");
-define("EXTEND_TRADE_ROUTES","Extend the trade route by <b>7</b> days for");
-define("CREATE_TRADE_ROUTES","Create new trade route");
-define("DELIVERIES","Deliveries");
-define("START_TIME_TRADE","Start time");
-define("CREATE_TRADE_ROUTE","Create trade route");
-define("TARGET_VILLAGE","Target village");
-define("EDIT_TRADE_ROUTES","Edit trade route");
-define("TRADE_ROUTES_DESC","Trade route allows you to set up routes for your merchant that he will walk every day at a certain hour. <br /><br /> Standard this holds on for <b>7</b> days, but you can extend it with <b>7</b> days for the cost of");
-define("NPC_TRADE_DESC","With the NPC merchant you can distribute the resources in your warehouse as you desire. <br /><br /> The first line shows the current stock. In the second line you can choose another distribution. The third line shows the difference between the old and new stock.");
-define("MARKETPLACE_DESC","At the Marketplace you can trade resources with other players. The higher its level, the more resources can be transported at the same time.");
+define("MARKETPLACE","السوق");
+define("MERCHANT","التجار");
+define("OR_","أو");
+define("GO","اذهب");
+define("UNITS_OF_RESOURCE","وحدات الموارد");
+define("MERCHANT_CARRY","يمكن لكل تاجر حمل");
+define("MERCHANT_COMING","التجار قادمون");
+define("TRANSPORT_FROM","النقل من");
+define("ARRIVAL_IN","الوصول في");
+define("NO_COORDINATES_SELECTED","لا توجد إحداثيات مختارة");
+define("CANNOT_SEND_RESOURCES","لا يمكنك إرسال الموارد إلى نفس القرية");
+define("BANNED_CANNOT_SEND_RESOURCES","اللاعب محظور. لا يمكنك إرسال الموارد له");
+define("RESOURCES_NO_SELECTED","لم يتم اختيار الموارد");
+define("ENTER_COORDINATES","أدخل الإحداثيات أو اسم القرية");
+define("TOO_FEW_MERCHANTS","عدد قليل جدًا من التجار");
+define("OWN_MERCHANTS_ONWAY","تجارك الخاصون في الطريق");
+define("MERCHANTS_RETURNING","التجار العائدون");
+define("TRANSPORT_TO","النقل إلى");
+define("I_AN_SEARCHING","أنا أبحث");
+define("I_AN_OFFERING","أنا أقدم");
+define("OFFERS_MARKETPLACE","العروض في السوق");
+define("NO_AVAILABLE_OFFERS","لا توجد عروض في السوق");
+define("OFFERED_TO_ME","مقدم<br>لي");
+define("WANTED_TO_ME","مطلوب<br>مني");
+define("NOT_ENOUGH_MERCHANTS","عدد غير كاف من التجار");
+define("ACCEP_OFFER","قبول العرض");
+define("NO_AVALIBLE_OFFERS","لا توجد عروض متاحة في السوق");
+define("SEARCHING","البحث");
+define("OFFERING","تقديم");
+define("MAX_TIME_TRANSPORT","الحد الأقصى. وقت النقل");
+define("OWN_ALLIANCE_ONLY","تحالفك فقط");
+define("INVALID_OFFER","عرض غير صالح");
+define("INVALID_MERCHANTS_REPETITION","معدل تكرار التجار غير صالح");
+define("USER_ON_VACATION","اللاعب في وضع الإجازة");
+define("NOT_ENOUGH_RESOURCES","موارد غير كافية");
+define("OFFER","عرض");
+define("SEARCH","بحث");
+define("OWN_OFFERS","عروضك الخاصة");
+define("ALL","الكل");
+define("NPC_TRADE","تجارة NPC");
+define("SUM","المجموع");
+define("REST","بقية");
+define("TRADE_RESOURCES","تجارة الموارد في (الخطوة 2 من 2");
+define("DISTRIBUTE_RESOURCES","توزيع الموارد في (الخطوة 1 من 2)");
+define("OF","من");
+define("NPC_COMPLETED","تمت تجارة NPC");
+define("BACK_BUILDING","عودة إلى البناء");
+define("YOU_CAN_NAT_NPC_WW","لا يمكنك استخدام تجارة NPC في قرية WW.");
+define("NPC_TRADING","تجارة NPC");
+define("SEND_RESOURCES","إرسال موارد");
+define("BUY","شراء");
+define("TRADE_ROUTES","طرق التجارة");
+define("DESCRIPTION","وصف");
+define("TIME_LEFT","الوقت المتبقي");
+define("START","ابدأ");
+define("NO_TRADE_ROUTES","لا توجد طرق تجارة نشطة");
+define("TRADE_ROUTE_TO","طريق التجارة إلى");
+define("CHECKED","تم التحقق");
+define("DAYS","أيام");
+define("EXTEND","تمديد");
+define("EDIT","تحرير");
+define("EXTEND_TRADE_ROUTES","تمديد طريق التجارة لمدة <b>7</b> أيام مقابل");
+define("CREATE_TRADE_ROUTES","إنشاء طريق تجارة جديدة");
+define("DELIVERIES","التسليمات");
+define("START_TIME_TRADE","وقت البدء");
+define("CREATE_TRADE_ROUTE","إنشاء طريق التجارة");
+define("TARGET_VILLAGE","قرية الهدف");
+define("EDIT_TRADE_ROUTES","تحرير طريق التجارة");
+define("TRADE_ROUTES_DESC","تتيح لك طريق التجارة إعداد طرق للتجار لديك ليجوبوا كل يوم في ساعة معينة. <br /><br /> القياسي يكون لمدة <b>7</b> أيام، لكن يمكنك تمديده لمدة <b>7</b> أيام بتكلفة");
+define("NPC_TRADE_DESC","مع تاجر NPC، يمكنك توزيع الموارد في مستودعك كما تريد. <br /><br /> يظهر السطر الأول المخزون الحالي. في السطر الثاني يمكنك اختيار توزيع آخر. يظهر السطر الثالث الفرق بين المخزون القديم والجديد.");
+define("MARKETPLACE_DESC","في السوق يمكنك التجارة بالموارد مع لاعبين آخرين. كلما زاد مستواه، زادت الموارد التي يمكن نقلها في نفس الوقت.");
 
-define("EMBASSY","Embassy");
-define("TAG","Tag");
-define("TO_THE_ALLIANCE","to the alliance");
-define("JOIN_ALLIANCE","join alliance");
-define("REFUSE","refuse");
-define("ACCEPT","accept");
-define("NO_INVITATIONS","There are no invitations available.");
-define("NO_CREATE_ALLIANCE","Banned player can&#39;t create an alliance.");
-define("FOUND_ALLIANCE","found alliance");
-define("EMBASSY_DESC","The embassy is a place for diplomats. The higher its level the more options the king gains.");
+define("EMBASSY","السفارة");
+define("TAG","الوسم");
+define("TO_THE_ALLIANCE","إلى التحالف");
+define("JOIN_ALLIANCE","انضم إلى التحالف");
+define("REFUSE","رفض");
+define("ACCEPT","قبول");
+define("NO_INVITATIONS","لا توجد دعوات متاحة.");
+define("NO_CREATE_ALLIANCE","لا يمكن للاعب المحظور إنشاء تحالف.");
+define("FOUND_ALLIANCE","تأسيس تحالف");
+define("EMBASSY_DESC","السفارة هي مكان للدبلوماسيين. كلما زاد مستواها، زادت الخيارات التي يحصل عليها الملك.");
 
-define("BARRACKS","Barracks");
-define("QUANTITY","Quantity");
-define("MAX","Max");
-define("TRAINING","Training");
-define("FINISHED","Finished");
-define("UNIT_FINISHED","The next unit will be finished in");
-define("AVAILABLE","Available");
-define("TRAINING_COMMENCE_BARRACKS","Training can commence when barracks is completed.");
-define("BARRACKS_DESC","All foot soldiers are trained in the barracks. The higher the level of the barracks, the faster the troops are trained.");
+define("BARRACKS","الثكنات");
+define("QUANTITY","الكمية");
+define("MAX","أقصى");
+define("TRAINING","التدريب");
+define("FINISHED","اكتمل");
+define("UNIT_FINISHED","الوحدة التالية ستكتمل في");
+define("AVAILABLE","متاحة");
+define("TRAINING_COMMENCE_BARRACKS","يمكن أن يبدأ التدريب عندما تكتمل الثكنات.");
+define("BARRACKS_DESC","يتم تدريب جميع الجنود في الثكنات. كلما زاد مستوى الثكنات، زادت سرعة تدريب القوات.");
 
-define("STABLE","Stable");
-define("AVAILABLE_ACADEMY","No units available. Research at academy");
-define("TRAINING_COMMENCE_STABLE","Training can commence when stable is completed.");
-define("STABLE_DESC","Cavalry can be trained in the stable. The higher its level the faster the troops are trained.");
+define("STABLE","الإسطبل");
+define("AVAILABLE_ACADEMY","لا توجد وحدات متاحة. ابحث في الأكاديمية");
+define("TRAINING_COMMENCE_STABLE","يمكن أن يبدأ التدريب عندما يكتمل الإسطبل.");
+define("STABLE_DESC","يمكن تدريب سلاح الفرسان في الإسطبل. كلما زاد مستواه، زادت سرعة تدريب القوات.");
 
-define("WORKSHOP","Workshop");
-define("TRAINING_COMMENCE_WORKSHOP","Training can commence when workshop is completed.");
-define("WORKSHOP_DESC","Siege engines like catapults and rams can be built in the workshop. The higher its level the faster the units are produced.");
+define("WORKSHOP","ورشة العمل");
+define("TRAINING_COMMENCE_WORKSHOP","يمكن أن يبدأ التدريب عندما تكتمل ورشة العمل.");
+define("WORKSHOP_DESC","يمكن بناء آلات الحصار مثل المنجنيقات والمدافع في ورشة العمل. كلما زاد مستواه، زادت سرعة إنتاج الوحدات.");
 
-define("ACADEMY","Academy");
-define("RESEARCH_AVAILABLE","There are no researches available");
-define("RESEARCH_COMMENCE_ACADEMY","Research can commence when academy is completed.");
-define("RESEARCH","Research");
-define("EXPAND_WAREHOUSE1","Expand warehouse");
-define("EXPAND_GRANARY1","Expand granary");
-define("RESEARCH_IN_PROGRESS","Research in<br>progress");
-define("RESEARCHING","Researching");
-define("PREREQUISITES","Prerequisites");
-define("SHOW_MORE","show more");
-define("HIDE_MORE","hide more");
-define("ACADEMY_DESC","In the academy new unit types can be researched. By increasing its level you can order the research of better units.");
+define("ACADEMY","الأكاديمية");
+define("RESEARCH_AVAILABLE","لا توجد أبحاث متاحة");
+define("RESEARCH_COMMENCE_ACADEMY","يمكن أن تبدأ الأبحاث عندما تكتمل الأكاديمية.");
+define("RESEARCH","بحث");
+define("EXPAND_WAREHOUSE1","توسيع المستودع");
+define("EXPAND_GRANARY1","توسيع مخزن الحبوب");
+define("RESEARCH_IN_PROGRESS","البحث في<br>التقدم");
+define("RESEARCHING","يتم البحث");
+define("PREREQUISITES","المتطلبات السابقة");
+define("SHOW_MORE","عرض المزيد");
+define("HIDE_MORE","إخفاء المزيد");
+define("ACADEMY_DESC","في الأكاديمية يمكن البحث عن أنواع جديدة من الوحدات. من خلال زيادة مستواه، يمكنك طلب البحث عن وحدات أفضل.");
 
-define("CRANNY","Cranny");
-define("CURRENT_HIDDEN_UNITS","Currently hidden units per resource:");
-define("HIDDEN_UNITS_LEVEL","Hidden units per resource at level");
-define("UNITS","units");
-define("CRANNY_DESC","The cranny is used to hide some of your resources when the village is attacked. These resources cannot be stolen.");
+define("CRANNY","ملجأ");
+define("CURRENT_HIDDEN_UNITS","عدد الوحدات المخفية حاليًا لكل مورد:");
+define("HIDDEN_UNITS_LEVEL","عدد الوحدات المخفية لكل مورد عند المستوى");
+define("UNITS","وحدات");
+define("CRANNY_DESC","يتم استخدام الملجأ لإخفاء بعض مواردك عندما تتعرض القرية للهجوم. لا يمكن سرقة هذه الموارد.");
 
-define("TOWNHALL","Town Hall");
-define("CELEBRATIONS_COMMENCE_TOWNHALL","Celebrations can commence when the town hall is completed.");
-define("GREAT_CELEBRATIONS","Great celebration");
-define("CULTURE_POINTS","Culture points");
-define("HOLD","hold");
-define("CELEBRATIONS_IN_PROGRESS","Celebration<br />in progress");
-define("CELEBRATIONS","Celebrations");
-define("TOWNHALL_DESC","You can hold pompous celebrations in the Town Hall. Such a celebration increases your culture points. Building up your Town Hall to a higher level will decrease the length of the celebration.");
+define("TOWNHALL","قصر المدينة");
+define("CELEBRATIONS_COMMENCE_TOWNHALL","يمكن أن تبدأ الاحتفالات عندما يكتمل قصر المدينة.");
+define("GREAT_CELEBRATIONS","احتفالات كبيرة");
+define("CULTURE_POINTS","نقاط الثقافة");
+define("HOLD","تنظيم");
+define("CELEBRATIONS_IN_PROGRESS","الاحتفال<br />في التقدم");
+define("CELEBRATIONS","الاحتفالات");
+define("TOWNHALL_DESC","يمكنك تنظيم احتفالات فخمة في قصر المدينة. تزيد مثل هذه الاحتفالات من نقاط ثقافتك. كلما زادت مستوى قصر المدينة، قل طول مدة الاحتفال.");
 
-define("RESIDENCE","Residence");
-define("CAPITAL","This is your capital");
-define("RESIDENCE_TRAIN_DESC","In order to found a new village you need a level 10 or 20 residence and 3 settlers. In order to conquer a new village you need a level 10 or 20 residence and a senator, chief or chieftain.");
-define("PRODUCTION_POINTS","Production of this village:");
-define("PRODUCTION_ALL_POINTS","Production of all villages:");
-define("POINTS_DAY","Culture points per day");
-define("VILLAGES_PRODUCED","Your villages have produced");
-define("POINTS_NEED","points in total. To found or conquer a new village you need");
-define("POINTS","points");
-define("INHABITANTS","Inhabitants");
-define("COORDINATES","Coordinates");
-define("EXPANSION","Expansion");
-define("TRAIN","Train");
-define("DATE","Date");
-define("CONQUERED_BY_VILLAGE","Villages founded or conquered by this village");
-define("NONE_CONQUERED_BY_VILLAGE","No other village has been founded or conquered by this village yet.");
-define("RESIDENCE_CULTURE_DESC","In order to extend your empire you need culture points. These culture points increase in the course of time and do so faster as your building levels increase.");
-define("RESIDENCE_LOYALTY_DESC","By attacking with senators, chiefs or chieftains a village&#39;s loyalty can be brought down. If it reaches zero, the village joins the realm of the attacker. The loyalty of this village is currently at ");
-define("RESIDENCE_DESC","The residence is a small palace, where the king or queen lives when (s)he visits the village. The residence protects the village against enemies who want to conquer it.");
+define("RESIDENCE","الإقامة");
+define("CAPITAL","هذه هي عاصمتك");
+define("RESIDENCE_TRAIN_DESC","لتأسيس قرية جديدة، تحتاج إلى إقامة مستوى 10 أو 20 و3 مستوطنين. لتفتح قرية جديدة، تحتاج إلى إقامة مستوى 10 أو 20 ووزير أو قائد أو زعيم.");
+define("PRODUCTION_POINTS","إنتاج هذه القرية:");
+define("PRODUCTION_ALL_POINTS","إنتاج جميع القرى:");
+define("POINTS_DAY","نقاط الثقافة يوميًا");
+define("VILLAGES_PRODUCED","لقد أنتجت قراك");
+define("POINTS_NEED","نقاط في المجموع. لتأسيس أو فتح قرية جديدة تحتاج إلى");
+define("POINTS","نقاط");
+define("INHABITANTS","السكان");
+define("COORDINATES","الإحداثيات");
+define("EXPANSION","توسع");
+define("TRAIN","تدريب");
+define("DATE","تاريخ");
+define("CONQUERED_BY_VILLAGE","القرى التي أسست أو تم فتحها بواسطة هذه القرية");
+define("NONE_CONQUERED_BY_VILLAGE","لم يتم تأسيس أو فتح أي قرية أخرى بواسطة هذه القرية بعد.");
+define("RESIDENCE_CULTURE_DESC","لتوسيع إمبراطوريتك، تحتاج إلى نقاط الثقافة. تزيد هذه النقاط مع مرور الوقت وتزداد سرعة زيادتها كلما زادت مستويات المباني لديك.");
+define("RESIDENCE_LOYALTY_DESC","عن طريق الهجوم بالوزراء أو القادة أو الزعماء، يمكن خفض ولاء القرية. إذا وصل إلى الصفر، ستنضم القرية إلى مملكة المهاجم. ولاء هذه القرية حاليًا هو ");
+define("RESIDENCE_DESC","الإقامة هي قصر صغير، حيث يعيش الملك أو الملكة عند زيارتهم للقرية. تحمي الإقامة القرية من الأعداء الذين يريدون فتحها.");
 
-define("PALACE","Palace");
-define("PALACE_CONSTRUCTION","Palace under construction");
-define("PALACE_TRAIN_DESC","In order to found a new village you need a level 10, 15 or 20 palace and 3 settlers. In order to conquer a new village you need a level 10, 15 or 20 palace and a senator, chief or chieftain.");
-define("CHANGE_CAPITAL","change capital");
-define("SECURITY_CHANGE_CAPITAL","Are you sure, that you want to change your capital?<br /><b>You can&#39;t undo this!</b><br />For security you must enter your password to confirm:<br />");
-define("PALACE_DESC","The king or queen of the empire lives in the palace. Only one palace can exist in your realm at a time. You need a palace in order to proclaim a village to be your capital.");
+define("PALACE","القصر");
+define("PALACE_CONSTRUCTION","القصر قيد الإنشاء");
+define("PALACE_TRAIN_DESC","لتأسيس قرية جديدة، تحتاج إلى قصر مستوى 10 أو 15 أو 20 و3 مستوطنين. لتفتح قرية جديدة، تحتاج إلى قصر مستوى 10 أو 15 أو 20 ووزير أو قائد أو زعيم.");
+define("CHANGE_CAPITAL","تغيير العاصمة");
+define("SECURITY_CHANGE_CAPITAL","هل أنت متأكد أنك تريد تغيير عاصمتك؟<br /><b>لا يمكنك التراجع عن ذلك!</b><br />لأمانك، يجب عليك إدخال كلمة مرورك للتأكيد:<br />");
+define("PALACE_DESC","يعيش ملك أو ملكة الإمبراطورية في القصر. يمكن أن يوجد قصر واحد فقط في مملكتك في نفس الوقت. تحتاج إلى قصر لإعلان قرية كعاصمتك.");
 
-define("TREASURY","Treasury");
-define("TREASURY_COMMENCE","Artifacts can be viewed when treasury is completed.");
-define("ARTIFACTS_AREA","Artefacts in your area");
-define("NO_ARTIFACTS_AREA","There are no artefacts in your area.");
-define("OWN_ARTIFACTS","Own artefacts");
-define("CONQUERED","Conquered");
-define("DISTANCE","Distance");
-define("EFFECT","Effect");
-define("ACCOUNT","Account");
-define("SMALL_ARTIFACTS","Small artefacts");
-define("LARGE_ARTIFACTS","Large artefacts");
-define("NO_ARTIFACTS","There are no artefacts.");
-define("ANY_ARTIFACTS","You do not own any artefacts.");
-define("OWNER","Owner");
-define("AREA_EFFECT","Area of effect");
-define("VILLAGE_EFFECT","Village effect");
-define("ACCOUNT_EFFECT","Account effect");
-define("UNIQUE_EFFECT","Unique effect");
-define("REQUIRED_LEVEL","Required level");
-define("TIME_CONQUER","Time of conquer");
-define("TIME_ACTIVATION","Time of activation");
-define("NEXT_EFFECT"," Next effect");
-define("FORMER_OWNER","Former owner(s)");
-define("BUILDING_STRONGER","Building stronger with");
-define("BUILDING_WEAKER","Building weaker with");
-define("TROOPS_FASTER","Makes troops faster with");
-define("TROOPS_SLOWEST","Makes troops slowest with");
-define("SPIES_INCREASE","Spies increase ability with");
-define("SPIES_DECRESE","Spies decrese ability with");
-define("CONSUME_LESS","All troops consume less with");
-define("CONSUME_HIGH","All troops consume high with");
-define("TROOPS_MAKE_FASTER","Troops make faster with");
-define("TROOPS_MAKE_SLOWEST","Troops make slowest with");
-define("YOU_CONSTRUCT","You can construct ");
-define("CRANNY_INCREASED","Cranny capacity is increased by");
-define("CRANNY_DECRESE","Cranny capacity is decrese by");
-define("WW_BUILDING_PLAN","You can build the Wonder of the World");
-define("NO_WW","There are no Wonders of the World");
-define("NO_PREVIOUS_OWNERS","There are no previous owners.");
-define("TREASURY_DESC","The riches of your empire are kept in the treasury. The treasury has room for one treasure. After you have captured an artefact it takes 24 hours on a normal server or 12 hours on a thrice speed server to be effective.");
+define("TREASURY","الخزانة");
+define("TREASURY_COMMENCE","يمكن عرض الآثار عندما تكتمل الخزانة.");
+define("ARTIFACTS_AREA","الآثار في منطقتك");
+define("NO_ARTIFACTS_AREA","لا توجد آثار في منطقتك.");
+define("OWN_ARTIFACTS","الآثار الخاصة");
+define("CONQUERED","مفتوح");
+define("DISTANCE","المسافة");
+define("EFFECT","الأثر");
+define("ACCOUNT","الحساب");
+define("SMALL_ARTIFACTS","آثار صغيرة");
+define("LARGE_ARTIFACTS","آثار كبيرة");
+define("NO_ARTIFACTS","لا توجد آثار.");
+define("ANY_ARTIFACTS","لا تمتلك أي آثار.");
+define("OWNER","المالك");
+define("AREA_EFFECT","منطقة التأثير");
+define("VILLAGE_EFFECT","أثر القرية");
+define("ACCOUNT_EFFECT","أثر الحساب");
+define("UNIQUE_EFFECT","أثر فريد");
+define("REQUIRED_LEVEL","المستوى المطلوب");
+define("TIME_CONQUER","وقت الفتح");
+define("TIME_ACTIVATION","وقت التفعيل");
+define("NEXT_EFFECT"," الأثر التالي");
+define("FORMER_OWNER","المالك(ون) السابقون");
+define("BUILDING_STRONGER","بناء أقوى مع");
+define("BUILDING_WEAKER","بناء أضعف مع");
+define("TROOPS_FASTER","يجعل القوات أسرع مع");
+define("TROOPS_SLOWEST","يجعل القوات أبطأ مع");
+define("SPIES_INCREASE","يزيد قدرة الجواسيس مع");
+define("SPIES_DECRESE","يقلل قدرة الجواسيس مع");
+define("CONSUME_LESS","تستهلك جميع القوات أقل مع");
+define("CONSUME_HIGH","تستهلك جميع القوات أكثر مع");
+define("TROOPS_MAKE_FASTER","تجعل القوات أسرع مع");
+define("TROOPS_MAKE_SLOWEST","تجعل القوات أبطأ مع");
+define("YOU_CONSTRUCT","يمكنك بناء ");
+define("CRANNY_INCREASED","زيادة سعة الملجأ بنسبة");
+define("CRANNY_DECRESE","تقليل سعة الملجأ بنسبة");
+define("WW_BUILDING_PLAN","يمكنك بناء عجائب العالم");
+define("NO_WW","لا توجد عجائب للعالم");
+define("NO_PREVIOUS_OWNERS","لا توجد مالكين سابقين.");
+define("TREASURY_DESC","تحتفظ خزائن إمبراطوريتك بثرواتها. تحتوي الخزانة على غرفة واحدة لكنز واحد. بعد أن تلتقط أثرًا، يستغرق الأمر 24 ساعة على الخادم العادي أو 12 ساعة على خادم ثلاثي السرعة ليكون ساري المفعول.");
 
-define("TRADEOFFICE","Trade Office");
-define("CURRENT_MERCHANT","Current merchant load:");
-define("MERCHANT_LEVEL","Merchant load at level");
-define("TRADEOFFICE_DESC","In the trade office the merchants&#39; carts get improved and equipped with powerful horses. The higher its level the more your merchants are able to carry.");
+define("TRADEOFFICE","مكتب التجارة");
+define("CURRENT_MERCHANT","الحمولة الحالية للتجار:");
+define("MERCHANT_LEVEL","حمولة التاجر عند المستوى");
+define("TRADEOFFICE_DESC","في مكتب التجارة، يتم تحسين عربات التجار وتجهيزها بخيول قوية. كلما زاد مستواه، زادت قدرة تجاركم على الحمل.");
 
-define("GREATBARRACKS","Great Barracks");
-define("TRAINING_COMMENCE_GREATBARRACKS","Training can commence when great barracks is completed.");
-define("GREATBARRACKS_DESC","Foot soldiers are trained in the great barracks. The higher the level of the barracks, the faster the troops are trained.");
+define("GREATBARRACKS","الثكنات الكبيرة");
+define("TRAINING_COMMENCE_GREATBARRACKS","يمكن أن يبدأ التدريب عندما تكتمل الثكنات الكبيرة.");
+define("GREATBARRACKS_DESC","يتم تدريب الجنود المشاة في الثكنات الكبيرة. كلما زاد مستوى الثكنات، زادت سرعة تدريب القوات.");
 
-define("GREATSTABLE","Great Stable");
-define("TRAINING_COMMENCE_GREATSTABLE","Training can commence when great stable is completed.");
-define("GREATSTABLE_DESC","Cavalry can be trained in the great stable. The higher its level the faster the troops are trained.");
+define("GREATSTABLE","الإسطبل الكبير");
+define("TRAINING_COMMENCE_GREATSTABLE","يمكن أن يبدأ التدريب عندما يكتمل الإسطبل الكبير.");
+define("GREATSTABLE_DESC","يمكن تدريب سلاح الفرسان في الإسطبل الكبير. كلما زاد مستواه، زادت سرعة تدريب القوات.");
 
-define("CITYWALL","City Wall");
-define("DEFENCE_NOW","Defence Bonus now:");
-define("DEFENCE_LEVEL","Defence Bonus at level");
-define("CITYWALL_DESC","By building a City Wall you can protect your village against the barbarian hordes of your enemies. The higher the wall&#39;s level, the higher the bonus given to your forces&#39; defence.");
+define("CITYWALL","سور المدينة");
+define("DEFENCE_NOW","مكافأة الدفاع الآن:");
+define("DEFENCE_LEVEL","مكافأة الدفاع عند المستوى");
+define("CITYWALL_DESC","من خلال بناء سور المدينة، يمكنك حماية قريتك ضد جيوش أعدائك. كلما زاد مستوى السور، زادت المكافأة التي تُعطى لدفاع قواتك.");
 
-define("EARTHWALL","Earth Wall");
-define("EARTHWALL_DESC","By building a Earth Wall you can protect your village against the barbarian hordes of your enemies. The higher the wall&#39;s level, the higher the bonus given to your forces&#39; defence.");
+define("EARTHWALL","سور التراب");
+define("EARTHWALL_DESC","من خلال بناء سور التراب، يمكنك حماية قريتك ضد جيوش أعدائك. كلما زاد مستوى السور، زادت المكافأة التي تُعطى لدفاع قواتك.");
 
-define("PALISADE","Palisade");
-define("PALISADE_DESC","By building a Palisade you can protect your village against the barbarian hordes of your enemies. The higher the wall&#39;s level, the higher the bonus given to your forces&#39; defence.");
+define("PALISADE","سياج");
+define("PALISADE_DESC","من خلال بناء سياج، يمكنك حماية قريتك ضد جيوش أعدائك. كلما زاد مستوى السور، زادت المكافأة التي تُعطى لدفاع قواتك.");
 
-define("STONEMASON","Stonemason&#39;s Lodge");
-define("CURRENT_STABILITY","Current stability bonus:");
-define("STABILITY_LEVEL","Stability bonus at level");
-define("STONEMASON_DESC","The stonemason&#39;s lodge is an expert at cutting stone. The further the building is extended the higher the stability of the village&#39;s buildings.");
+define("STONEMASON","ورشة النحات");
+define("CURRENT_STABILITY","مكافأة الاستقرار الحالية:");
+define("STABILITY_LEVEL","مكافأة الاستقرار عند المستوى");
+define("STONEMASON_DESC","ورشة النحات متخصصة في قطع الحجر. كلما زادت فترة البناء، زادت الاستقرار لمباني القرية.");
 
-define("BREWERY","Brewery");
-define("CURRENT_BONUS","Current bonus:");
-define("BONUS_LEVEL","Bonus at level");
-define("BREWERY_DESC","Tasty mead is brewed in the Brewery and later quaffed by the soldiers during the celebrations.");
+define("BREWERY","معمل البيرة");
+define("CURRENT_BONUS","المكافأة الحالية:");
+define("BONUS_LEVEL","المكافأة عند المستوى");
+define("BREWERY_DESC","يتم تخمير الميد اللذيذ في معمل البيرة ويتم استهلاكه لاحقًا من قبل الجنود خلال الاحتفالات.");
 
-define("TRAPPER","Trapper");
-define("CURRENT_TRAPS","Currect maximum traps to train:");
-define("TRAPS_LEVEL","Maximum traps to train at level");
-define("TRAPS","Traps");
-define("TRAP","Trap");
-define("CURRENT_HAVE","Your currently have");
-define("WHICH_OCCUPIED","of which are occupied.");
-define("TRAINING_COMMENCE_TRAPPER","Training can commence when trapper is completed.");
-define("TRAPPER_DESC","The trapper protects your village with well hidden traps. This means that unwary enemies can be imprisoned and won&#39;t be able to harm your village anymore.");
+define("TRAPPER","المصيدة");
+define("CURRENT_TRAPS","الحد الأقصى الحالي للمصائد للتدريب:");
+define("TRAPS_LEVEL","الحد الأقصى للمصائد للتدريب عند المستوى");
+define("TRAPS","مصائد");
+define("TRAP","فخ");
+define("CURRENT_HAVE","حاليًا لديك");
+define("WHICH_OCCUPIED","منها مشغولة.");
+define("TRAINING_COMMENCE_TRAPPER","يمكن أن يبدأ التدريب عندما تكتمل المصيدة.");
+define("TRAPPER_DESC","تحمي المصيدة قريتك بمصائد مخفية جيدًا. هذا يعني أن الأعداء غير الحذرين يمكن أسرهم ولن يتمكنوا من إيذاء قريتك بعد الآن.");
 
-define("HEROSMANSION","Hero&#39;s Mansion");
-define("HERO_READY","Hero will be ready in ");
-define("NAME_CHANGED","Hero name has been changed");
-define("NOT_UNITS","Not available units");
-define("NOT","Not ");
-define("TRAIN_HERO","Train New Hero");
-define("REVIVE","Revive");
-define("OASES","Oases");
-define("DELETE","Delete");
-define("RESOURCES","Resources");
-define("OFFENCE","Offence");
-define("DEFENCE","Defence");
-define("OFF_BONUS","Off-Bonus");
-define("DEF_BONUS","Def-Bonus");
-define("REGENERATION","Regeneration");
-define("DAY","Day");
-define("EXPERIENCE","Experience");
-define("YOU_CAN","You can ");
-define("RESET","reset");
-define("YOUR_POINT_UNTIL"," your points until you are level ");
-define("OR_LOWER"," or lower!");
-define("YOUR_HERO_HAS","Your hero has ");
-define("OF_HIT_POINTS","of his life points");
-define("ERROR_NAME_SHORT","Error: name too short");
-define("HEROSMANSION_DESC","In the Hero&#39;s mansion you can train your own hero and at level 10, 15 and 20 you can conquer oases with Hero in the immediate vicinity.");
+define("HEROSMANSION","قصر البطل");
+define("HERO_READY","سيكون البطل جاهزًا في ");
+define("NAME_CHANGED","تم تغيير اسم البطل");
+define("NOT_UNITS","لا توجد وحدات متاحة");
+define("NOT","لا ");
+define("TRAIN_HERO","تدريب بطل جديد");
+define("REVIVE","إحياء");
+define("OASES","واحات");
+define("DELETE","حذف");
+define("RESOURCES","موارد");
+define("OFFENCE","هجوم");
+define("DEFENCE","دفاع");
+define("OFF_BONUS","مكافأة الهجوم");
+define("DEF_BONUS","مكافأة الدفاع");
+define("REGENERATION","تجديد");
+define("DAY","يوم");
+define("EXPERIENCE","خبرة");
+define("YOU_CAN","يمكنك ");
+define("RESET","إعادة تعيين");
+define("YOUR_POINT_UNTIL"," نقاطك حتى تصل إلى المستوى ");
+define("OR_LOWER"," أو أقل!");
+define("YOUR_HERO_HAS","بطل لديك ");
+define("OF_HIT_POINTS","من نقاط الحياة");
+define("ERROR_NAME_SHORT","خطأ: الاسم قصير جدًا");
+define("HEROSMANSION_DESC","في قصر البطل، يمكنك تدريب بطل خاص بك وعند المستوى 10 و15 و20 يمكنك فتح واحات بالقرب من البطل.");
 
-define("GREATWAREHOUSE","Great Warehouse");
-define("GREATWAREHOUSE_DESC","Wood, clay and iron are stored in the warehouse. The great warehouse offers you more space and keeps your goods drier and safer than the normal one.");
+define("GREATWAREHOUSE","المستودع الكبير");
+define("GREATWAREHOUSE_DESC","يتم تخزين الخشب والطين والحديد في المستودع. يوفر المستودع الكبير لك مساحة أكبر ويحافظ على سلعك أكثر جفافًا وأمانًا من العادي.");
 
-define("GREATGRANARY","Great Granary");
-define("GREATGRANARY_DESC","Crop produced by your farms is stored in the granary. The great granary offers you more space and keeps your crops drier and safer than the normal one.");
+define("GREATGRANARY","مخزن الحبوب الكبير");
+define("GREATGRANARY_DESC","يتم تخزين المحاصيل المنتجة من مزارعك في مخزن الحبوب. يوفر مخزن الحبوب الكبير لك مساحة أكبر ويحافظ على محاصيلك أكثر جفافًا وأمانًا من العادي.");
 
-define("WONDER","Wonder of the World");
-define("WORLD_WONDER","World Wonder");
-define("WONDER_DESC","The World Wonder (otherwise known as a Wonder of the World) is as wonderful as it sounds. This building is built in order to win the server. Each level of the World Wonder costs hundreds of thousands (even millions) of resources to build.");
-define("WORLD_WONDER_CHANGE_NAME","You need to have World Wonder level 1 to be able to change its name");
-define("WORLD_WONDER_NAME","World Wonder name");
-define("WORLD_WONDER_NOTCHANGE_NAME","You can not change the name of the World Wonder after level 10");
-define("WORLD_WONDER_NAME_CHANGED","Name changed");
+define("WONDER","عجائب العالم");
+define("WORLD_WONDER","عجائب العالم");
+define("WONDER_DESC","عجائب العالم (المعروفة أيضًا باسم عجائب العالم) رائعة كما يبدو. تم بناء هذا المبنى للفوز بالخادم. يكلف كل مستوى من عجائب العالم مئات الآلاف (حتى الملايين) من الموارد للبناء.");
+define("WORLD_WONDER_CHANGE_NAME","تحتاج إلى امتلاك عجائب العالم بمستوى 1 لتتمكن من تغيير اسمها");
+define("WORLD_WONDER_NAME","اسم عجائب العالم");
+define("WORLD_WONDER_NOTCHANGE_NAME","لا يمكنك تغيير اسم عجائب العالم بعد المستوى 10");
+define("WORLD_WONDER_NAME_CHANGED","تم تغيير الاسم");
 
-define("HORSEDRINKING","Horse Drinking Trough");
-define("HORSEDRINKING_DESC","The horse drinking trough of the Romans decreases the training time of cavalry and the upkeep of these troops as well.");
+define("HORSEDRINKING","معلف الخيول");
+define("HORSEDRINKING_DESC","يقلل معلف الخيول الروماني من وقت تدريب سلاح الفرسان والصيانة لهذه القوات كذلك.");
 
-define("GREATWORKSHOP","Great Workshop");
-define("TRAINING_COMMENCE_GREATWORKSHOP","Training can commence when great workshop is completed.");
-define("GREATWORKSHOP_DESC","Siege engines like catapults and rams can be built in the great workshop. The higher its level the faster the units are produced.");
+define("GREATWORKSHOP","ورشة العمل الكبرى");
+define("TRAINING_COMMENCE_GREATWORKSHOP","يمكن أن يبدأ التدريب عندما تكتمل ورشة العمل الكبرى.");
+define("GREATWORKSHOP_DESC","يمكن بناء آلات الحصار مثل المنجنيقات والرماح في ورشة العمل الكبرى. كلما زاد مستواه، زادت سرعة إنتاج الوحدات.");
 
-define("BUILDING_MAX_LEVEL_UNDER","Building max level under construction");
-define("BUILDING_BEING_DEMOLISHED","Building presently being demolished");
-define("COSTS_UPGRADING_LEVEL","Costs</b> for upgrading to level");
-define("WORKERS_ALREADY_WORK","The workers are already at work.");
-define("CONSTRUCTING_MASTER_BUILDER","Constructing with master builder ");
-define("COSTS","Costs");
-define("GOLD","Gold");
-define("WORKERS_ALREADY_WORK_WAITING","The workers are already at work. (waiting loop)");
-define("ENOUGH_FOOD_EXPAND_CROPLAND","Not enough food. Expand cropland.");
-define("UPGRADE_WAREHOUSE","Upgrade Warehouse");
-define("UPGRADE_GRANARY","Upgrade Granary");
-define("YOUR_CROP_NEGATIVE","Your crop production is negative, you will never get the required resources.");
-define("UPGRADE_LEVEL","Upgrade to level ");
-define("WAITING","(waiting loop)");
-define("NEED_WWCONSTRUCTION_PLAN","Need WW construction plan");
-define("NEED_MORE_WWCONSTRUCTION_PLAN","Need more WW construction plan");
-define("CONSTRUCT_NEW_BUILDING","Construct new building");
-define("SHOWSOON_AVAILABLE_BUILDINGS","show soon available buildings");
-define("HIDESOON_AVAILABLE_BUILDINGS","hide soon available buildings");
+define("BUILDING_MAX_LEVEL_UNDER","بناء المستوى الأقصى قيد الإنشاء");
+define("BUILDING_BEING_DEMOLISHED","البناء قيد الإزالة حاليًا");
+define("COSTS_UPGRADING_LEVEL","التكاليف</b> للترقية إلى المستوى");
+define("WORKERS_ALREADY_WORK","العمال يعملون بالفعل.");
+define("CONSTRUCTING_MASTER_BUILDER","البناء مع الباني الرئيسي ");
+define("COSTS","التكاليف");
+define("GOLD","ذهب");
+define("WORKERS_ALREADY_WORK_WAITING","العمال يعملون بالفعل. (حلقة انتظار)");
+define("ENOUGH_FOOD_EXPAND_CROPLAND","لا توجد طعام كاف. توسيع الأراضي الزراعية.");
+define("UPGRADE_WAREHOUSE","ترقية المستودع");
+define("UPGRADE_GRANARY","ترقية مخزن الحبوب");
+define("YOUR_CROP_NEGATIVE","إنتاج المحاصيل لديك سالب، لن تحصل أبدًا على الموارد المطلوبة.");
+define("UPGRADE_LEVEL","ترقية إلى المستوى ");
+define("WAITING","(حلقة انتظار)");
+define("NEED_WWCONSTRUCTION_PLAN","تحتاج إلى خطة بناء WW");
+define("NEED_MORE_WWCONSTRUCTION_PLAN","تحتاج إلى المزيد من خطة بناء WW");
+define("CONSTRUCT_NEW_BUILDING","بناء مبنى جديد");
+define("SHOWSOON_AVAILABLE_BUILDINGS","عرض المباني المتاحة قريبًا");
+define("HIDESOON_AVAILABLE_BUILDINGS","إخفاء المباني المتاحة قريبًا");
 
-//artefact
-define("ARCHITECTS_DESC","All buildings in the area of effect are stronger. This means that you will need more catapults to damage buildings protected by this artifacts powers.");
-define("ARCHITECTS_SMALL","The architects slight secret");
-define("ARCHITECTS_SMALLVILLAGE","Diamond Chisel");
-define("ARCHITECTS_LARGE","The architects great secret");
-define("ARCHITECTS_LARGEVILLAGE","Giant Marble Hammer");
-define("ARCHITECTS_UNIQUE","The architects unique secret");
-define("ARCHITECTS_UNIQUEVILLAGE","Hemons Scrolls");
-define("HASTE_DESC","All troops in the area of effect move faster.");
-define("HASTE_SMALL","The slight titan boots");
-define("HASTE_SMALLVILLAGE","Opal Horseshoe");
-define("HASTE_LARGE","The great titan boots");
-define("HASTE_LARGEVILLAGE","Golden Chariot");
-define("HASTE_UNIQUE","The unique titan boots");
-define("HASTE_UNIQUEVILLAGE","Pheidippides Sandals");
-define("EYESIGHT_DESC","All spies (Scouts, Pathfinders, and Equites Legati) increase their spying ability. In addition, with all versions of this artifact you can see the incoming TYPE of troops but not how many there are.");
-define("EYESIGHT_SMALL","The eagles slight eyes");
-define("EYESIGHT_SMALLVILLAGE","Tale of a Rat");
-define("EYESIGHT_LARGE","The eagles great eyes");
-define("EYESIGHT_LARGEVILLAGE","Generals Letter");
-define("EYESIGHT_UNIQUE","The eagles unique eyes");
-define("EYESIGHT_UNIQUEVILLAGE","Diary of Sun Tzu");
-define("DIET_DESC","All troops in the artifacts range consume less wheat, making it possible to maintain a larger army.");
-define("DIET_SMALL","Slight diet control");
-define("DIET_SMALLVILLAGE","Silver Platter");
-define("DIET_LARGE","Great diet control");
-define("DIET_LARGEVILLAGE","Sacred Hunting Bow");
-define("DIET_UNIQUE","Unique diet control");
-define("DIET_UNIQUEVILLAGE","King Arthurs Chalice");
-define("ACADEMIC_DESC","Troops are built a certain percentage faster within the scope of the artifact.");
-define("ACADEMIC_SMALL","The trainers slight talent");
-define("ACADEMIC_SMALLVILLAGE","Scribed Soldiers Oath");
-define("ACADEMIC_LARGE","The trainers great talent");
-define("ACADEMIC_LARGEVILLAGE","Declaration of War");
-define("ACADEMIC_UNIQUE","The trainers unique talent");
-define("ACADEMIC_UNIQUEVILLAGE","Memoirs of Alexander the Great");
-define("STORAGE_DESC","With this building plan you are able to build the Great Granary or Great Warehouse in the Village with the artifact, or the whole account depending on the artifact. As long as you posses that artifact you are able to build and enlarge those buildings.");
-define("STORAGE_SMALL","Slight storage masterplan");
-define("STORAGE_SMALLVILLAGE","Builders Sketch");
-define("STORAGE_LARGE","Great storage masterplan");
-define("STORAGE_LARGEVILLAGE","Babylonian Tablet");
-define("CONFUSION_DESC","Cranny capacity is increased by a certain amount for each type of artifact. Catapults can only shoot random on villages within this artifacts power. Exceptions are the WW which can always be targeted and the treasure chamber which can always be targeted, except with the unique artifact. When aiming at a resource field only random resource fields can be hit, when aiming at a building only random buildings can be hit.");
-define("CONFUSION_SMALL","Rivals slight confusion");
-define("CONFUSION_SMALLVILLAGE","Map of the Hidden Caverns");
-define("CONFUSION_LARGE","Rivals great confusion");
-define("CONFUSION_LARGEVILLAGE","Bottomless Satchel");
-define("CONFUSION_UNIQUE","Rivals unique confusion");
-define("CONFUSION_UNIQUEVILLAGE","Trojan Horse");
-define("FOOL_DESC","Every 24 hours it gets a random effect, bonus, or penalty (all are possible with the exception of great warehouse, great granary and WW building plans). They change effect AND scope every 24 hours. The unique artifact will always take positive bonuses.");
-define("FOOL_SMALL","Artefact of the slight fool");
-define("FOOL_SMALLVILLAGE","Pendant of Mischief");
-define("FOOL_UNIQUE","Artefact of the unique fool");
-define("FOOL_UNIQUEVILLAGE","Forbidden Manuscript");
-define("WWVILLAGE","WW village");
-define("ARTEFACT","<h1><b>Natars Artifacts</b></h1>
+//الأثر
+define("ARCHITECTS_DESC","جميع المباني في منطقة التأثير أقوى. هذا يعني أنك ستحتاج إلى المزيد من المنجنيقات لتدمير المباني المحمية بواسطة قوى هذه الآثار.");
+define("ARCHITECTS_SMALL","سر النحات الخفيف");
+define("ARCHITECTS_SMALLVILLAGE","إزميل الماس");
+define("ARCHITECTS_LARGE","سر النحات العظيم");
+define("ARCHITECTS_LARGEVILLAGE","مطرقة الرخام العملاقة");
+define("ARCHITECTS_UNIQUE","سر النحات الفريد");
+define("ARCHITECTS_UNIQUEVILLAGE","لفائف هيمون");
+define("HASTE_DESC","جميع القوات في منطقة التأثير تتحرك بشكل أسرع.");
+define("HASTE_SMALL","حذاء العملاق الخفيف");
+define("HASTE_SMALLVILLAGE","قرن الأوبال");
+define("HASTE_LARGE","حذاء العملاق العظيم");
+define("HASTE_LARGEVILLAGE","العربة الذهبية");
+define("HASTE_UNIQUE","حذاء العملاق الفريد");
+define("HASTE_UNIQUEVILLAGE","صندل فيديبيديس");
+define("EYESIGHT_DESC","تزداد قدرة جميع الجواسيس (الكشافة، المستكشفون، و Equites Legati) على التجسس. بالإضافة إلى ذلك، مع جميع نسخ هذه الآثار يمكنك رؤية نوع القوات الواردة ولكن ليس عددها.");
+define("EYESIGHT_SMALL","عيون النسر الخفيفة");
+define("EYESIGHT_SMALLVILLAGE","قصة جرذ");
+define("EYESIGHT_LARGE","عيون النسر العظيمة");
+define("EYESIGHT_LARGEVILLAGE","رسالة الجنرال");
+define("EYESIGHT_UNIQUE","عيون النسر الفريدة");
+define("EYESIGHT_UNIQUEVILLAGE","مذكرات صن تزو");
+define("DIET_DESC","تستهلك جميع القوات في نطاق الأثر كمية أقل من القمح، مما يجعل من الممكن الحفاظ على جيش أكبر.");
+define("DIET_SMALL","تحكم خفيف في النظام الغذائي");
+define("DIET_SMALLVILLAGE","طبق فضي");
+define("DIET_LARGE","تحكم كبير في النظام الغذائي");
+define("DIET_LARGEVILLAGE","قوس الصيد المقدس");
+define("DIET_UNIQUE","تحكم فريد في النظام الغذائي");
+define("DIET_UNIQUEVILLAGE","كأس الملك آرثر");
+define("ACADEMIC_DESC","تُبنى القوات بشكل أسرع بنسبة معينة ضمن نطاق الأثر.");
+define("ACADEMIC_SMALL","موهبة المدرب الخفيفة");
+define("ACADEMIC_SMALLVILLAGE","يمين الجنود المرسوم");
+define("ACADEMIC_LARGE","موهبة المدرب العظيمة");
+define("ACADEMIC_LARGEVILLAGE","إعلان الحرب");
+define("ACADEMIC_UNIQUE","موهبة المدرب الفريدة");
+define("ACADEMIC_UNIQUEVILLAGE","مذكرات الإسكندر الأكبر");
+define("STORAGE_DESC","مع خطة البناء هذه يمكنك بناء مخزن الحبوب الكبير أو المستودع الكبير في القرية مع الأثر، أو الحساب بالكامل اعتمادًا على الأثر. طالما أنك تمتلك هذا الأثر، يمكنك بناء وتوسيع تلك المباني.");
+define("STORAGE_SMALL","خطة تخزين خفيفة");
+define("STORAGE_SMALLVILLAGE","رسم لبناة");
+define("STORAGE_LARGE","خطة تخزين كبيرة");
+define("STORAGE_LARGEVILLAGE","لوحة بابل");
+define("CONFUSION_DESC","تزداد سعة الملجأ بمقدار معين لكل نوع من الآثار. يمكن أن تضرب المنجنيقات فقط بشكل عشوائي في القرى ضمن نطاق قوى هذا الأثر. الاستثناءات هي عجائب العالم التي يمكن استهدافها دائمًا وغرفة الكنز التي يمكن استهدافها دائمًا، باستثناء الأثر الفريد. عند التوجه نحو حقل الموارد، يمكن أن تصيب فقط حقول الموارد العشوائية، وعند التوجه نحو مبنى، يمكن أن تصيب فقط المباني العشوائية.");
+define("CONFUSION_SMALL","ارتباك المنافس الخفيف");
+define("CONFUSION_SMALLVILLAGE","خريطة الكهوف المخفية");
+define("CONFUSION_LARGE","ارتباك المنافس العظيم");
+define("CONFUSION_LARGEVILLAGE","محفظة بلا قاع");
+define("CONFUSION_UNIQUE","ارتباك المنافس الفريد");
+define("CONFUSION_UNIQUEVILLAGE","حصان طروادة");
+define("FOOL_DESC","كل 24 ساعة يحصل على تأثير عشوائي أو مكافأة أو عقوبة (جميعها ممكنة باستثناء المستودع الكبير، ومخزن الحبوب الكبير وخطط بناء WW). تتغير التأثيرات ونطاقها كل 24 ساعة. سيأخذ الأثر الفريد دائمًا مكافآت إيجابية.");
+define("FOOL_SMALL","أثر الأحمق الخفيف");
+define("FOOL_SMALLVILLAGE","قلادة الفوضى");
+define("FOOL_UNIQUE","أثر الأحمق الفريد");
+define("FOOL_UNIQUEVILLAGE","المخطوطة المحظورة");
+define("WWVILLAGE","قرية عجائب العالم");
+define("ARTEFACT","<h1><b>آثار النطار</b></h1>
 
-Whispering rumors echo through the villages, sharing legends told only by the best storytellers. It refers to NATARS, the most feared warrior of the TRAVIAN world. Their killing is the dream of any hero, the purpose of any fighter. No one knows how NATARS got to get such power, and their warriors so cruel. Determined to discover the source of the NATARS power, the fighters send a group of elite spies to spy them. I do not go through many hours and come back with fear in their eyes and balancing fantastic theories: it seems that the natural power comes from the mysterious objects they call artifacts that they stole from our ancestors. Try to steal the artefacts of her, and you can control their power.
+تتردد الشائعات الهمس عبر القرى، وتشارك الأساطير التي تروى فقط من قبل أفضل رواة القصص. تشير إلى النطار، أكثر المحاربين رعبًا في عالم ترافيان. إن قتلهم هو حلم أي بطل، والهدف من أي مقاتل. لا أحد يعرف كيف حصل النطار على هذه القوة، ولماذا كانت محاربيهم قاسية للغاية. مصممون على اكتشاف مصدر قوة النطار، أرسل المقاتلون مجموعة من الجواسيس النخبة للتجسس عليهم. لم تمضِ ساعات كثيرة حتى عادوا مع الخوف في أعينهم ويتوازنون بين نظريات رائعة: يبدو أن القوة الطبيعية تأتي من الأغراض الغامضة التي يسمونها الآثار التي سرقوها من أسلافنا. حاول سرقة آثارهم، ويمكنك السيطرة على قوتهم.
 
-<img src=\"img/x.gif\" class=\"ArtifactsAnnouncement\">
+<img src=\"img/x.gif\" class=\"ArtifactsAnnouncement\"> 
 
-The time has come for claiming artifacts. Collaborate with your alliance and bring your worriors to get these wanted objects. However, NATARS will not give up without war to the artefacts ... nor your enemies. If you are successful in retrieving artifacts and you will be able to reject enemies, you will be able to collect the rewards. Your buildings will become incredibly strong and mightest, and the troops will be much faster and will consume less food. Capture the artifacts, bring glory over your empire and become new legends for your followers.
+لقد حان الوقت للمطالبة بالآثار. تعاون مع تحالفك واصطحب محاربيك للحصول على هذه الأشياء المطلوبة. ومع ذلك، لن يتخلى النطار عن الآثار دون حرب ... ولا أعداؤك. إذا نجحت في استعادة الآثار وقمت بإبعاد الأعداء، ستتمكن من جمع المكافآت. ستصبح مبانيك قوية بشكل لا يصدق وقدرة، وستكون القوات أسرع بكثير وستستهلك أقل من الطعام. استول على الآثار، واجلب المجد لإمبراطوريتك وكن أسطورة جديدة لاتباعك.
 
-To steal one, the following things must happen:
+لسرقة واحدة، يجب أن تحدث الأمور التالية:
 
-1. You must attack the village (NO Raid!)
-2. WIN the Attack
-3. Destroy the treasury
-4. An empty treasury level 10 for SMALL ARTIFACTS and level 20 for LARGE ARTIFACT must be in the village where that attack came from
-5. Have a hero in an attack
+1. يجب عليك مهاجمة القرية (لا غارة!)
+2. الفوز بالهجوم
+3. تدمير الخزانة
+4. يجب أن تكون هناك خزانة فارغة مستوى 10 للآثار الصغيرة ومستوى 20 للآثار الكبيرة في القرية التي جاء منها هذا الهجوم
+5. وجود بطل في الهجوم
 
-If not, the next attack on that village, winning with a hero and empty treasury will take the artifact.
+إذا لم يحدث ذلك، فإن الهجوم التالي على تلك القرية، الفوز مع بطل وخزانة فارغة سيأخذ الأثر.
 
-To build a WW, you must own a plan yourself (you = the WW village owner) from lvl 0 to 50, from 51 to 100 you need an additional plan in your alliance! Two plans in the WW village account would not work!
+لبناء WW، يجب أن تمتلك خطة بنفسك (أنت = مالك قرية WW) من المستوى 0 إلى 50، ومن 51 إلى 100 تحتاج إلى خطة إضافية في تحالفك! لن تعمل خطتان في حساب قرية WW!
 
-The construction plans are conquerable immediately when they appear to the server. 
+خطط البناء قابلة للفتح فور ظهورها على الخادم. 
 
-There will be a countdown in game, showing the exact time of the release, 5 days prior to the launch. ");
+ستكون هناك عد تنازلي في اللعبة، يظهر الوقت المحدد للإصدار، قبل 5 أيام من الإطلاق. ");
 
-//WW Village Release Message
-define("WWVILLAGEMSG","<h1><b>Wonder of the World Villages</b></h1>
+//رسالة إطلاق قرية عجائب العالم
+define("WWVILLAGEMSG","<h1><b>قرى عجائب العالم</b></h1>
 
-Countless days have passed since the first battles upon the walls of the cursed villages of the Dread Natars, many armies of both the free ones and the Natarian empire struggled and died before the walls of the many strongholds from which the Natars had once ruled all creation. Now with the dust settled and a relative calm having settled in, armies began to count their losses and collect their dead, the stench of combat still lingering in the night air, a smell of a slaughter unforgettable in its extent and brutality yet soon to be dwarfed by yet others. The largest armies of the free ones and the Dread Natars were marshalling for yet another renewed assault upon the coveted former strongholds of the Natarian Empire.
-Soon scouts arrived telling of a most awesome sight and a chilling reminder, a dread army of an unfathomable size had been spotted marshalling at the end of the world, the Natarian capital, a force so great and unstoppable that the dust from their march would choke off all light, a force so brutal and ruthless that it would crush all hope. The free people knew that they had to race now, race against time and the endless hordes of the Natarian Empire to raise a Wonder of the World to restore the world to peace and vanquish the Natarian threat.
-But to raise such a great Wonder would be no easy task, one would need construction plans created in the distant past, plans of such an arcane nature that even the very wisest of sages knew not their contents or locations.
-Tens of thousands of scouts roamed across all existence searching in vain for these mystical plans, looking in all places but the dreaded Natarian Capital, yet could not find them. Today however, they return bearing good news, they return baring the locations of the plans, hidden by the armies of the Natars inside secret strongholds constructed to be hidden from the eyes of man.
-Now begins the final stretch, when the greatest armies of the Free people and the Natars will clash across the world for the fate of all that lies under heaven. This is the war that will echo across the eons, this is your war, and here you shall etch your name across history, here you shall become legend.
+لقد مرت أيام لا تحصى منذ المعارك الأولى على أسوار القرى الملعونة للنطار المرعب، حيث كافحت العديد من الجيوش من كل من الأحرار وإمبراطورية النطار وماتت قبل أسوار العديد من الحصون التي حكمت منها النطار كل خلق. الآن، مع استقرار الغبار وهدوء نسبي، بدأت الجيوش تحصي خسائرها وتجمع موتاها، ورائحة القتال لا تزال عالقة في الهواء الليلي، رائحة المجزرة التي لا تُنسى في امتدادها وبشاعتها، لكن سرعان ما ستخبو بجوار أخرى. كانت أكبر جيوش الأحرار والنطار المرعب تتجمع لشن هجوم متجدد على الحصون السابقة المرموقة لإمبراطورية النطار.
+سرعان ما وصل الكشافة ليخبروا برؤية مذهلة وتذكير مروع، جيش مهيب بحجم لا يمكن تصوره قد تم رصده يتجمع في نهاية العالم، عاصمة النطار، قوة عظيمة لا يمكن إيقافها لدرجة أن الغبار من مسيرتها سيخنق كل الضوء، قوة وحشية بلا رحمة ستسحق كل أمل. كان يعرف الأحرار أنهم يجب أن يتسابقوا الآن، يتسابقون ضد الزمن وجحافل إمبراطورية النطار اللانهائية لرفع عجائب العالم لاستعادة السلام للعالم وهزيمة تهديد النطار.
+لكن رفع مثل هذه العجائب العظيمة لن تكون مهمة سهلة، سيتطلب الأمر خطط بناء أنشئت في العصور القديمة، خطط ذات طبيعة غامضة لدرجة أن أعظم الحكماء لم يعرفوا محتوياتها أو مواقعها.
+تجول عشرات الآلاف من الكشافة عبر كل الوجود بحثًا عبثيًا عن هذه الخطط الغامضة، يبحثون في جميع الأماكن باستثناء عاصمة النطار المرعبة، ومع ذلك لم يتمكنوا من العثور عليها. ومع ذلك، اليوم، يعودون بخبر جيد، يعودون حاملين مواقع الخطط، المخفية من قبل جيوش النطار داخل حصون سرية تم بناؤها لتكون مخفية عن أعين البشر.
+الآن تبدأ المرحلة النهائية، عندما ستصطدم أعظم جيوش الأحرار والنطار عبر العالم من أجل مصير كل ما يكمن تحت السماء. هذه هي الحرب التي ستتردد عبر العصور، هذه هي حربك، وهنا ست刻 اسمك في التاريخ، هنا ستصبح أسطورة.
 
 <img src=\"img/x.gif\" class=\"WWVillagesAnnouncement\" title=\"".WWVILLAGE."\" alt=\"".WWVILLAGE."\">
 
-To conquer one, the following things must happen:
+لتغزو واحدة، يجب أن تحدث الأمور التالية:
 
-1. You must attack the village (NO Raid!)
-2. WIN the Attack
-3. Destroy the RESIDENCE
-4. You must decrease the loyalty to 0 with : SENATORS , CHIEF , CHIEFTAIN
-5. You must have enough culture points to conquer the village
+1. يجب عليك مهاجمة القرية (لا غارة!)
+2. الفوز بالهجوم
+3. تدمير الإقامة
+4. يجب أن تقلل الولاء إلى 0 مع: الشيوخ، الزعماء، القادة
+5. يجب أن يكون لديك نقاط ثقافية كافية لفتح القرية
 
-If not, the next attack on that village, winning with a SENATORS , CHIEF , CHIEFTAIN and empty slots in RESIDENCE/PALACE will take the village.
+إذا لم يحدث ذلك، فإن الهجوم التالي على تلك القرية، الفوز مع الشيوخ، الزعماء، القادة والفجوات الفارغة في الإقامة/القصر سيأخذ القرية.
 
-To build a WW, you must own a plan yourself (you = the WW village owner) from lvl 0 to 50, from 51 to 100 you need an additional plan in your alliance! Two plans in the WW village account would not work!
+لبناء عجائب العالم، يجب أن تمتلك خطة بنفسك (أنت = مالك قرية عجائب العالم) من المستوى 0 إلى 50، ومن 51 إلى 100 تحتاج إلى خطة إضافية في تحالفك! خطتان في حساب قرية عجائب العالم لن تعمل!
 
-The construction plans are conquerable immediately when they appear to the server. 
+خطط البناء قابلة للاستيلاء فور ظهورها على الخادم. 
 
-There will be a countdown in game, showing the exact time of the release, ".(5 / SPEED)." days prior to the launch. ");
+سيكون هناك عد تنازلي في اللعبة، يظهر الوقت المحدد للإطلاق، ".(5 / SPEED)." أيام قبل الإطلاق.");
 
-//Building Plans
-define("PLAN","Ancient Construction Plan");
-define("PLANVILLAGE","WW Buildingplan");
-define("PLAN_DESC","With this ancient construction plan you will able to build World Wonder to level 50. to build further, your alliance must hold at least two plans.");
-define("PLAN_INFO","<h1><b>World Wonder Construction Plans</b></h1>
+//خطط البناء
+define("PLAN","خطة البناء القديمة");
+define("PLANVILLAGE","خطة بناء عجائب العالم");
+define("PLAN_DESC","مع هذه الخطة القديمة للبناء ستتمكن من بناء عجائب العالم حتى المستوى 50. للبناء أكثر، يجب أن يحتفظ تحالفك على الأقل بخطتين.");
+define("PLAN_INFO","<h1><b>خطط بناء عجائب العالم</b></h1>
 
 
-Many moons ago the tribes of Travian were surprised by the unforeseen return of the Natars. This tribe from immemorial times surpassing all in wisdom, might and glory was about to trouble the free ones again. Thus they put all their efforts in preparing a last war against the Natars and vanquishing them forever. Many thought about the so-called &#39;Wonders of the World&#39;, a construction of many legends, as the only solution. It was told that it would render anyone invincible once completed. Ultimately making the constructors the rulers and conquerors of all known Travian. 
+منذ عصور عديدة، تفاجأت قبائل ترافيان بالعودة غير المتوقعة للنطار. كانت هذه القبيلة من أزمنة بعيدة تفوق الجميع في الحكمة والقوة والمجد، كانت على وشك إزعاج الأحرار مرة أخرى. لذلك، بذلوا جميع جهودهم في التحضير لحرب أخيرة ضد النطار وهزيمتهم إلى الأبد. اعتقد الكثيرون أن ما يسمى بـ 'عجائب العالم'، وهو بناء من العديد من الأساطير، هو الحل الوحيد. قيل إنه سيجعل أي شخص لا يقهر بمجرد الانتهاء منه. مما يجعل البناة الحكام والمفتاحين لكل ترافيان المعروف. 
 
-However, it was also told that one would need construction plans to construct such a building. Due to this fact, the architects devised cunning plans about how to store these safely. After a while, one could see temple-like buildings in many a city and metropolis - the Treasure Chambers (Treasuries). 
+ومع ذلك، قيل أيضًا أن أحدًا يحتاج إلى خطط بناء لبناء مثل هذا المبنى. بسبب هذه الحقيقة، ابتكر المهندسون خططًا ماكرة حول كيفية تخزين هذه بشكل آمن. بعد فترة، كان بإمكان المرء رؤية مبانٍ تشبه المعابد في العديد من المدن والميثوبوليس - غرف الكنز (الخزائن). 
 
-Sadly, no one - not even the wise and well versed - knew where to find these construction plans. The harder people tried to locate them, the more it seemed as if they where only legends. 
+للأسف، لم يعرف أحد - حتى الحكماء والذوي المعرفة - أين يمكن العثور على هذه الخطط. كلما حاول الناس العثور عليها، بدا أكثر كما لو كانت مجرد أساطير. 
 
-Today, however, this last secret will be revealed. Deprivations and endeavors of the past will not have been in vain, as today scouts of several tribes have successfully obtained the whereabouts of the construction plans. Well guarded by the Natars, they lie hidden in several oases to be found all over Travian. Only the most valiant heroes will be able to secure such a plan and bring it home safely so that the construction can begin. 
+ومع ذلك، اليوم، سيتم الكشف عن هذا السر الأخير. لن تكون الحرمان والجهود السابقة قد ذهبت سدى، حيث إن اليوم نجحت الكشافة من عدة قبائل في الحصول على مواقع خطط البناء. محفوظة جيدًا من قبل النطار، فهي مخفية في عدة واحات لتجدها في جميع أنحاء ترافيان. فقط أبطال الأكثر شجاعة سيكونون قادرين على تأمين مثل هذه الخطة وإعادتها إلى الوطن بأمان حتى يبدأ البناء. 
 
-In the end, we will see whether the free tribes of Travian can once again outwit the Natars and vanquish them once and for all. Do not be so foolish as to assume that the Natars will leave without a fight, though!
+في النهاية، سنرى ما إذا كانت القبائل الحرة من ترافيان يمكن أن تتغلب على النطار مرة أخرى وتهزمهم إلى الأبد. لا تكن غبيًا لتفترض أن النطار سيتركون بدون قتال، على أي حال!
 
 <img src=\"img/x.gif\" class=\"WWBuildingPlansAnnouncement\" title=\"".PLAN."\" alt=\"".PLAN."\">
 
-To steal a set of Construction Plans from the Natars, the following things must happen:
-- You must Attack the village (NOT Raid!)
-- You must WIN the Attack
-- You must DESTROY the Treasure Chamber (Treasury)
-- Your Hero MUST be in that attack, as he is the only one who may carry the Construction Plans
-- An empty level 10 Treasure Chamber (Treasury) MUST be in the village where that attack came from
-NOTE: If the above criteria is not met during the attack, the next attack on that village which does meet the above criteria will take the Construction Plans.
+لسرقة مجموعة من خطط البناء من النطار، يجب أن تحدث الأمور التالية:
+- يجب عليك مهاجمة القرية (لا غارة!)
+- يجب أن تفوز بالهجوم
+- يجب أن تدمر غرفة الكنز (الخزينة)
+- يجب أن يكون بطلك في ذلك الهجوم، حيث إنه الوحيد الذي يمكنه حمل خطط البناء
+- يجب أن تكون هناك غرفة كنز فارغة مستوى 10 (خزينة) في القرية التي جاء منها هذا الهجوم
+ملاحظة: إذا لم يتم استيفاء المعايير أعلاه خلال الهجوم، فإن الهجوم التالي على تلك القرية الذي يلبي المعايير أعلاه سيأخذ خطط البناء.
 
 
 
-To build a Treasure Chamber (Treasury), you will need a Main Building level 10 and the village MUST NOT be  contain a World Wonder.
+لبناء غرفة الكنز (خزينة)، ستحتاج إلى مبنى رئيسي مستوى 10 ويجب أن لا تحتوي القرية على عجائب العالم.
 
-To build a World Wonder, you must own the Construction Plans yourself (you = the World Wonder Village Owner) from level 0 to 50, and then from level 51 to 100 you will need an additional set of Construction Plans in your Alliance! Two sets of Construction Plans in the World Wonder Village Account will not work!");
+لبناء عجائب العالم، يجب أن تمتلك خطط البناء بنفسك (أنت = مالك قرية عجائب العالم) من المستوى 0 إلى 50، ثم من المستوى 51 إلى 100 ستحتاج إلى مجموعة إضافية من خطط البناء في تحالفك! لن تعمل مجموعتان من خطط البناء في حساب قرية عجائب العالم!");
 
-//Admin setting - Admin/Templates/config.tpl & editServerSet.tpl
-define("EDIT_BACK","Back");
-define("SERV_CONFIG","Server Configuration");
-define("SERV_SETT","Server Settings");
-define("EDIT_SERV_SETT","Edit Server Settings");
-define("SERV_VARIABLE","Variable");
-define("SERV_VALUE","Value");
-define("CONF_SERV_NAME","Server Name");
-define("CONF_SERV_NAME_TOOLTIP","Name of the game server.");
-define("CONF_SERV_STARTED","Server Started");
-define("CONF_SERV_STARTED_TOOLTIP","Time when the game server was started. This parameter can not be changed on the installed game server.");
-define("CONF_SERV_TIMEZONE","Server Timezone");
-define("CONF_SERV_TIMEZONE_TOOLTIP","Timezone of the game server.");
-define("CONF_SERV_LANG","Language");
-define("CONF_SERV_LANG_TOOLTIP","The language that is used in the admin panel and for everyone on the game server by default.");
-define("CONF_SERV_SERVSPEED","Server Speed");
-define("CONF_SERV_SERVSPEED_TOOLTIP","The speed of the game server. The higher the speed of the game server, the faster all buildings are built, the studies and improvements in the smithies are carried out, the troops are quickly built and the productivity of all resources is increased.");
-define("CONF_SERV_TROOPSPEED","Troop Speed");
-define("CONF_SERV_TROOPSPEED_TOOLTIP","Speed of movement of troops on the game server. The higher this indicator, the faster the troops move across the map.");
-define("CONF_SERV_EVASIONSPEED","Evasion Speed");
-define("CONF_SERV_EVASIONSPEED_TOOLTIP","The evasion speed is the time that troops spend on the road to return home after evasion an attack.");
-define("CONF_SERV_STORMULTIPLER","Storage Multipler");
-define("CONF_SERV_STORMULTIPLER_TOOLTIP","A multiplier for the storage capacity warehouse and granary. The value 1 is equal to the capacity of 80,000 of each resource at the maximum level. If you set the value to 2, then the capacity at the maximum level will be 160,000 of each resource.<br><b>Note:</b> the amount of resources that will be generated by unoccupied oases for robbery depends on this value. The default is 800. If you set the value to 2, the maximum number for each resource being generated is 1600.");
-define("CONF_SERV_TRADCAPACITY","Trader Capacity");
-define("CONF_SERV_TRADCAPACITY_TOOLTIP","A multiplier for the capacity of resources that can be carried by one trader. The value of 1 equals 500 capacity for the Romans, 750 for the Gauls, 1000 for the Teutons. If you set the value to 2, then the capacity of the transferred resources will double accordingly, 1000, 1500, 2000.");
-define("CONF_SERV_CRANCAPACITY","Cranny Capacity");
-define("CONF_SERV_CRANCAPACITY_TOOLTIP","A multiplier for the capacity of resources in Cranny, which can be saved from robbery. The value of 1 is equal to 1000 for Romans and Teutons, 2000 for Gauls. If you set the value to 2, then the capacity of the Cranny will double to 2000 and 4000 respectively.");
-define("CONF_SERV_TRAPCAPACITY","Trapper Capacity");
-define("CONF_SERV_TRAPCAPACITY_TOOLTIP","A multiplier for the capacity of the trap of the Gauls, which can capture enemy soldiers even before attacking the village. The value of 1 is equal to the capacity of 400 at the 20 level of construction. If you set the value to 2, then the capacity will be 800.");
-define("CONF_SERV_NATUNITSMULTIPLIER","Natars Units Multiplier");
-define("CONF_SERV_NATUNITSMULTIPLIER_TOOLTIP","This parameter is responsible for the number of troops of Natars, on artifacts and WW villages.");
-define("CONF_SERV_NATARS_SPAWN_TIME","Natars Spawn");
-define("CONF_SERV_NATARS_SPAWN_TIME_TOOLTIP","After how long Natars and artifacts will spawn from the start date of the server, in days");
-define("CONF_SERV_NATARS_WW_SPAWN_TIME","World Wonders Spawn");
-define("CONF_SERV_NATARS_WW_SPAWN_TIME_TOOLTIP","After how long WW villages will spawn from the start date of the server, in days");
-define("CONF_SERV_NATARS_WW_BUILDING_PLAN_SPAWN_TIME","WW Building Plan Spawn");
-define("CONF_SERV_NATARS_WW_BUILDING_PLAN_SPAWN_TIME_TOOLTIP","After how long WW building plans will spawn from the start date of the server, in days");
-define("CONF_SERV_MAPSIZE","Map Size");
-define("CONF_SERV_MAPSIZE_TOOLTIP","The size of the map of the game world. Can not be changed on an already installed game server.");
-define("CONF_SERV_VILLEXPSPEED","Village Expanding Speed");
-define("CONF_SERV_VILLEXPSPEED_TOOLTIP","Speed, which affects the expansion of the empire. With a slow speed more culture points are needed to found new village, with a fast speed the required number of culture points is reduced.");
-define("CONF_SERV_BEGINPROTECT","Beginners Protection");
-define("CONF_SERV_BEGINPROTECT_TOOLTIP","Protection, which prohibits a certain time to attack the villages of new players.");
-define("CONF_SERV_REGOPEN","Register Open");
-define("CONF_SERV_REGOPEN_TOOLTIP","Allows to enable (True) or disable (False) the registration of players on the game server.");
-define("CONF_SERV_ACTIVMAIL","Activation Mail");
-define("CONF_SERV_ACTIVMAIL_TOOLTIP","If enabled (Yes), during registration it will be necessary to confirm email address. If disabled (No) does not require confirmation of e-mail.");
-define("CONF_SERV_QUEST","Quest");
-define("CONF_SERV_QUEST_TOOLTIP","Enable (Yes) or disable (No) the quest on the game server.");
-define("CONF_SERV_QTYPE","Quest Type");
-define("CONF_SERV_QTYPE_TOOLTIP","The quest type can be official which is a bit shorter, and extended which is longer.");
-define("CONF_SERV_DLR","Demolish - Level required");
-define("CONF_SERV_DLR_TOOLTIP","The required level of the main building, on which can carry out the demolition of buildings in the village.");
-define("CONF_SERV_WWSTATS","World Wonder - Statistics");
-define("CONF_SERV_WWSTATS_TOOLTIP","Enable (True) or disable (False) the display in the statistics of villages with a Wonder of the World.");
-define("CONF_SERV_NTRTIME","Nature Troops Regeneration Time");
-define("CONF_SERV_NTRTIME_TOOLTIP","Time through which the nature troops will be restored in oases.");
-define("CONF_SERV_OASIS_WOOD_PROD_MULT","Oasis Wood Production Multiplier");
-define("CONF_SERV_OASIS_WOOD_PROD_MULT_TOOLTIP","The base wood oasis production");
-define("CONF_SERV_OASIS_CLAY_PROD_MULT","Oasis Clay Production Multiplier");
-define("CONF_SERV_OASIS_CLAY_PROD_MULT_TOOLTIP","The base clay oasis production");
-define("CONF_SERV_OASIS_IRON_PROD_MULT","Oasis Iron Production Multiplier");
-define("CONF_SERV_OASIS_IRON_PROD_MULT_TOOLTIP","The base iron oasis production");
-define("CONF_SERV_OASIS_CROP_PROD_MULT","Oasis Crop Production Multiplier");
-define("CONF_SERV_OASIS_CROP_PROD_MULT_TOOLTIP","The base crop oasis production");
-define("CONF_SERV_MEDALINTERVAL","Medal Interval");
-define("CONF_SERV_MEDALINTERVAL_TOOLTIP","The time interval for issuing medals for the top players and alliances. If this parameter is changed on the installed server, the time interval changes after the subsequent issuance of the medals.");
-define("CONF_SERV_TOURNTHRES","Tourn Threshold");
-define("CONF_SERV_TOURNTHRES_TOOLTIP","The number of squares on the game map, after which Tournament Square will start working.");
-define("CONF_SERV_GWORKSHOP","Great Workshop");
-define("CONF_SERV_GWORKSHOP_TOOLTIP","Enable (True) or disable (False) the use of a Great Workshop in the game.");
-define("CONF_SERV_NATARSTAT","Show Natars in Statistics");
-define("CONF_SERV_NATARSTAT_TOOLTIP","Enable (True) or disable (False) the display of the Natars account in statistics.");
-define("CONF_SERV_PEACESYST","Peace system");
-define("CONF_SERV_PEACESYST_TOOLTIP","Enable or disable the Peace system. When the peace system is activated, players will be able to attack each other but instead of any actions in the reports there will be a congratulatory inscription. The troops will not die of hunger.");
-define("CONF_SERV_GRAPHICPACK","Graphic Pack");
-define("CONF_SERV_GRAPHICPACK_TOOLTIP","Enable (Yes) or disable (No) the ability to use the graphics package.");
-define("CONF_SERV_ERRORREPORT","Error Reporting");
-define("CONF_SERV_ERRORREPORT_TOOLTIP","Enable (Yes) or disable (No) the display of error reports on the game server.");
+//إعدادات الإدارة - Admin/Templates/config.tpl & editServerSet.tpl
+define("EDIT_BACK","عودة");
+define("SERV_CONFIG","إعدادات الخادم");
+define("SERV_SETT","إعدادات الخادم");
+define("EDIT_SERV_SETT","تعديل إعدادات الخادم");
+define("SERV_VARIABLE","متغير");
+define("SERV_VALUE","قيمة");
+define("CONF_SERV_NAME","اسم الخادم");
+define("CONF_SERV_NAME_TOOLTIP","اسم خادم اللعبة.");
+define("CONF_SERV_STARTED","الخادم بدأ");
+define("CONF_SERV_STARTED_TOOLTIP","الوقت الذي تم فيه بدء خادم اللعبة. لا يمكن تغيير هذا المعامل على الخادم المثبت.");
+define("CONF_SERV_TIMEZONE","المنطقة الزمنية للخادم");
+define("CONF_SERV_TIMEZONE_TOOLTIP","المنطقة الزمنية لخادم اللعبة.");
+define("CONF_SERV_LANG","اللغة");
+define("CONF_SERV_LANG_TOOLTIP","اللغة المستخدمة في لوحة الإدارة وللجميع على خادم اللعبة بشكل افتراضي.");
+define("CONF_SERV_SERVSPEED","سرعة الخادم");
+define("CONF_SERV_SERVSPEED_TOOLTIP","سرعة خادم اللعبة. كلما كانت سرعة خادم اللعبة أعلى، كلما تم بناء جميع المباني بسرعة أكبر، وتم إجراء الدراسات والتحسينات في ورش الحدادة بسرعة أكبر، وتم بناء القوات بسرعة أكبر وزادت إنتاجية جميع الموارد.");
+define("CONF_SERV_TROOPSPEED","سرعة القوات");
+define("CONF_SERV_TROOPSPEED_TOOLTIP","سرعة حركة القوات على خادم اللعبة. كلما كان هذا المؤشر أعلى، كلما تحركت القوات بسرعة أكبر عبر الخريطة.");
+define("CONF_SERV_EVASIONSPEED","سرعة التهرب");
+define("CONF_SERV_EVASIONSPEED_TOOLTIP","سرعة التهرب هي الوقت الذي تقضيه القوات في الطريق للعودة إلى الوطن بعد التهرب من هجوم.");
+define("CONF_SERV_STORMULTIPLER","مضاعف التخزين");
+define("CONF_SERV_STORMULTIPLER_TOOLTIP","مضاعف سعة التخزين في المستودع والمخزن. القيمة 1 تعادل سعة 80,000 من كل مورد عند الحد الأقصى. إذا قمت بتعيين القيمة إلى 2، فإن السعة عند الحد الأقصى ستكون 160,000 من كل مورد.<br><b>ملاحظة:</b> كمية الموارد التي سيتم إنتاجها من الواحات غير المأهولة للنهب تعتمد على هذه القيمة. القيمة الافتراضية هي 800. إذا قمت بتعيين القيمة إلى 2، فإن الرقم الأقصى لكل مورد يتم إنتاجه هو 1600.");
+define("CONF_SERV_TRADCAPACITY","سعة التاجر");
+define("CONF_SERV_TRADCAPACITY_TOOLTIP","مضاعف لسعة الموارد التي يمكن أن يحملها تاجر واحد. تعادل القيمة 1 سعة 500 للرومان، و750 للغال، و1000 للتيوتونيين. إذا قمت بتعيين القيمة إلى 2، فإن سعة الموارد المنقولة ستتضاعف وفقًا لذلك، 1000، 1500، 2000.");
+define("CONF_SERV_CRANCAPACITY","سعة الملجأ");
+define("CONF_SERV_CRANCAPACITY_TOOLTIP","مضاعف لسعة الموارد في الملجأ، التي يمكن حفظها من النهب. تعادل القيمة 1 سعة 1000 للرومان والتيوتونيين، و2000 للغال. إذا قمت بتعيين القيمة إلى 2، فإن سعة الملجأ ستتضاعف إلى 2000 و4000 على التوالي.");
+define("CONF_SERV_TRAPCAPACITY","سعة الفخ");
+define("CONF_SERV_TRAPCAPACITY_TOOLTIP","مضاعف لسعة الفخ للغال، الذي يمكنه التقاط الجنود الأعداء حتى قبل مهاجمة القرية. تعادل القيمة 1 سعة 400 عند المستوى 20 من البناء. إذا قمت بتعيين القيمة إلى 2، فإن السعة ستكون 800.");
+define("CONF_SERV_NATUNITSMULTIPLIER","مضاعف وحدات النطار");
+define("CONF_SERV_NATUNITSMULTIPLIER_TOOLTIP","تكون هذه المعامل مسؤولة عن عدد قوات النطار، على الآثار وقرى عجائب العالم.");
+define("CONF_SERV_NATARS_SPAWN_TIME","وقت ظهور النطار");
+define("CONF_SERV_NATARS_SPAWN_TIME_TOOLTIP","بعد كم من الوقت ستظهر النطار والآثار من تاريخ بدء الخادم، بالأيام");
+define("CONF_SERV_NATARS_WW_SPAWN_TIME","وقت ظهور عجائب العالم");
+define("CONF_SERV_NATARS_WW_SPAWN_TIME_TOOLTIP","بعد كم من الوقت ستظهر قرى عجائب العالم من تاريخ بدء الخادم، بالأيام");
+define("CONF_SERV_NATARS_WW_BUILDING_PLAN_SPAWN_TIME","وقت ظهور خطة بناء عجائب العالم");
+define("CONF_SERV_NATARS_WW_BUILDING_PLAN_SPAWN_TIME_TOOLTIP","بعد كم من الوقت ستظهر خطط بناء عجائب العالم من تاريخ بدء الخادم، بالأيام");
+define("CONF_SERV_MAPSIZE","حجم الخريطة");
+define("CONF_SERV_MAPSIZE_TOOLTIP","حجم خريطة العالم في اللعبة. لا يمكن تغييره على خادم اللعبة المثبت.");
+define("CONF_SERV_VILLEXPSPEED","سرعة توسيع القرية");
+define("CONF_SERV_VILLEXPSPEED_TOOLTIP","السرعة التي تؤثر على توسيع الإمبراطورية. مع سرعة بطيئة، ستحتاج المزيد من النقاط الثقافية لتأسيس قرية جديدة، ومع سرعة عالية، يتم تقليل عدد النقاط الثقافية المطلوبة.");
+define("CONF_SERV_BEGINPROTECT","حماية المبتدئين");
+define("CONF_SERV_BEGINPROTECT_TOOLTIP","حماية تمنع الهجمات على قرى اللاعبين الجدد لفترة معينة.");
+define("CONF_SERV_REGOPEN","تسجيل مفتوح");
+define("CONF_SERV_REGOPEN_TOOLTIP","يسمح بتمكين (صحيح) أو تعطيل (خاطئ) تسجيل اللاعبين على خادم اللعبة.");
+define("CONF_SERV_ACTIVMAIL","تفعيل البريد");
+define("CONF_SERV_ACTIVMAIL_TOOLTIP","إذا تم تمكينه (نعم)، سيكون من الضروري تأكيد عنوان البريد الإلكتروني أثناء التسجيل. إذا تم تعطيله (لا) فلا يتطلب تأكيد البريد الإلكتروني.");
+define("CONF_SERV_QUEST","المهمة");
+define("CONF_SERV_QUEST_TOOLTIP","تفعيل (نعم) أو تعطيل (لا) المهمة على خادم اللعبة.");
+define("CONF_SERV_QTYPE","نوع المهمة");
+define("CONF_SERV_QTYPE_TOOLTIP","يمكن أن تكون نوع المهمة رسميًا وهو أقصر قليلاً، وامتدادي وهو أطول.");
+define("CONF_SERV_DLR","الهدم - المستوى المطلوب");
+define("CONF_SERV_DLR_TOOLTIP","المستوى المطلوب من المبنى الرئيسي، الذي يمكن من خلاله تنفيذ هدم المباني في القرية.");
+define("CONF_SERV_WWSTATS","عجائب العالم - الإحصائيات");
+define("CONF_SERV_WWSTATS_TOOLTIP","تفعيل (صحيح) أو تعطيل (خاطئ) العرض في الإحصائيات للقرى التي تحتوي على عجائب العالم.");
+define("CONF_SERV_NTRTIME","وقت تجديد القوات الطبيعية");
+define("CONF_SERV_NTRTIME_TOOLTIP","الوقت الذي ستستعيد فيه القوات الطبيعية في الواحات.");
+define("CONF_SERV_OASIS_WOOD_PROD_MULT","مضاعف إنتاج خشب الواحة");
+define("CONF_SERV_OASIS_WOOD_PROD_MULT_TOOLTIP","إنتاج الخشب الأساسي في الواحة");
+define("CONF_SERV_OASIS_CLAY_PROD_MULT","مضاعف إنتاج طين الواحة");
+define("CONF_SERV_OASIS_CLAY_PROD_MULT_TOOLTIP","إنتاج الطين الأساسي في الواحة");
+define("CONF_SERV_OASIS_IRON_PROD_MULT","مضاعف إنتاج حديد الواحة");
+define("CONF_SERV_OASIS_IRON_PROD_MULT_TOOLTIP","إنتاج الحديد الأساسي في الواحة");
+define("CONF_SERV_OASIS_CROP_PROD_MULT","مضاعف إنتاج المحاصيل في الواحة");
+define("CONF_SERV_OASIS_CROP_PROD_MULT_TOOLTIP","إنتاج المحاصيل الأساسي في الواحة");
+define("CONF_SERV_MEDALINTERVAL","فترة الميدالية");
+define("CONF_SERV_MEDALINTERVAL_TOOLTIP","الفترة الزمنية لإصدار الميداليات لأفضل اللاعبين والتحالفات. إذا تم تغيير هذه المعامل على الخادم المثبت، فإن الفترة الزمنية تتغير بعد الإصدار التالي للميداليات.");
+define("CONF_SERV_TOURNTHRES","عتبة البطولة");
+define("CONF_SERV_TOURNTHRES_TOOLTIP","عدد المربعات على خريطة اللعبة، بعده ستبدأ ساحة البطولة بالعمل.");
+define("CONF_SERV_GWORKSHOP","ورشة العمل الكبرى");
+define("CONF_SERV_GWORKSHOP_TOOLTIP","تفعيل (صحيح) أو تعطيل (خاطئ) استخدام ورشة العمل الكبرى في اللعبة.");
+define("CONF_SERV_NATARSTAT","عرض النطار في الإحصائيات");
+define("CONF_SERV_NATARSTAT_TOOLTIP","تفعيل (صحيح) أو تعطيل (خاطئ) عرض حساب النطار في الإحصائيات.");
+define("CONF_SERV_PEACESYST","نظام السلام");
+define("CONF_SERV_PEACESYST_TOOLTIP","تفعيل أو تعطيل نظام السلام. عندما يتم تفعيل نظام السلام، سيتمكن اللاعبون من مهاجمة بعضهم البعض ولكن بدلاً من أي إجراءات في التقارير سيكون هناك نص تهنئة. لن تموت القوات من الجوع.");
+define("CONF_SERV_GRAPHICPACK","حزمة الرسوميات");
+define("CONF_SERV_GRAPHICPACK_TOOLTIP","تفعيل (نعم) أو تعطيل (لا) إمكانية استخدام حزمة الرسوميات.");
+define("CONF_SERV_ERRORREPORT","تقرير الأخطاء");
+define("CONF_SERV_ERRORREPORT_TOOLTIP","تفعيل (نعم) أو تعطيل (لا) عرض تقارير الأخطاء على خادم اللعبة.");
 
-//Admin setting - Admin/Templates/config.tpl & editPlusSet.tpl
-define("PLUS_CONFIGURATION","<b><font color='#71D000'>P</font><font color='#FF6F0F'>l</font><font color='#71D000'>u</font><font color='#FF6F0F'>s</font></b> Configuration");
-define("PLUS_SETT","<b><font color='#71D000'>P</font><font color='#FF6F0F'>l</font><font color='#71D000'>u</font><font color='#FF6F0F'>s</font></b> Settings");
-define("EDIT_PLUS_SETT","Edit <b><font color='#71D000'>P</font><font color='#FF6F0F'>l</font><font color='#71D000'>u</font><font color='#FF6F0F'>s</font></b> Setting");
-define("EDIT_PLUS_SETT1","Edit PLUS Setting");
-define("CONF_PLUS_PAYPALEMAIL","<a href='https://www.paypal.com' target='_blank'>PayPal</a> E-Mail Address");
-define("CONF_PLUS_PAYPALEMAIL_TOOLTIP","The E-Mail Address specified at registration on PayPal.<br><font color='red'><b>Must be Business or Premier account!</b></font>");
-define("CONF_PLUS_CURRENCY","Payment Currency");
-define("CONF_PLUS_CURRENCY_TOOLTIP","The currency to be used for payment.");
-define("CONF_PLUS_PACKAGEGOLDA","Package \"A\" Amount of Gold");
-define("CONF_PLUS_PACKAGEGOLDA_TOOLTIP","The amount of gold issued for the payment of the package \"A\".");
-define("CONF_PLUS_PACKAGEPRICEA","Package \"A\" Amount of Price");
-define("CONF_PLUS_PACKAGEPRICEA_TOOLTIP","The amount necessary to pay the cost of package \"A\".");
-define("CONF_PLUS_PACKAGEGOLDB","Package \"B\" Amount of Gold");
-define("CONF_PLUS_PACKAGEGOLDB_TOOLTIP","The amount of gold issued for the payment of the package \"B\".");
-define("CONF_PLUS_PACKAGEPRICEB","Package \"B\" Amount of Price");
-define("CONF_PLUS_PACKAGEPRICEB_TOOLTIP","The amount necessary to pay the cost of package \"B\".");
-define("CONF_PLUS_PACKAGEGOLDC","Package \"C\" Amount of Gold");
-define("CONF_PLUS_PACKAGEGOLDC_TOOLTIP","The amount of gold issued for the payment of the package \"C\".");
-define("CONF_PLUS_PACKAGEPRICEC","Package \"C\" Amount of Price");
-define("CONF_PLUS_PACKAGEPRICEC_TOOLTIP","The amount necessary to pay the cost of package \"C\".");
-define("CONF_PLUS_PACKAGEGOLDD","Package \"D\" Amount of Gold");
-define("CONF_PLUS_PACKAGEGOLDD_TOOLTIP","The amount of gold issued for the payment of the package \"D\".");
-define("CONF_PLUS_PACKAGEPRICED","Package \"D\" Amount of Price");
-define("CONF_PLUS_PACKAGEPRICED_TOOLTIP","The amount necessary to pay the cost of package \"D\".");
-define("CONF_PLUS_PACKAGEGOLDE","Package \"E\" Amount of Gold");
-define("CONF_PLUS_PACKAGEGOLDE_TOOLTIP","The amount of gold issued for the payment of the package \"E\".");
-define("CONF_PLUS_PACKAGEPRICEE","Package \"E\" Amount of Price");
-define("CONF_PLUS_PACKAGEPRICEE_TOOLTIP","The amount necessary to pay the cost of package \"E\".");
-define("CONF_PLUS_ACCDURATION","<b><font color='#71D000'>P</font><font color='#FF6F0F'>l</font><font color='#71D000'>u</font><font color='#FF6F0F'>s</font></b> account duration");
-define("CONF_PLUS_ACCDURATION_TOOLTIP","The duration of the game function <b><font color='#71D000'>P</font><font color='#FF6F0F'>l</font><font color='#71D000'>u</font><font color='#FF6F0F'>s</font></b> for the account at the time of activation by the player.");
-define("CONF_PLUS_PRODUCTDURATION","+25% production duration");
-define("CONF_PLUS_PRODUCTDURATION_TOOLTIP","The duration of the game function +25% production duration for the account at the time of activation by the player.");
+//إعدادات الإدارة - Admin/Templates/config.tpl & editPlusSet.tpl
+define("PLUS_CONFIGURATION","<b><font color='#71D000'>P</font><font color='#FF6F0F'>l</font><font color='#71D000'>u</font><font color='#FF6F0F'>s</font></b> إعدادات");
+define("PLUS_SETT","<b><font color='#71D000'>P</font><font color='#FF6F0F'>l</font><font color='#71D000'>u</font><font color='#FF6F0F'>s</font></b> إعدادات");
+define("EDIT_PLUS_SETT","تعديل إعدادات <b><font color='#71D000'>P</font><font color='#FF6F0F'>l</font><font color='#71D000'>u</font><font color='#FF6F0F'>s</font></b>");
+define("EDIT_PLUS_SETT1","تعديل إعدادات PLUS");
+define("CONF_PLUS_PAYPALEMAIL","<a href='https://www.paypal.com' target='_blank'>PayPal</a> عنوان البريد الإلكتروني");
+define("CONF_PLUS_PAYPALEMAIL_TOOLTIP","عنوان البريد الإلكتروني المحدد عند التسجيل في PayPal.<br><font color='red'><b>يجب أن يكون حساب عمل أو حساب Premier!</b></font>");
+define("CONF_PLUS_CURRENCY","عملة الدفع");
+define("CONF_PLUS_CURRENCY_TOOLTIP","العملة التي ستستخدم للدفع.");
+define("CONF_PLUS_PACKAGEGOLDA","مقدار الذهب في الحزمة \"A\"");
+define("CONF_PLUS_PACKAGEGOLDA_TOOLTIP","مقدار الذهب الممنوح لدفع ثمن الحزمة \"A\".");
+define("CONF_PLUS_PACKAGEPRICEA","مقدار سعر الحزمة \"A\"");
+define("CONF_PLUS_PACKAGEPRICEA_TOOLTIP","المبلغ اللازم لدفع ثمن الحزمة \"A\".");
+define("CONF_PLUS_PACKAGEGOLDB","مقدار الذهب في الحزمة \"B\"");
+define("CONF_PLUS_PACKAGEGOLDB_TOOLTIP","مقدار الذهب الممنوح لدفع ثمن الحزمة \"B\".");
+define("CONF_PLUS_PACKAGEPRICEB","مقدار سعر الحزمة \"B\"");
+define("CONF_PLUS_PACKAGEPRICEB_TOOLTIP","المبلغ اللازم لدفع ثمن الحزمة \"B\".");
+define("CONF_PLUS_PACKAGEGOLDC","مقدار الذهب في الحزمة \"C\"");
+define("CONF_PLUS_PACKAGEGOLDC_TOOLTIP","مقدار الذهب الممنوح لدفع ثمن الحزمة \"C\".");
+define("CONF_PLUS_PACKAGEPRICEC","مقدار سعر الحزمة \"C\"");
+define("CONF_PLUS_PACKAGEPRICEC_TOOLTIP","المبلغ اللازم لدفع ثمن الحزمة \"C\".");
+define("CONF_PLUS_PACKAGEGOLDD","مقدار الذهب في الحزمة \"D\"");
+define("CONF_PLUS_PACKAGEGOLDD_TOOLTIP","مقدار الذهب الممنوح لدفع ثمن الحزمة \"D\".");
+define("CONF_PLUS_PACKAGEPRICED","مقدار سعر الحزمة \"D\"");
+define("CONF_PLUS_PACKAGEPRICED_TOOLTIP","المبلغ اللازم لدفع ثمن الحزمة \"D\".");
+define("CONF_PLUS_PACKAGEGOLDE","مقدار الذهب في الحزمة \"E\"");
+define("CONF_PLUS_PACKAGEGOLDE_TOOLTIP","مقدار الذهب الممنوح لدفع ثمن الحزمة \"E\".");
+define("CONF_PLUS_PACKAGEPRICEE","مقدار سعر الحزمة \"E\"");
+define("CONF_PLUS_PACKAGEPRICEE_TOOLTIP","المبلغ اللازم لدفع ثمن الحزمة \"E\".");
+define("CONF_PLUS_ACCDURATION","<b><font color='#71D000'>P</font><font color='#FF6F0F'>l</font><font color='#71D000'>u</font><font color='#FF6F0F'>s</font></b> مدة الحساب");
+define("CONF_PLUS_ACCDURATION_TOOLTIP","مدة وظيفة اللعبة <b><font color='#71D000'>P</font><font color='#FF6F0F'>l</font><font color='#71D000'>u</font><font color='#FF6F0F'>s</font></b> لحساب اللاعب عند تفعيلها.");
+define("CONF_PLUS_PRODUCTDURATION","+25% مدة الإنتاج");
+define("CONF_PLUS_PRODUCTDURATION_TOOLTIP","مدة وظيفة اللعبة +25% مدة الإنتاج لحساب اللاعب عند تفعيلها.");
 
-//Admin setting - Admin/Templates/config.tpl & editLogSet.tpl
-define("LOG_SETT","Log Settings");
-define("EDIT_LOG_SETT","Edit Log Setting");
-define("CONF_LOG_BUILD","Log Build");
-define("CONF_LOG_BUILD_TOOLTIP","Enable (Yes) or disable (No) the display of logs for the construction of buildings in the village.");
-define("CONF_LOG_TECHNOLOGY","Log Technology");
-define("CONF_LOG_TECHNOLOGY_TOOLTIP","Enable (Yes) or disable (No) display logs to improve troops in Blacksmith and Armoury.");
-define("CONF_LOG_LOGIN","Log Login");
-define("CONF_LOG_LOGIN_TOOLTIP","Enable (Yes) or disable (No) the display logs players login the game.");
-define("CONF_LOG_GOLD","Log Gold");
-define("CONF_LOG_GOLD_TOOLTIP","Enable (Yes) or disable (No) the display of gold use logs in-game by players.");
-define("CONF_LOG_ADMIN","Log Admin");
-define("CONF_LOG_ADMIN_TOOLTIP","Enable (Yes) or disable (No) the display of logs for administrator actions in the control panel.");
-define("CONF_LOG_WAR","Log War");
-define("CONF_LOG_WAR_TOOLTIP","Enable (Yes) or disable (No) the display of logs attacks on players in the game.");
-define("CONF_LOG_MARKET","Log Market");
-define("CONF_LOG_MARKET_TOOLTIP","Enable (Yes) or disable (No) the display of the logs of the use of the market in the game by the players.");
-define("CONF_LOG_ILLEGAL","Log Illegal");
-define("CONF_LOG_ILLEGAL_TOOLTIP","Enable (Yes) or disable (No) the display of illegal logs. (I do not know exactly what it is)");
+//إعدادات الإدارة - Admin/Templates/config.tpl & editLogSet.tpl
+define("LOG_SETT","إعدادات السجل");
+define("EDIT_LOG_SETT","تعديل إعدادات السجل");
+define("CONF_LOG_BUILD","سجل البناء");
+define("CONF_LOG_BUILD_TOOLTIP","تفعيل (نعم) أو تعطيل (لا) عرض السجلات لبناء المباني في القرية.");
+define("CONF_LOG_TECHNOLOGY","سجل التكنولوجيا");
+define("CONF_LOG_TECHNOLOGY_TOOLTIP","تفعيل (نعم) أو تعطيل (لا) عرض السجلات لتحسين القوات في ورش الحدادة والدروع.");
+define("CONF_LOG_LOGIN","سجل تسجيل الدخول");
+define("CONF_LOG_LOGIN_TOOLTIP","تفعيل (نعم) أو تعطيل (لا) عرض السجلات لتسجيل دخول اللاعبين إلى اللعبة.");
+define("CONF_LOG_GOLD","سجل الذهب");
+define("CONF_LOG_GOLD_TOOLTIP","تفعيل (نعم) أو تعطيل (لا) عرض سجلات استخدام الذهب في اللعبة من قبل اللاعبين.");
+define("CONF_LOG_ADMIN","سجل الإدارة");
+define("CONF_LOG_ADMIN_TOOLTIP","تفعيل (نعم) أو تعطيل (لا) عرض سجلات الإجراءات الإدارية في لوحة التحكم.");
+define("CONF_LOG_WAR","سجل الحرب");
+define("CONF_LOG_WAR_TOOLTIP","تفعيل (نعم) أو تعطيل (لا) عرض سجلات الهجمات على اللاعبين في اللعبة.");
+define("CONF_LOG_MARKET","سجل السوق");
+define("CONF_LOG_MARKET_TOOLTIP","تفعيل (نعم) أو تعطيل (لا) عرض سجلات استخدام السوق في اللعبة من قبل اللاعبين.");
+define("CONF_LOG_ILLEGAL","سجل غير قانوني");
+define("CONF_LOG_ILLEGAL_TOOLTIP","تفعيل (نعم) أو تعطيل (لا) عرض سجلات غير قانونية. (لا أعرف بالضبط ما هو)");
 
-//Admin setting - Admin/Templates/config.tpl & editNewsboxSet.tpl
-define("NEWSBOX_SETT","Newsbox Settings");
-define("EDIT_NEWSBOX_SETT","Edit Newsbox Setting");
-define("EDIT_NEWSBOX1","Newsbox 1");
-define("EDIT_NEWSBOX1_TOOLTIP","Enable or disable the display of the Newsbox 1. Displayed on the authorization page and on the game pages.");
-define("EDIT_NEWSBOX2","Newsbox 2");
-define("EDIT_NEWSBOX2_TOOLTIP","Enable or disable the display of the Newsbox 2. Displayed on the authorization page and on the game pages.");
-define("EDIT_NEWSBOX3","Newsbox 3");
-define("EDIT_NEWSBOX3_TOOLTIP","Enable or disable the display of the Newsbox 3. Displayed on the authorization page and on the game pages.");
+//إعدادات الإدارة - Admin/Templates/config.tpl & editNewsboxSet.tpl
+define("NEWSBOX_SETT","إعدادات صندوق الأخبار");
+define("EDIT_NEWSBOX_SETT","تعديل إعدادات صندوق الأخبار");
+define("EDIT_NEWSBOX1","صندوق الأخبار 1");
+define("EDIT_NEWSBOX1_TOOLTIP","تفعيل أو تعطيل عرض صندوق الأخبار 1. معروض على صفحة التفويض وعلى صفحات اللعبة.");
+define("EDIT_NEWSBOX2","صندوق الأخبار 2");
+define("EDIT_NEWSBOX2_TOOLTIP","تفعيل أو تعطيل عرض صندوق الأخبار 2. معروض على صفحة التفويض وعلى صفحات اللعبة.");
+define("EDIT_NEWSBOX3","صندوق الأخبار 3");
+define("EDIT_NEWSBOX3_TOOLTIP","تفعيل أو تعطيل عرض صندوق الأخبار 3. معروض على صفحة التفويض وعلى صفحات اللعبة.");
 
-//Admin setting - Admin/Templates/config.tpl SQL Settings
-define("SQL_SETTINGS","SQL Settings");
-define("CONF_SQL_HOSTNAME","Hostname");
-define("CONF_SQL_HOSTNAME_TOOLTIP","The name of the server where MySQL is started (by default is: localhost).");
-define("CONF_SQL_PORT","Port");
-define("CONF_SQL_PORT_TOOLTIP","MySQL port for remote connection. The standard port for connecting is: 3306.");
-define("CONF_SQL_DBUSER","DB Username");
-define("CONF_SQL_DBUSER_TOOLTIP","The user name to connect to the database.");
-define("CONF_SQL_DBPASS","DB Password");
-define("CONF_SQL_DBPASS_TOOLTIP","Password from the user to connect to the database.");
-define("CONF_SQL_DBNAME","DB Name");
-define("CONF_SQL_DBNAME_TOOLTIP","Name of the database to which you are connecting.");
-define("CONF_SQL_TBPREFIX","Table Prefix");
-define("CONF_SQL_TBPREFIX_TOOLTIP","The prefix used for the database tables.");
-define("CONF_SQL_DBTYPE","DB Type");
-define("CONF_SQL_DBTYPE_TOOLTIP","The type of database used.");
+//إعدادات الإدارة - Admin/Templates/config.tpl إعدادات SQL
+define("SQL_SETTINGS","إعدادات SQL");
+define("CONF_SQL_HOSTNAME","اسم المضيف");
+define("CONF_SQL_HOSTNAME_TOOLTIP","اسم الخادم حيث تم بدء MySQL (افتراضي: localhost).");
+define("CONF_SQL_PORT","المنفذ");
+define("CONF_SQL_PORT_TOOLTIP","منفذ MySQL للاتصال عن بُعد. المنفذ القياسي للاتصال هو: 3306.");
+define("CONF_SQL_DBUSER","اسم مستخدم قاعدة البيانات");
+define("CONF_SQL_DBUSER_TOOLTIP","اسم المستخدم للاتصال بقاعدة البيانات.");
+define("CONF_SQL_DBPASS","كلمة مرور قاعدة البيانات");
+define("CONF_SQL_DBPASS_TOOLTIP","كلمة المرور من المستخدم للاتصال بقاعدة البيانات.");
+define("CONF_SQL_DBNAME","اسم قاعدة البيانات");
+define("CONF_SQL_DBNAME_TOOLTIP","اسم قاعدة البيانات التي تتصل بها.");
+define("CONF_SQL_TBPREFIX","بادئة الجدول");
+define("CONF_SQL_TBPREFIX_TOOLTIP","البادئة المستخدمة لجدول قاعدة البيانات.");
+define("CONF_SQL_DBTYPE","نوع قاعدة البيانات");
+define("CONF_SQL_DBTYPE_TOOLTIP","نوع قاعدة البيانات المستخدمة.");
 
-//Admin setting - Admin/Templates/config.tpl & editExtraSet.tpl
-define("EXTRA_SETT","Extra Settings");
-define("EDIT_EXTRA_SETT","Edit Extra Settings");
-define("CONF_EXTRA_LIMITMAIL","Limit Mailbox");
-define("CONF_EXTRA_LIMITMAIL_TOOLTIP","Enable (Yes) or disable (No) the mailbox limit.");
-define("CONF_EXTRA_MAXMAIL","Max number of mails");
-define("CONF_EXTRA_MAXMAIL_TOOLTIP","The maximum number of messages that can fit in the mailbox.");
+//إعدادات الإدارة - Admin/Templates/config.tpl & editExtraSet.tpl
+define("EXTRA_SETT","إعدادات إضافية");
+define("EDIT_EXTRA_SETT","تعديل الإعدادات الإضافية");
+define("CONF_EXTRA_LIMITMAIL","حد صندوق البريد");
+define("CONF_EXTRA_LIMITMAIL_TOOLTIP","تفعيل (نعم) أو تعطيل (لا) حد صندوق البريد.");
+define("CONF_EXTRA_MAXMAIL","أقصى عدد من الرسائل");
+define("CONF_EXTRA_MAXMAIL_TOOLTIP","أقصى عدد من الرسائل التي يمكن أن تناسب صندوق البريد.");
 
-//Admin setting - Admin/Templates/config.tpl & editAdminInfo.tpl
-define("ADMIN_INFO","Admin Information");
-define("EDIT_ADMIN_INFO","Edit Admin Information");
-define("CONF_ADMIN_NAME","Admin Name");
-define("CONF_ADMIN_NAME_TOOLTIP","Name for the administrator account.");
-define("CONF_ADMIN_EMAIL","Admin E-Mail");
-define("CONF_ADMIN_EMAIL_TOOLTIP","The email address for the administrator account.");
-define("CONF_ADMIN_SHOWSTATS","Include Admin in Stats");
-define("CONF_ADMIN_SHOWSTATS_TOOLTIP","Enable (True) or disable (False) the display of the administrator account in the general statistics of players.");
-define("CONF_ADMIN_SUPPMESS","Include Support Messages");
-define("CONF_ADMIN_SUPPMESS_TOOLTIP","Enable (True) or disable (False) the sending of messages to the mailbox of the administrator addressed to Support.");
-define("CONF_ADMIN_RAIDATT","Allow Raided and Attacked");
-define("CONF_ADMIN_RAIDATT_TOOLTIP","Enable (True) or disable (False) the ability to Raided and Attacked an administrator.");
+//إعدادات الإدارة - Admin/Templates/config.tpl & editAdminInfo.tpl
+define("ADMIN_INFO","معلومات الإدارة");
+define("EDIT_ADMIN_INFO","تعديل معلومات الإدارة");
+define("CONF_ADMIN_NAME","اسم المدير");
+define("CONF_ADMIN_NAME_TOOLTIP","اسم لحساب الإدارة.");
+define("CONF_ADMIN_EMAIL","البريد الإلكتروني للمدير");
+define("CONF_ADMIN_EMAIL_TOOLTIP","عنوان البريد الإلكتروني لحساب الإدارة.");
+define("CONF_ADMIN_SHOWSTATS","تضمين المدير في الإحصائيات");
+define("CONF_ADMIN_SHOWSTATS_TOOLTIP","تفعيل (صحيح) أو تعطيل (خاطئ) عرض حساب الإدارة في الإحصائيات العامة للاعبين.");
+define("CONF_ADMIN_SUPPMESS","تضمين رسائل الدعم");
+define("CONF_ADMIN_SUPPMESS_TOOLTIP","تفعيل (صحيح) أو تعطيل (خاطئ) إرسال الرسائل إلى صندوق البريد للمدير الموجهة إلى الدعم.");
+define("CONF_ADMIN_RAIDATT","السماح بالنهب والهجوم");
+define("CONF_ADMIN_RAIDATT_TOOLTIP","تفعيل (صحيح) أو تعطيل (خاطئ) القدرة على النهب والهجوم على المدير.");
 
 /*
 |--------------------------------------------------------------------------
-|   Index
+|   الفهرس
 |--------------------------------------------------------------------------
 */
 
-	   $lang['index'][0][1] = "Welcome to " . SERVER_NAME . "";
-	   $lang['index'][0][2] = "Manual";
-	   $lang['index'][0][3] = "Play now, for free!";
-	   $lang['index'][0][4] = "What is " . SERVER_NAME . "";
-	   $lang['index'][0][5] = "" . SERVER_NAME . " is a <b>browser game</b> featuring an engaging ancient world with thousands of other real players.</p><p>It`s <strong>free to play</strong> and requires <strong>no downloads</strong>.";
-	   $lang['index'][0][6] = "Click here to play " . SERVER_NAME . "";
-	   $lang['index'][0][7] = "Total players";
-	   $lang['index'][0][8] = "Players active";
-	   $lang['index'][0][9] = "Players online";
-	   $lang['index'][0][10] = "About the game";
-	   $lang['index'][0][11] = "You will begin as the chief of a tiny village and will embark on an exciting quest.";
-	   $lang['index'][0][12] = "Build up villages, wage wars or establish trade routes with your neighbours.";
-	   $lang['index'][0][13] = "Play with and against thousands of other real players and conquer the the world of Travian.";
-	   $lang['index'][0][14] = "News";
-	   $lang['index'][0][15] = "FAQ";
-	   $lang['index'][0][16] = "Screenshots";
-	   $lang['forum'] = "Forum";
-	   $lang['register'] = "Register";
-	   $lang['login'] = "Login";
-	   $lang['screenshots']['title1']="Village";
-	   $lang['screenshots']['desc1']="Village building";
-           $lang['screenshots']['title2']="Resource";
-           $lang['screenshots']['desc2']="Village resource is wood, clay, iron and crop";
-           $lang['screenshots']['title3']="Map";
-           $lang['screenshots']['desc3']="Location your village in map";
-           $lang['screenshots']['title4']="Contruct Building";
-           $lang['screenshots']['desc4']="How to contruct building or resource level";
-           $lang['screenshots']['title5']="Report";
-           $lang['screenshots']['desc5']="Your attack report";
-           $lang['screenshots']['title6']="Statistics";
-           $lang['screenshots']['desc6']="View your ranking in statistics";
-           $lang['screenshots']['title7']="Weapons or dough";
-           $lang['screenshots']['desc7']="You can choose to play as military or economy";
-
+	   $lang['index'][0][1] = "مرحبًا بك في " . SERVER_NAME . "";
+	   $lang['index'][0][2] = "الدليل";
+	   $lang['index'][0][3] = "العب الآن، مجانًا!";
+	   $lang['index'][0][4] = "ما هو " . SERVER_NAME . "";
+	   $lang['index'][0][5] = "" . SERVER_NAME . " هي <b>لعبة متصفح</b> تتميز بعالم قديم مثير مع آلاف من اللاعبين الحقيقيين الآخرين.</p><p>إنها <strong>مجانية للعب</strong> ولا تتطلب <strong>تنزيلات</strong>.";
+	   $lang['index'][0][6] = "اضغط هنا للعب " . SERVER_NAME . "";
+	   $lang['index'][0][7] = "إجمالي اللاعبين";
+	   $lang['index'][0][8] = "اللاعبون النشطون";
+	   $lang['index'][0][9] = "اللاعبون المتصلون";
+	   $lang['index'][0][10] = "حول اللعبة";
+	   $lang['index'][0][11] = "ستبدأ كزعيم لقرية صغيرة وستبدأ رحلة مثيرة.";
+	   $lang['index'][0][12] = "قم ببناء القرى، وشن الحروب أو تأسيس طرق التجارة مع جيرانك.";
+	   $lang['index'][0][13] = "العب مع و ضد آلاف من اللاعبين الحقيقيين الآخرين واغز العالم في ترافيان.";
+	   $lang['index'][0][14] = "أخبار";
+	   $lang['index'][0][15] = "الأسئلة الشائعة";
+	   $lang['index'][0][16] = "لقطات الشاشة";
+	   $lang['forum'] = "المنتدى";
+	   $lang['register'] = "تسجيل";
+	   $lang['login'] = "تسجيل الدخول";
+	   $lang['screenshots']['title1']="قرية";
+	   $lang['screenshots']['desc1']="بناء القرية";
+           $lang['screenshots']['title2']="الموارد";
+           $lang['screenshots']['desc2']="موارد القرية هي الخشب والطين والحديد والمحاصيل";
+           $lang['screenshots']['title3']="الخريطة";
+           $lang['screenshots']['desc3']="موقع قريتك في الخريطة";
+           $lang['screenshots']['title4']="بناء المباني";
+           $lang['screenshots']['desc4']="كيف تبني المباني أو مستوى الموارد";
+           $lang['screenshots']['title5']="التقرير";
+           $lang['screenshots']['desc5']="تقرير هجومك";
+           $lang['screenshots']['title6']="الإحصائيات";
+           $lang['screenshots']['desc6']="عرض ترتيبك في الإحصائيات";
+           $lang['screenshots']['title7']="أسلحة أو موارد";
+           $lang['screenshots']['desc7']="يمكنك اختيار اللعب كجيش أو اقتصاد";
 
 ?>
