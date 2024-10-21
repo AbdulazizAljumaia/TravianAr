@@ -488,82 +488,82 @@ define("Q25_30_DESC","تم تحقيق جميع المهام!");
 
 
 //======================================================//
-//================ الوحدات - لا تقم بالتعديل! ================//
+//================ UNITS - DO NOT EDIT! ================//
 //======================================================//
-define("U0","البطل");
+define("U0","Hero");
 
-//وحدات الرومان
-define("U1","المحارب الروماني");
-define("U2","البريتان");
-define("U3","الإمبريال");
-define("U4","فارس القوات");
-define("U5","فارس الإمبراطور");
-define("U6","فارس قيصر");
-define("U7","مدفع الخراطة");
-define("U8","المنجنيق الناري");
-define("U9","السيناتور");
-define("U10","المستوطن");
+//ROMAN UNITS
+define("U1","Legionnaire");
+define("U2","Praetorian");
+define("U3","Imperian");
+define("U4","Equites Legati");
+define("U5","Equites Imperatoris");
+define("U6","Equites Caesaris");
+define("U7","Battering Ram");
+define("U8","Fire Catapult");
+define("U9","Senator");
+define("U10","Settler");
 
-//وحدات التيوتونيون
-define("U11","مستخدم النوادي");
-define("U12","رجل رمح");
-define("U13","رجل الفأس");
-define("U14","الكشاف");
-define("U15","الفارس المقدس");
-define("U16","فارس تيوتوني");
-define("U17","مدفع الخراطة");
-define("U18","المنجنيق");
-define("U19","الزعيم");
-define("U20","المستوطن");
+//TEUTON UNITS
+define("U11","Clubswinger");
+define("U12","Spearman");
+define("U13","Axeman");
+define("U14","Scout");
+define("U15","Paladin");
+define("U16","Teutonic Knight");
+define("U17","Ram");
+define("U18","Catapult");
+define("U19","Chief");
+define("U20","Settler");
 
-//وحدات الغاليون
-define("U21","الفالنكس");
-define("U22","المحارب بالسيف");
-define("U23","مكتشف");
-define("U24","صاعقة تيوتات");
-define("U25","راكب الكاهن");
-define("U26","هادوان");
-define("U27","مدفع الخراطة");
-define("U28","المنجنيق");
-define("U29","الزعيم");
-define("U30","المستوطن");
-define("U99","الفخ");
+//GAUL UNITS
+define("U21","Phalanx");
+define("U22","Swordsman");
+define("U23","Pathfinder");
+define("U24","Theutates Thunder");
+define("U25","Druidrider");
+define("U26","Haeduan");
+define("U27","Ram");
+define("U28","Trebuchet");
+define("U29","Chieftain");
+define("U30","Settler");
+define("U99","Trap");
 
-//وحدات الطبيعة
-define("U31","الفأر");
-define("U32","العنكبوت");
-define("U33","الثعبان");
-define("U34","الخفاش");
-define("U35","الخنزير البري");
-define("U36","الذئب");
-define("U37","الدب");
-define("U38","التمساح");
-define("U39","النمر");
-define("U40","الفيل");
+//NATURE UNITS
+define("U31","Rat");
+define("U32","Spider");
+define("U33","Snake");
+define("U34","Bat");
+define("U35","Wild Boar");
+define("U36","Wolf");
+define("U37","Bear");
+define("U38","Crocodile");
+define("U39","Tiger");
+define("U40","Elephant");
 
-//وحدات الناتار
-define("U41","رجل الرمح");
-define("U42","المحارب ذو الأشواك");
-define("U43","الحارس");
-define("U44","طيور الجوارح");
-define("U45","راكب الفأس");
-define("U46","فارس ناتاري");
-define("U47","الفيل الحربي");
-define("U48","المنجنيق");
-define("U49","الإمبراطور الناتاري");
-define("U50","المستوطن الناتاري");
+//NATARS UNITS
+define("U41","Pikeman");
+define("U42","Thorned Warrior");
+define("U43","Guardsman");
+define("U44","Birds Of Prey");
+define("U45","Axerider");
+define("U46","Natarian Knight");
+define("U47","War Elephant");
+define("U48","Ballista");
+define("U49","Natarian Emperor");
+define("U50","Natarian Settler");
 
-//وحدات الوحوش
-define("U51","بيون الوحش");
-define("U52","صائد الوحوش");
-define("U53","محارب الوحش");
-define("U54","شبح");
-define("U55","فرس الوحش");
-define("U56","فرس الحرب الوحشي");
-define("U57","مدفع الوحش");
-define("U58","منجنيق الوحش");
-define("U59","زعيم الوحش");
-define("U60","المستوطن الوحشي");
+//MONSTER UNITS
+define("U51","Monster Peon");
+define("U52","Monster Hunter");
+define("U53","Monster Warrior");
+define("U54","Ghost");
+define("U55","Monster Steed");
+define("U56","Monster War Steed");
+define("U57","Monster Ram");
+define("U58","Monster Catapult");
+define("U59","Monster Chief");
+define("U60","Monster Settler");
 
 // الموارد
 define("R1","الخشب");
